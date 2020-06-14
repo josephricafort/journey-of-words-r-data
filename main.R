@@ -125,7 +125,7 @@ language_words <- tibble()
 language_info_api_clean <- language_info_api %>%
   mutate(latitude = as.numeric(latitude),
          longitude = as.numeric(longitude)) %>%
-  # filter(str_detect(classification, "Austronesian")) %>%
+  filter(str_detect(classification, "Austronesian")) %>%
   as_tibble
 
 language_words_api_clean <- language_words_api %>%
