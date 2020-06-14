@@ -1,3 +1,3 @@
-# journey-of-words-r-data
+# journey-of-words
 
-The r repo for Journey of Words interactive exploratory
+Visualizing the journey of Austronesian words and how they evolved along the way.

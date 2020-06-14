@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591543331835.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2527577731",
+    "id" : "BEA66A37",
+    "lastKnownWriteTime" : 1591551679,
+    "last_content_update" : 1591551679198,
+    "path" : "C:/Users/Joseph/Google Drive/Projects/Portfolio & Initiatives/2019/Austronesian Language Dataviz/r/scripts/word_group.R",
+    "project_path" : "scripts/word_group.R",
+    "properties" : {
+        "cursorPosition" : "13,58",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

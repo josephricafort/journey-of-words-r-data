@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591452666968.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "209667180",
+    "id" : "2B533B53",
+    "lastKnownWriteTime" : 1592108749,
+    "last_content_update" : 1592108749211,
+    "path" : "C:/Users/Joseph/Google Drive/Projects/Portfolio & Initiatives/2019/Austronesian Language Dataviz/r/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "151,11",
+        "scrollLine" : "130"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

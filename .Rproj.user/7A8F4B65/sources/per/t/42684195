@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573714107829.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "42684195",
+    "lastKnownWriteTime" : 1572581977,
+    "last_content_update" : 1572581977,
+    "path" : "~/Work/Portfolio Projects/Austronesian Language Dataviz/words.R",
+    "project_path" : "words.R",
+    "properties" : {
+        "cursorPosition" : "11,17",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

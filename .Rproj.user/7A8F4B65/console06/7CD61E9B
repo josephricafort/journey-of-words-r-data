@@ -1,0 +1,78 @@
+[0m[0K]0;:/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25hReinitialized existing Git repository in F:/Documents/Work/Portfolio Projects/Austronesian Language Dataviz/.git/[0K[?25l
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ gi[0K[?25h[6G[5G[?25l$ git[0K[?25h[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ d[0K[?25hi[0Kr[0K[?25l
+[0K[?25hAustronesian\ Language\ Dataviz.Rproj  assets  data  df  info.R  language\ 1626  main.R  utils.R  words.R  xd[0K[?25l
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0m[0K[1A[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add R[0K[?25hE[0KA[0KD[0KM[0KE[0K.[0Km[0Kd[0K[?25l
+[0K[?25hfatal: pathspec 'README.md' did not match any files[0K[?25l
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "F[0K[?25hi[0Kr[0Ks[0Kt[0K[24G[?25l$ git commit -m "First c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K,[0K[32G[?25l$ git commit -m "First commit, a[0K[?25hd[0Kd[0K[?25l$ git commit -m "First commit, ad[0K[?25h[?25l$ git commit -m "First commit, a[0K[?25h[?25l$ git commit -m "First commit,[0K[32G[?25h[?25l$ git commit -m "First commit, f[0K[?25he[0Kt[0Kc[0Kh[0K[38G[?25l$ git commit -m "First commit, fetch d[0K[?25ha[0Kt[0Ka[0K[43G[?25l$ git commit -m "First commit, fetch data f[0K[?25hr[0Ko[0Km[0K[48G[?25l$ git commit -m "First commit, fetch data from A[0K[?25hu[0Ks[0Kt[0Kr[0Ko[0Kn[0Ke[0Ks[0Ki[0Ka[0Kn[0K[61G[?25l$ git commit -m "First commit, fetch data from Austronesian d[0K[?25ha[0Kt[0Ka[0Kb[0Ka[0Ks[0Ke[0K"[0K[?25l
+[0K[?25h[master (root-commit) d1208c8] First commit, fetch data from Austronesian database[0K[?25l
+ 40 files changed, 389610 insertions(+)[0K
+ create mode 100644 .RData[0K
+ create mode 100644 .Rhistory[0K
+ create mode 100644 .Rproj.user/7A8F4B65/console06/CE4E6EF1[0K
+ create mode 100644 .Rproj.user/7A8F4B65/console06/INDEX001[0K
+ create mode 100644 .Rproj.user/7A8F4B65/pcs/files-pane.pper[0K
+ create mode 100644 .Rproj.user/7A8F4B65/pcs/source-pane.pper[0K
+ create mode 100644 .Rproj.user/7A8F4B65/pcs/windowlayoutstate.pper[0K
+ create mode 100644 .Rproj.user/7A8F4B65/pcs/workbench-pane.pper[0K
+ create mode 100644 .Rproj.user/7A8F4B65/rmd-outputs[0K
+ create mode 100644 .Rproj.user/7A8F4B65/saved_source_markers[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/3D8CFC28[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/528452B5[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/6F689A0B[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/D9186A76[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/FC642901[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/prop/INDEX[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/2C72790E[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/2C72790E-contents[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/3EFF65F3[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/3EFF65F3-contents[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/42684195[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/42684195-contents[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/BBA7E068[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/BBA7E068-contents[0K
+ create mode 100644 .Rproj.user/7A8F4B65/sources/s-443693D1/lock_file[0K
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 .Rproj.user/shared/notebooks/paths[0K
+ create mode 100644 Austronesian Language Dataviz.Rproj[0K
+ create mode 100644 assets/ai/World_map_blank_without_borders.ai[0K
+ create mode 100644 assets/ai/austronesia_austronesia.png[0K
+ create mode 100644 assets/svg/World_map_blank_without_borders.svg[0K
+ create mode 100644 data/language_csv/language1626.csv[0K
+ create mode 100644 data/output_csv/language_info_clean.csv[0K
+ create mode 100644 data/output_csv/language_words_clean.csv[0K
+ create mode 100644 info.R[0K
+ create mode 100644 language 1626[0K
+ create mode 100644 main.R[0K
+ create mode 100644 utils.R[0K
+ create mode 100644 words.R[0K
+ create mode 100644 xd/mobile_web.xd[0K
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[25G[?25l$ git remote add origin h[0K[?25https://github.com/josephricafort/journey-of-words.git[0K[?25l
+[0K[?25hfatal: remote origin already exists.[0K[?25l
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25h[?25li[0K[4G[?25h[5G[?25l$ git[0K[?25h[7G[?25l$ git p[0K[?25hu[0K[?25ls[0K[9G[?25h[10G[?25l$ git push[0K[?25h[12G[?25l$ git push -[0K[?25hu[0K[15G[?25l$ git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hEnumerating objects: 52, done.[0K[?25l
+Counting objects: 100% (52/52), done.[0K
+Delta compression using up to 4 threads[0K
+Compressing objects:  11% (5/45)[0K[1G[?25h[?25lCompressing objects:  57% (26/45)[0K[1G[?25h[?25lCompressing objects:  60% (27/45)[0K[1G[?25h[?25lCompressing objects:  62% (28/45)[0K[1G[?25h[?25lCompressing objects:  82% (37/45)[0K[1G[?25h[?25lCompressing objects:  84% (38/45)[0K[1G[?25h[?25lCompressing objects:  86% (39/45)[0K[1G[?25h[?25lCompressing objects:  88% (40/45)[0K[1G[?25hCompressing objects: 100% (45/45), done.[0K[?25l
+Writing objects:   3% (2/52)[0K[1G[?25h[?25lWriting objects:   3% (2/52), 984.00 KiB | 704.00 KiB/s[0K[1G[?25h[?25lWriting objects:   3% (2/52), 3.26 MiB | 1.27 MiB/s[0K[1G[?25h[?25lWriting objects:  13% (7/52), 3.26 MiB | 1.27 MiB/s[0K[1G[?25h[?25lWriting objects:  76% (40/52), 3.26 MiB | 1.27 MiB/s[0K[1G[?25h[?25lWriting objects:  78% (41/52), 3.26 MiB | 1.27 MiB/s[0K[1G[?25h[?25lWriting objects:  82% (43/52), 3.26 MiB | 1.27 MiB/s[0K[1G[?25h[?25lWriting objects:  92% (48/52), 8.99 MiB | 2.93 MiB/s[0K[1G[?25h[?25lWriting objects:  94% (49/52), 8.99 MiB | 2.93 MiB/s[0K[1G[?25h[?25lWriting objects:  94% (49/52), 9.37 MiB | 2.31 MiB/s[0K[1G[?25hWriting objects: 100% (52/52), 13.47 MiB | 3.03 MiB/s, done.[0K[?25l
+Total 52 (delta 4), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (4/4), done.[0K[?25l
+[0K[?25hTo https://github.com/josephricafort/journey-of-words.git[0K[?25l
+ * [new branch]      master -> master[0K
+[0K[?25hBranch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+[0K[?25h[?25l
+[0;32mLenovo@JRICAFORT-L03 [0;35m [0;33m/f/Documents/Work/Portfolio Projects/Austronesian Language Dataviz[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git u[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l$ git push origin maste[0K[?25h[?25l$ git push origin mast[0K[?25h[?25l$ git push origin mas[0K[?25h[?25l$ git push origin ma[0K[?25h[?25l$ git push origin m[0K[?25h[?25l$ git push origin[0K[19G[?25h[18G[?25l$ git push origi[0K[?25h[?25l$ git push orig[0K[?25h[?25l$ git push ori[0K[?25h[?25l$ git push or[0K[?25h[?25l$ git push o[0K[?25h[?25l$ git push[0K[?25h[?25l$ git pu[0K[10G[?25h[9G[?25l$ git[0K[8G[?25h[7G[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l$ git push origin maste[0K[?25h[?25l$ git push origin mas[0K[23G[?25h[22G[?25l$ git push origin m[0K[?25h[?25l$ git push origin[0K[19G[?25h[18G[?25l$ git push origi[0K[?25h[?25l$ git push orig[0K[?25h[?25l$ git push ori[0K[?25h[?25l$ git push or[0K[?25h[?25l$ git push o[0K[?25h[?25l$ git push[0K[12G[?25h[11G[?25l$ git pus[0K[?25h[?25l$ git pu[0K[?25h[?25l$ git p[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kh[0Ks[0K[?25l$ git puh[0K[?25h[?25l$ git pu[0K[?25h[?25l$ git p[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[3G[?25h
