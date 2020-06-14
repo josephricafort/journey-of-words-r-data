@@ -174,12 +174,12 @@ for(id in 1:length(word_list)){
   write_json(result, paste0(filedir, ".json"))
 }
   
-write_json(language_info_api_clean, "data/output_json/language_info_api_clean.json", pretty = TRUE)
-write_json(language_words_api_clean, "data/output_json/language_words_api_clean.json", pretty = TRUE)
-write_json(language_heirarchy_api_clean, "data/output_json/language_heirarchy_api_clean.json", pretty = TRUE)
+write_json(language_info_api_clean, "data/output/json/language_info.json", pretty = TRUE)
+write_json(language_words_api_clean, "data/output/json/language_words.json", pretty = TRUE)
+write_json(language_heirarchy_api_clean, "data/output/json/language_heirarchy.json", pretty = TRUE)
 
-write.csv(language_info_clean, "data/output_csv/language_info_clean.csv")
-write.csv(language_words_clean, "data/output_csv/language_words_clean.csv")
+write.csv(language_info_clean, "data/output/csv/language_info.csv")
+write.csv(language_words_clean, "data/output/csv/language_words.csv")
 
 # Visualize
 # Create scatterplot map of words
