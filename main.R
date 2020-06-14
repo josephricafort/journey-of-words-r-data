@@ -144,6 +144,8 @@ language_words_api_clean <- language_words_api %>%
   mutate(word = str_replace_all(word, "\\/", ", "),
          word = str_replace_all(word, "\\?", ""),
          word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"),
+         word = str_replace_all(word, "\\,", ""),
+         word = str_replace_all(word, " ", "_"),
          word = str_to_lower(word)) %>%
   as_tibble
   
