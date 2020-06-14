@@ -1,3 +1,3 @@
-# journey-of-words
+# journey-of-words-r-data
 
-Visualizing the journey of Austronesian words and how they evolved along the way.
+R data for the journey of words story and exploratory
