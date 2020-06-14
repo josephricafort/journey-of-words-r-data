@@ -7,8 +7,14 @@ for(group_index in 1:length(groups)){
   group <- groups[group_index]
   print(paste0("Downloading group: ", group))
   webpage <- paste0(url, group) %>% read_html() %>% html_node("table")
-  result <- webpage %>% html_table() %>% mutate(group = group %>% str_replace_all("\\+", " "))
+  result <- webpage %>% html_table() %>%
+    rename(id = ID, word = Word, entries = `Number of Entries`) %>%
+    mutate(group = group %>% str_replace_all("\\+", " ")) %>%
+    mutate(word = str_replace_all(word, "\\/", ", "),
+           word = str_replace_all(word, "\\?", ""),
+           word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"),
+           word = str_to_lower(word))
   words_info %<>% bind_rows(result)
 }
 
-write_json(words_info, "data/output_json/words_info.json")
+write_json(words_info, "data/output/json/words_info.json")
