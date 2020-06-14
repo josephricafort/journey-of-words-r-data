@@ -166,11 +166,11 @@ word_list <- language_words_api_clean$word %>% unique %>% c()
 for(id in 1:length(word_list)){
   word_compare <- word_list[id]
   result <- language_words_api_clean %>% filter(word == word_compare & word != "")
-  filename <- str_replace_all(word_compare, " ", "%")
+  # filename <- str_replace_all(word_compare, " ", "%")
   
   # Export into separate json files
-  maindir <- "data/output_json/language_words/"
-  filedir <- paste0(maindir, filename)
+  maindir <- "data/output/json/language_words/"
+  filedir <- paste0(maindir, word_compare)
   write_json(result, paste0(filedir, ".json"))
 }
   

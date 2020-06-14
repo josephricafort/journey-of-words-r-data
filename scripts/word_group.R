@@ -13,6 +13,8 @@ for(group_index in 1:length(groups)){
     mutate(word = str_replace_all(word, "\\/", ", "),
            word = str_replace_all(word, "\\?", ""),
            word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"),
+           # word = str_replace_all(word, "\\,", ""),
+           # word = str_replace_all(word, " ", ""),
            word = str_to_lower(word))
   words_info %<>% bind_rows(result)
 }
