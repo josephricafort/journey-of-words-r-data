@@ -3,6 +3,8 @@ url <- "https://abvd.shh.mpg.de/austronesian/word.php?c="
 url_all <- "https://abvd.shh.mpg.de/austronesian/word.php?group=&sort=word"
 groups <- c("Adjectives", "Animals", "Body+Parts", "Colors", "Directions", "Kinship+Terms", "Numbers", "Plants", "Verbs")
 
+library(jsonlite)
+
 words_info <- tibble()
 for(group_index in 1:length(groups)){
   group <- groups[group_index]
@@ -54,6 +56,7 @@ words_others <- words_info_others %>% filter(!(word %in% (words_info_others_regr
 words_info_all <- words_info %>% 
   bind_rows(words_info_others_regrouped) %>%
   bind_rows(words_others) %>%
-  arrange(group)
+  arrange(group) %>%
+  mutate(entries = entries %>% str_replace_all("\\,", "") %>% as.numeric)
 
 write_json(words_info_all, "data/output/json/words_info.json")

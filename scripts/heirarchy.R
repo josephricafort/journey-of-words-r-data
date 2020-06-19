@@ -20,23 +20,13 @@ cleanupWord <- function(word){
 
 language_heirarchy <- language_heirarchy_api_clean %>%
   filter(str_detect(group1, "Austronesian")) %>%
-  mutate_at(vars(group1:group14), list(cleanupWord)) %>%
-  # Unite groups into a single column
-  unite("group", group1:group14, sep="-", na.rm=T)
-  # filter(str_detect(group, "-{3,}")) %>%
-  # rename(`0` = group) %>% mutate(`1` = 1) %>%
-  # select(`0`, `1`) %>%
-  
-language_heirarchy_tree <- language_heirarchy %>%
-  as.Node(pathName="group", pathDelimiter="-")
-
-write_json(language_heirarchy_tree %>% as.list %>% toJSON, "data/output/json/language_heirarchy.json", pretty=T, simplifyVector=F)
-
-write.csv(language_heirarchy, "data/output/csv/language_heirarchy.csv", row.names=F, col.names=F)
+  select(-group1)
+  # mutate_at(vars(group1:group14), list(cleanupWord)) %>%
+  # unite("group", group1:group14, sep="-", na.rm=T)
 
 # Using d3_nest from d3r package
-lang_heirarchy_d3 <- language_heirarchy_api_clean %>%
-  select(group1:group14) %>% mutate(value = 1) %>%
-  d3_nest(value_cols="value", root="language_heirarchy")
+lang_heirarchy_d3 <- language_heirarchy %>%
+  select(group2:group14) %>% mutate(value = 1) %>%
+  d3_nest(value_cols="value", root="Austronesian", json=T)
 
-write_json(lang_heirarchy_d3, "data/output/json/language_heirarchy.json", pretty=T, simplifyVector=F)
+write_json(lang_heirarchy_d3, "data/output/json/language_heirarchy.json", pretty=T)

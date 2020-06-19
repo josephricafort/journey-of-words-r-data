@@ -140,13 +140,15 @@ language_words_api_clean <- language_words_api %>%
   arrange(language) %>%
   left_join(language_info_api_clean %>%
               select(language, silcode)) %>%
-  # Replace non-alphanumeric characters with url friendly letters
   mutate(word = str_replace_all(word, "\\/", ", "),
+         word = str_to_lower(word),
          word = str_replace_all(word, "\\?", ""),
-         word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"),
-         word = str_replace_all(word, "\\,", ""),
-         word = str_replace_all(word, " ", "_"),
-         word = str_to_lower(word)) %>%
+         word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"))
+
+  # Replace non-alphanumeric characters with url friendly letters
+language_words_api_json <- language_words_api_clean %>%
+  mutate(word = str_replace_all(word, "\\,", ""),
+         word = str_replace_all(word, " ", "_")) %>%
   as_tibble
   
 language_heirarchy_api_clean <- language_info_api_clean %>%
@@ -164,10 +166,10 @@ language_heirarchy_api_clean <- language_info_api_clean %>%
   arrange(group1:group14)
 
 # Chop words data into multiple pieces for easy accessing for the API
-word_list <- language_words_api_clean$word %>% unique %>% c()
+word_list <- language_words_api_json$word %>% unique %>% c()
 for(id in 1:length(word_list)){
   word_compare <- word_list[id]
-  result <- language_words_api_clean %>% filter(word == word_compare & word != "")
+  result <- language_words_api_json %>% filter(word == word_compare & word != "")
   # filename <- str_replace_all(word_compare, " ", "%")
   
   # Export into separate json files
@@ -177,7 +179,7 @@ for(id in 1:length(word_list)){
 }
   
 write_json(language_info_api_clean, "data/output/json/language_info.json", pretty = TRUE)
-write_json(language_words_api_clean, "data/output/json/language_words.json", pretty = TRUE)
+write_json(language_words_api_json, "data/output/json/language_words.json", pretty = TRUE)
 write_json(language_heirarchy_api_clean, "data/output/json/language_heirarchy.json", pretty = TRUE)
 
 write.csv(language_info_clean, "data/output/csv/language_info.csv")
