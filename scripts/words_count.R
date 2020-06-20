@@ -7,7 +7,11 @@ language_words_count <- language_words_api_clean %>%
   group_by(item, word) %>% summarize(count = n()) %>% arrange(desc(count)) %>%
   left_join(words_info_all) %>% select(-entries) %>%
   mutate(word = str_replace_all(word, "\\,", ""),
-         word = str_replace_all(word, " ", "_"))
+         word = str_replace_all(word, " ", "_")) %>%
+  ungroup() %>%
+  # Filter only top 20 per word
+  group_by(word) %>%
+  slice_max(order_by = count, n = 20)
 
 # Chop words data into multiple pieces for easy accessing for the API use
 word_list <- language_words_count$word %>% unique %>% c()
