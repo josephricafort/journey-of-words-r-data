@@ -4,14 +4,17 @@ language_words_api_clean
 words_info_all
 
 language_words_count <- language_words_api_clean %>%
-  group_by(item, word) %>% summarize(count = n()) %>% arrange(desc(count)) %>%
+  group_by(item, word) %>% summarize(count = n(), cognacy1 = mean(cognacy1, na.rm=T)) %>% 
+  arrange(desc(count)) %>%
   left_join(words_info_all) %>% select(-entries) %>%
   mutate(word = str_replace_all(word, "\\,", ""),
          word = str_replace_all(word, " ", "_")) %>%
-  ungroup() %>%
-  # Filter only top 20 per word
-  group_by(word) %>%
-  slice_max(order_by = count, n = 20)
+  ungroup()
+
+# Filter only top 20 per word
+language_words_count_top20 <- language_words_count %>% group_by(word) %>%
+  slice_max(order_by = count, n = 20) %>%
+  filter(word != "")
 
 # Chop words data into multiple pieces for easy accessing for the API use
 word_list <- language_words_count$word %>% unique %>% c()
@@ -26,3 +29,5 @@ for(id in 1:length(word_list)){
   print(paste0("Writing json: ", filedir))
   write_json(result, filedir)
 }
+
+write_json(language_words_count_top20, "data/output/json/words_count_top20.json")
