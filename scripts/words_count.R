@@ -5,6 +5,7 @@ words_info_all
 
 language_words_count <- language_words_api_clean %>%
   group_by(item, word) %>% summarize(count = n(), cognacy1 = mean(cognacy1, na.rm=T)) %>% 
+  mutate(cognate_group = 10*ceiling(cognacy1/10)) %>%
   arrange(desc(count)) %>%
   left_join(words_info_all) %>% select(-entries) %>%
   mutate(word = str_replace_all(word, "\\,", ""),

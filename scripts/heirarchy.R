@@ -20,7 +20,8 @@ cleanupWord <- function(word){
 
 language_heirarchy <- language_heirarchy_api_clean %>%
   filter(str_detect(group1, "Austronesian")) %>%
-  select(-group1)
+  select(-group1) %>%
+  arrange(id_lang)
   # mutate_at(vars(group1:group14), list(cleanupWord)) %>%
   # unite("group", group1:group14, sep="-", na.rm=T)
 
