@@ -4,7 +4,7 @@
       "name": "Malayo-Polynesian",
       "children": [
         {
-          "name": "Central-Eastern",
+          "name": "Central-Eastern Malayo-Polynesian",
           "children": [
             {
               "name": "Central Malayo-Polynesian",
@@ -386,24 +386,6 @@
               ],
               "colname": "group4"
             },
-            {
-              "name": "Central-Malayo Polynesian",
-              "children": [
-                {
-                  "name": "(Proto)",
-                  "children": [],
-                  "value": 1,
-                  "colname": "group5"
-                }
-              ],
-              "colname": "group4"
-            }
-          ],
-          "colname": "group3"
-        },
-        {
-          "name": "Central-Eastern Malayo-Polynesian",
-          "children": [
             {
               "name": "Eastern Malayo-Polynesian",
               "children": [
@@ -1728,6 +1710,18 @@
               "colname": "group4"
             },
             {
+              "name": "Central-Malayo Polynesian",
+              "children": [
+                {
+                  "name": "(Proto)",
+                  "children": [],
+                  "value": 1,
+                  "colname": "group5"
+                }
+              ],
+              "colname": "group4"
+            },
+            {
               "name": "Bima-Lembata",
               "children": [],
               "value": 1,
@@ -2554,12 +2548,7 @@
         {
           "name": "Northwest Sumatra-Barrier Islands",
           "children": [
-            {
-              "name": "Nias",
-              "children": [],
-              "value": 1,
-              "colname": "group4"
-            },
+            { "name": "Nias", "children": [], "value": 1, "colname": "group4" },
             {
               "name": "Batak",
               "children": [
@@ -2740,18 +2729,8 @@
           ],
           "colname": "group3"
         },
-        {
-          "name": "Chamorro",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
-        {
-          "name": "Javanese",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
+        { "name": "Chamorro", "children": [], "value": 1, "colname": "group3" },
+        { "name": "Javanese", "children": [], "value": 1, "colname": "group3" },
         {
           "name": "Malayo-Chamic",
           "children": [
@@ -2855,22 +2834,12 @@
               ],
               "colname": "group4"
             },
-            {
-              "name": "Seko",
-              "children": [],
-              "value": 1,
-              "colname": "group4"
-            }
+            { "name": "Seko", "children": [], "value": 1, "colname": "group4" }
           ],
           "value": 1,
           "colname": "group3"
         },
-        {
-          "name": "Madurese",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
+        { "name": "Madurese", "children": [], "value": 1, "colname": "group3" },
         {
           "name": "Greater Barito",
           "children": [
@@ -2969,12 +2938,7 @@
           "colname": "group3"
         },
         { "name": "Moklen", "children": [], "value": 1, "colname": "group3" },
-        {
-          "name": "Palauan",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
+        { "name": "Palauan", "children": [], "value": 1, "colname": "group3" },
         { "name": "Rejang", "children": [], "value": 1, "colname": "group3" },
         {
           "name": "Land Dayak",
@@ -3006,18 +2970,8 @@
           ],
           "colname": "group3"
         },
-        {
-          "name": "Lampung",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
-        {
-          "name": "(Proto)",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
+        { "name": "Lampung", "children": [], "value": 1, "colname": "group3" },
+        { "name": "(Proto)", "children": [], "value": 1, "colname": "group3" },
         {
           "name": "Sundanese",
           "children": [],
@@ -3123,12 +3077,7 @@
           "colname": "group3"
         },
         { "name": "Bilic", "children": [], "value": 1, "colname": "group3" },
-        {
-          "name": "Kalamian",
-          "children": [],
-          "value": 1,
-          "colname": "group3"
-        },
+        { "name": "Kalamian", "children": [], "value": 1, "colname": "group3" },
         {
           "name": "Bashiic",
           "children": [
@@ -3232,12 +3181,7 @@
               "value": 1,
               "colname": "group4"
             },
-            {
-              "name": "Basay",
-              "children": [],
-              "value": 1,
-              "colname": "group4"
-            }
+            { "name": "Basay", "children": [], "value": 1, "colname": "group4" }
           ],
           "colname": "group3"
         },
