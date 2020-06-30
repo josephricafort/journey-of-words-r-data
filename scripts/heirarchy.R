@@ -58,7 +58,7 @@ language_heirarchy_scrape_data <- tibble(name_group, level_group, classification
 # Getting a better heirarchy in order
 
 branch_order <- c("Formosan", "Philippine", "Western Malayo-Polynesian",
-                  "Central Malayo-Polynesian", "South Halmahera-West New Guinea",
+                  "Central Malayo-Polynesian", "Eastern Malayo-Polynesian", "South Halmahera-West New Guinea",
                   "Papuan Tip", "North New Guinea", "Admiralty Islands", "Central-Eastern Oceanic", 
                   "Southeast Solomonic", "Meso Melanesian", "Temotu", "New Caledonian", 
                   "Micronesian", "North and Central Vanuatu","Northeast Vanuatu-Banks Islands",
@@ -97,11 +97,14 @@ gp_western_malayo_polynesian <- c("Celebic", "North Borneo", "Malayo-Chamic", "G
 # 15. Polynesian (group 10) // under Central Pacific
 
 gp3 <- c("Philippine")
-gp4 <- c("Central Malayo-Polynesian")
-gp5 <- c("South Halmahera-West New Guinea")
-gp6 <- c("Admiralty Islands", "Temotu", "Central-Eastern Oceanic")
+gp4 <- c("Central Malayo-Polynesian", "Eastern Malayo-Polynesian")
+# gp5 <- c("South Halmahera-West New Guinea")
+gp5 <- ("")
+# gp6 <- c("Admiralty Islands", "Central-Eastern Oceanic")
+gp6 <- ("")
 gp7 <- c("Papuan Tip", "North New Guinea", "Southeast Solomonic", "Meso Melanesian")
-gp8 <- c("North and Central Vanuatu", "Micronesian", "New Caledonian")
+# gp8 <- c("North and Central Vanuatu", "Micronesian", "New Caledonian")
+gp8 <- c("North and Central Vanuatu", "New Caledonian")
 gp9 <- c("Northeast Vanuatu-Banks Islands")
 gp10 <- c("Polynesian", "East Vanuatu", "Malekula Coastal")
 new_heirarchy_group <- list(gp3, gp4, gp5, gp6, gp7, gp8, gp10)
@@ -122,32 +125,20 @@ new_lang_heir_arr <- language_heirarchy_array %>%
   mutate(branch = ifelse(group9 %in% gp9, group9, branch)) %>%
   mutate(branch = ifelse(group10 %in% gp10, group10, branch)) %>%
   # Relevel branch into factor
-  mutate(branch = fct_relevel(branch, branch_order))
+  mutate(branch = fct_relevel(branch, branch_order)) %>%
+  mutate(branch_id = match(branch, branch_order)) %>%
+  select(id_lang:silcode, branch, branch_id, group1:group14)
   
 branch_list <- new_lang_heir_arr$branch %>% unique
 
-new_lang_heir_arr %>%
+plot_new_lang_heir_arr <- new_lang_heir_arr %>%
   group_by(branch) %>%
   summarize(n = n()) %>% as.data.frame
 
-for(gp in 1:length(new_heirarchy_group)){
-  gp <- 1 # debug only
-  curr_gp <- new_heirarchy_group[gp]
-  
-  for(sgp in 1:length(curr_gp)){
-    sgp <- 1 # debug only
-    curr_sgp <- curr_gp[sgp]
-    new_lang_heir_arr$branch
-  }
-}
-  
+write_json(new_lang_heir_arr, "data/output/json/language_heirarchy_array.json", pretty=T)
 
-language_heirarchy_array %>% filter(group2 %in% gp_formosan)
+# Just a quick plot of how the data would look like
 
-group3 <- language_heirarchy_array %>% 
-  filter(group3 == branch_order[2]) %>% 
-  select(group4) %>% unique
-
-language_heirarchy_array$group3 %>% unique
-
- branch_order[group3 %in% branch_order]
+ggplot(plot_new_lang_heir_arr) +
+  geom_bar(aes(branch, weight=n)) +
+  theme(axis.text.x = element_text(angle = 90))
