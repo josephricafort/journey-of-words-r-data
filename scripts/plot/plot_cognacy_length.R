@@ -3,7 +3,7 @@ library(tidyverse)
 library(forcats)
 
 language_words_api_clean
-source("./scripts/plot/plot_words.R")
+words_info_all
 
 # Plot cognacy vs item_length
 
@@ -23,9 +23,52 @@ dataplot_length <- language_words_api_clean %>%
 
 top20_cognacy <- dataplot_length %>% group_by(word) %>% summarize(cognacy_mean = mean(cognacy1, na.rm=T))
 
+number_factors <- c("one", "two", "three", "four", "five", 
+                    "six", "seven", "eight", "nine", "ten",
+                    "twenty", "fifty", "one hundred", "one thousand")
+
 # word length vs cognacy
 # density2d
-ggplot(dataplot_length) +
+ggplot(dataplot_length %>% filter(group == "Numbers") %>% mutate(word = fct_relevel(word, number_factors))) +
   geom_density2d(aes(x=item_length, y=cognacy1)) +
+  # geom_jitter(aes(x=item_length, y=cognacy1), alpha=1/5, stroke=0, shape=16) +
+  facet_wrap(~word) #xlim(0, 11)
+
+# word per word
+categories <- words_info_all$group %>% unique
+for (cat in 1:length(categories)){
+  ggplot(dataplot_length %>% filter(group == categories[cat]), aes(x=item_length, y=cognacy1)) +
+    geom_jitter(alpha = 0.05) +
+    geom_density2d() +
+    # stat_density2d(aes(color = ..level..)) +
+    # geom_point(aes(x=cognacy1, y=item_length, fill=branch_id), alpha=0.25) +
+    facet_wrap(~word) + labs(title=categories[cat])
+  filename <- paste0("plot_", categories[cat] %>% str_to_lower() %>% str_replace_all("\\s", "_"), ".jpg")
+  path <- paste0("image_plots/density2d")
+  ggsave(filename, plot=last_plot(), device="jpg", path=path,
+         width=12, height=9, units="in")
+}
+
+# branch vs cognate_set
+ggplot(dataplot_length, aes(x=branch_id, y=cognacy1)) +
+  geom_jitter(alpha = 1/10) +
+  geom_density2d() +
+  # stat_density2d(aes(color = ..level..)) +
   # geom_point(aes(x=cognacy1, y=item_length, fill=branch_id), alpha=0.25) +
-  facet_wrap(~group)
+  facet_wrap(~group) #+ labs(title=categories[cat])
+
+categories <- words_info_all$group %>% unique
+for (cat in 1:length(categories)){
+  cat <- 12
+  ggplot(dataplot_length %>% filter(group == categories[cat]), aes(x=branch_id, y=cognacy1)) +
+    geom_jitter(alpha = 0.05) +
+    geom_density2d() +
+    # stat_density2d(aes(color = ..level..)) +
+    # geom_point(aes(x=cognacy1, y=item_length, fill=branch_id), alpha=0.25) +
+    facet_wrap(~word) + labs(title=categories[cat])
+  filename <- paste0("plot_", categories[cat] %>% str_to_lower() %>% str_replace_all("\\s", "_"), ".jpg")
+  path <- paste0("image_plots/density2d")
+  ggsave(filename, plot=last_plot(), device="jpg", path=path,
+         width=12, height=9, units="in")
+}
+

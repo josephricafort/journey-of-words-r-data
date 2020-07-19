@@ -143,7 +143,10 @@ language_words_api_clean <- language_words_api %>%
   mutate(word = str_replace_all(word, "\\/", ", "),
          word = str_to_lower(word),
          word = str_replace_all(word, "\\?", ""),
-         word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm"))
+         word = str_replace_all(word, "worm \\(earthworm\\)", "worm, earthworm")) %>%
+  # Add another column which identifies the length of the word
+  mutate(item_length = str_length(item)) %>%
+  select(language:item, item_length, annotation:pmpcognacy)
 
   # Replace non-alphanumeric characters with url friendly letters
 language_words_api_json <- language_words_api_clean %>%
