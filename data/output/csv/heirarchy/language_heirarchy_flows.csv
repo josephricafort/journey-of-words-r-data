@@ -225,1677 +225,1673 @@
 "224","Are-Taupota",1253,"Are",1252,4
 "225","Bilic",1281,"Blaan",1286,4
 "226","Bisayan",1285,"South",1620,4
-"227","Buton",NA,"East Buton",NA,4
-"228","Cenderawasih Bay",1305,"Yapen",1720,4
-"229","Central",1306,"Marquesic",1476,4
-"230","Central Malayo-Polynesian",1318,"Southeast Maluku",1636,4
-"231","East",1339,"Seram Straits",1612,4
-"232","East Formosan",1351,"Amis",1247,4
-"233","East Formosan",1351,"Northern",1537,4
-"234","Gela-Guadalcanal",1376,"Gela",1375,4
-"235","Greater Barito",1380,"West",1694,4
-"236","Greater Central Philippine",1381,"Danao",1334,4
-"237","Greater Central Philippine",1381,"South Mangyan",1630,4
-"238","Kairiru-Manam",1413,"Manam",610,4
-"239","Kalinga-Itneg",1418,"Kalinga",1417,4
-"240","Kayan-Kenyah",1423,"Kayanic",1425,4
-"241","Kilivila-Louisiades",1432,"Kilivila",528,4
-"242","Munan",1500,"Munic",1501,4
-"243","Munic",1501,"Western",1706,4
-"244","North Borneo",1526,"Sabahan",1594,4
-"245","North New Guinea",1529,"Sarmi-Jayapura Bay",1606,4
-"246","Northern",1537,"Central",1306,4
-"247","Nuclear Muna-Buton",1555,"Munan",1500,4
-"248","Piru Bay",1575,"East",1339,4
-"249","Ponapeic-Trukic",1580,"Ponapeic",1579,4
-"250","Santa Isabel",1603,"Central",1306,4
-"251","South",1620,"Masela-South Babar",1478,4
-"252","Southern",1640,"Extreme Southern",1368,4
-"253","Temotu",1666,"Reefs-Santa Cruz",1586,4
-"254","Yapen",1720,"Central-Western",1315,4
-"255",NA,1723,"Raga",1072,4
-"256","Arawe",1250,"East Arawe",1346,3
-"257","Atayal",1258,"C'uli'",1301,3
-"258","Babar",1260,"North",1518,3
-"259","Bel",1273,"Astrolabe",1256,3
-"260","Bikol",1280,"Inland",1401,3
-"261","Bima-Sumba",1283,"Ende-Lio",1363,3
-"262","Bontok-Kankanay",1289,"Bontok",1288,3
-"263","Cenderawasih Bay",1305,"Raja Ampat",1583,3
-"264","Central",1306,"Periphera",1571,3
-"265","Central",1306,"South",1620,3
-"266","Central",1306,"Warayan",1692,3
-"267","Central",1306,"West",1694,3
-"268","Central Luzon",1317,"Pampangan",1567,3
-"269","Central Philippine",1323,"Mansakan",1472,3
-"270","Central Western Plains",1325,"Favorlang-Babuza",1369,3
-"271","Dusun",1337,"Central",1306,3
-"272","Dusunic",1338,"Dusun",1337,3
-"273","East",1339,"Banda-Geser",1266,3
-"274","East Coast",1347,"Kulisusu",362,3
-"275","Eastern",1357,"Southeast Islands",1635,3
-"276","Eastern",1357,"Southwest",1646,3
-"277","Gorontalo-Mongondow",1379,"Gorontalic",1378,3
-"278","Greater Central Philippine",1381,"Subanon",1653,3
-"279","Greater Central Philippine",1381,"Umiray Dumaget",60,3
-"280","Highlands",1388,"Chru-Northern",1330,3
-"281","Kilivila-Louisiades",1432,"Nimoa-Sudest",1517,3
-"282","Luang-Kisar",1450,"Luang",446,3
-"283","Malayo-Polynesian",1463,"Bali-Sasak-Sumbawa",1264,3
-"284","Malayo-Polynesian",1463,"Moklen",1492,3
-"285","Meso Melanesian",1484,"Bali-Vitu",761,3
-"286","Nehan-North Bougainville",1507,"Nehan",798,3
-"287","New Georgia",1511,"East",1339,3
-"288","New Ireland",1512,"Madak",785,3
-"289","Ngero",1513,"Bariai",587,3
-"290","North",1518,"Hmwaveke",1389,3
-"291","North Sarawakan",1532,"Dayic",1335,3
-"292","Northwest Sumatra-Barrier Islands",1550,"Batak",1272,3
-"293","Nuclear Southern Cordilleran",1556,"Kallahan",1419,3
-"294","Philippine",1573,"Minahasan",1489,3
-"295","Philippine",1573,"North Mangyan",1528,3
-"296","Sabahan",1594,"Dusunic",1338,3
-"297","Sangiric",1602,"Northern",1537,3
-"298","South",1620,"Ata-Tigwa",1257,3
-"299","South",1620,"Southwest Babar",1648,3
-"300","South Halmahera",1627,"East Makian-Gane",1352,3
-"301","Southeast Maluku",1636,"Kei-Tanimbar",1427,3
-"302","Southwest New Britain",1649,"Bibling",1277,3
-"303","Timor",1671,"Ramelaic",1584,3
-"304","Utupua-Vanikoro",1688,"Utupua",1687,3
-"305","Vitiaz",1689,"Korap",1435,3
-"306","Vitiaz",1689,"Roinji-Nenaya",1589,3
-"307","West",1694,"South",1620,3
-"308",NA,1723,"Jawe",853,3
-"309",NA,1723,"Novol (Usus - Dixon Reef)",947,3
-"310","Amalumute",1244,"Northwest Seram",1549,2
-"311","Arawe-Pasismanua",1251,"Pasismanua",1570,2
-"312","Atayal",1258,"Squliq",1650,2
-"313","Bali-Sasak-Sumbawa",1264,"Sasak-Sumbawa",1607,2
-"314","Banda-Geser",1266,"Geser-Gorom",1377,2
-"315","Bashiic",1271,"Yami",93,2
-"316","Batak",1272,"Southern",1640,2
-"317","Bel",1273,"Nuclear Bel",1553,2
-"318","Bikol",1280,"Coastal",1331,2
-"319","Bilic",1281,"Tboli",1665,2
-"320","Bontok-Kankanay",1289,"Kankanay",1421,2
-"321","Buka",1295,"Halia",1385,2
-"322","Buton",NA,"West Buton",NA,2
-"323","Celebic",1304,"Kaili-Pamona",1411,2
-"324","Celebic",1304,"Tomini-Tolitoli",1676,2
-"325","Cenderawasih Bay",1305,"Mor",505,2
-"326","Central Malayo-Polynesian",1318,"North Bomberai",1525,2
-"327","Central Pacific",1321,"West Fijian-Rotuman",1702,2
-"328","Chamic",1327,"Coastal",1331,2
-"329","Chru-Northern",1330,"Northern Cham",1545,2
-"330","Coastal",1331,"Cham",1326,2
-"331","Coastal",1331,"Naga",1504,2
-"332","Danao",1334,"Maranao-Iranon",1474,2
-"333","Dayic",1335,"Kelabitic",1428,2
-"334","East",1339,"Teun-Nila-Serua",1668,2
-"335","East Fijian-Polynesian",1350,"East Fijian",1349,2
-"336","East Santo",1353,"North",1518,2
-"337","Eastern",1357,"Saluan-Banggai",1595,2
-"338","Epi",1364,"Bieria-Maii",1279,2
-"339","Extra-Ramelaic",1366,"West",1694,2
-"340","Gela-Guadalcanal",1376,"Bughotu",699,2
-"341","Gorontalo-Mongondow",1379,"Mongondowic",1494,2
-"342","Huon Gulf",1392,"North",1518,2
-"343","Huon Gulf",1392,"South",1620,2
-"344","Ibanagic",1394,"Gaddangic",1374,2
-"345","Kayanic",1425,"Modang",294,2
-"346","Kei-Tanimbar",1427,"Kei-Fordata",1426,2
-"347","Kilivila-Louisiades",1432,"Misima",533,2
-"348","Luang-Kisar",1450,"Kisar",429,2
-"349","Malayo-Polynesian",1463,"Bilic",1281,2
-"350","Malayo-Polynesian",1463,"Kalamian",1416,2
-"351","Malayo-Polynesian",1463,"Land Dayak",1443,2
-"352","Malayo-Polynesian",1463,"Malayo-Sumbawan",NA,2
-"353","Malayo-Sumbawan",NA,"North and East",NA,2
-"354","Manobo",1471,"North",1518,2
-"355","Manobo",1471,"South",1620,2
-"356","Manus",1473,"Mokoreng-Loniu",1493,2
-"357","Micronesian Proper",1488,"Marshallese",895,2
-"358","Minahasan",1489,"North",1518,2
-"359","Muna-Buton",1499,"Tukangbesi-Bonerate",1683,2
-"360","Nehan-North Bougainville",1507,"Buka",1295,2
-"361","Nehan-North Bougainville",1507,"Saposa-Tinputz",1604,2
-"362","New Ireland",1512,"Tabar",756,2
-"363","Ngero",1513,"Tuam",1682,2
-"364","North Borneo",1526,"Melanau-Kajang",1481,2
-"365","North Papuan Mainland-D'Entrecasteaux",1531,"Gumawana",524,2
-"366","North Sarawakan",1532,"Berawan-Lower Baram",1275,2
-"367","Northeastern Luzon",1536,"Northern",1537,2
-"368","Northern",1537,"Basay",1270,2
-"369","Northern",1537,"Kavalan",1422,2
-"370","Northern Cordilleran",1546,"Northeastern Luzon",1536,2
-"371","Northwest Seram",1549,"Ulat Inai",1684,2
-"372","Nuclear",1551,"Maisin",531,2
-"373","Nuclear Cordilleran",1554,"Ifugaw",1397,2
-"374","Nuclear Southern Cordilleran",1556,"Ibaloy",1393,2
-"375","Nunusaku",1559,"Three Rivers",1670,2
-"376","Oceanic",1560,"(Proto)",NA,2
-"377","Oceanic",1560,"St. Matthias",1651,2
-"378","Polynesian",1577,"Tongic",1677,2
-"379","Samoic-Outlier",1600,"East Uvean-Niuafo'ou",1354,2
-"380","Santa Isabel",1603,"West",1694,2
-"381","Sarmi-Jayapura Bay",1606,"Jayapura Bay",1410,2
-"382","Sarmi-Jayapura Bay",1606,"Sarmi",1605,2
-"383","Schouten",1609,"Siau",1613,2
-"384","Seram",1611,"Bobot",428,2
-"385","Seram",1611,"Masiwang",497,2
-"386","Seram Straits",1612,"Ambon",1246,2
-"387","South",1620,"Butuan-Tausug",1299,2
-"388","South",1620,"Hote-Buang",1391,2
-"389","South Mangyan",1630,"Buhid-Taubuid",1294,2
-"390","South Mangyan",1630,"Hanunoo",73,2
-"391","South New Ireland-Northwest Solomonic",1631,"Piva-Banoni",1576,2
-"392","South Sulawesi",1632,"Bugis",1293,2
-"393","South Vanuatu",1633,"Aneityum",678,2
-"394","Southern Cordilleran",1645,"Ilongot",1400,2
-"395","Sulu-Borneo",1655,"Inner Sulu Sama",1402,2
-"396","Tahitic",1659,"Mangaia",1192,2
-"397","Teun-Nila-Serua",1668,"Nila-Serua",1516,2
-"398","Three Rivers",1670,"Amalumute",1244,2
-"399","Tsouic",1681,"Kanakanabu",1420,2
-"400","Tsouic",1681,"Saaroa",1593,2
-"401","Tsouic",1681,"Tsou",1680,2
-"402","Warayan",1692,"Samar-Waray",1597,2
-"403","West",1694,"Kuyan",1438,2
-"404",NA,1723,"'Auhelawa",547,2
-"405",NA,1723,"Biliau",593,2
-"406",NA,1723,"Bontok, Guina-ang",106,2
-"407",NA,1723,"Bwaidoga",518,2
-"408",NA,1723,"Chuukese",885,2
-"409",NA,1723,"Dayak Ngaju",278,2
-"410",NA,1723,"Dixon Reef",906,2
-"411",NA,1723,"Gapapaiwa",522,2
-"412",NA,1723,"Gumawana",524,2
-"413",NA,1723,"Hiw",1053,2
-"414",NA,1723,"Itawis",169,2
-"415",NA,1723,"Itbayaten",84,2
-"416",NA,1723,"Kapampangan",53,2
-"417",NA,1723,"Kilivila",528,2
-"418",NA,1723,"Lala",530,2
-"419",NA,1723,"Lelepa",975,2
-"420",NA,1723,"Lenakel",666,2
-"421",NA,1723,"Maisin",531,2
-"422",NA,1723,"Merei",1034,2
-"423",NA,1723,"Misima",533,2
-"424",NA,1723,"Molima",534,2
-"425",NA,1723,"Mota",1064,2
-"426",NA,1723,"Motu",535,2
-"427",NA,1723,"Muyuw",536,2
-"428",NA,1723,"Mwotlap",1073,2
-"429",NA,1723,"Nahavaq (Benour)",1124,2
-"430",NA,1723,"Nalik",780,2
-"431",NA,1723,"Neve'ei",907,2
-"432",NA,1723,"Neve'ei (Vinmavis)",953,2
-"433",NA,1723,"Pingilapese",900,2
-"434",NA,1723,"Roro",538,2
-"435",NA,1723,"Saliba",539,2
-"436",NA,1723,"Sewa",541,2
-"437",NA,1723,"Shark Bay",916,2
-"438",NA,1723,"Sowa",1089,2
-"439",NA,1723,"Suau",542,2
-"440",NA,1723,"Sudest",543,2
-"441",NA,1723,"Tagalog",95,2
-"442",NA,1723,"Takia",596,2
-"443",NA,1723,"Tawala",544,2
-"444",NA,1723,"Ura",675,2
-"445",NA,1723,"Wedau",546,2
-"446",NA,1723,"Wogeo",588,2
-"447",NA,1723,"Yami",93,2
-"448","Batak",1272,"Northern",1537,1
-"449","Berawan-Lower Baram",1275,"Berawan",1274,1
-"450","Berawan-Lower Baram",1275,"Lower Baram",1447,1
-"451","Bidayuh",1278,"Core",1333,1
-"452","Bisayan",1285,"Banton",1267,1
-"453","Bisayan",1285,"Cebuan",1303,1
-"454","Buang",1291,"Mumeng",1498,1
-"455","Bugis",1293,"Tamanic",1661,1
-"456","Cagayan Valley",1302,"Isnag",1406,1
-"457","Celebic",1304,"Bungku-Tolaki",1296,1
-"458","Celebic",1304,"Wotu-Wolio",1716,1
-"459","Cenderawasih Bay",1305,"Biakic",1276,1
-"460","Cenderawasih Bay",1305,"Waropen",501,1
-"461","Central",1306,"A",1238,1
-"462","Central",1306,"East",1339,1
-"463","Central",1306,"Romblon",174,1
-"464","Central-Eastern Malayo-Polynesian",1311,"Bima-Lembata",1282,1
-"465","Central-Eastern Malayo-Polynesian",1311,"Central-Malayo Polynesian",NA,1
-"466","Central-Malayo Polynesian",NA,"(Proto)",NA,1
-"467","Central-South",1314,"South",1620,1
-"468","Central Cordilleran",1316,"Isinai",1405,1
-"469","Central Luzon",1317,"Sinauna",173,1
-"470","Central Malayo-Polynesian",1318,"(Proto)",NA,1
-"471","Central Malayo-Polynesian",1318,"South Bomberai",1626,1
-"472","Central Malayo-Polynesian",1318,"West Damar",451,1
-"473","Central Maluku",1320,"Buru",1298,1
-"474","Central Maluku",1320,"Sula",1654,1
-"475","Central Papuan",1322,"Oumic",1561,1
-"476","Central Philippine",1323,"Mamanwa",135,1
-"477","Chamic",1327,"Acehnese",337,1
-"478","Core",1333,"Western",1706,1
-"479","Danao",1334,"Magindanao",1453,1
-"480","Dayic",1335,"Murutic",1503,1
-"481","East",1339,"Central-South",1314,1
-"482","East",1339,"East Damar",447,1
-"483","East",1339,"North",1518,1
-"484","East",1339,"Rapanui",1585,1
-"485","Eastern",1357,"Pak-Tong",1563,1
-"486","Elpaputi",1362,"Amahai",478,1
-"487","Greater Barito",1380,"Barito-Mahakam",1269,1
-"488","Hatuhaha",1387,"Elpaputi",1362,1
-"489","Hote-Buang",1391,"Buang",1291,1
-"490","Hote-Buang",1391,"Hote",1390,1
-"491","Huon Gulf",1392,"Markham",1475,1
-"492","Huon Gulf",1392,"Numbami",1558,1
-"493","Inland",1401,"Iriga",1404,1
-"494","Kaili-Pamona",1411,"Northern",1537,1
-"495","Kaili-Pamona",1411,"Southern",1640,1
-"496","Kairiru-Manam",1413,"Kairiru",617,1
-"497","Kalinga-Itneg",1418,"Itneg",1407,1
-"498","Kayanic",1425,"Kayan Proper",1424,1
-"499","Kayanic",1425,"Muller-Schwaner ‘Punan'",1497,1
-"500","Kei-Tanimbar",1427,"Yamdena",492,1
-"501","Land Dayak",1443,"Bakati'",1261,1
-"502","Land Dayak",1443,"Bidayuh",1278,1
-"503","Lower",1446,"Wampar",608,1
-"504","Lower Baram",1447,"Central",1306,1
-"505","Malaita",1458,"Longgu",728,1
-"506","Malayic",1461,"Ibanic",1395,1
-"507","Malayo-Polynesian",1463,"(Proto)",NA,1
-"508","Malayo-Polynesian",1463,"Bashiic",1271,1
-"509","Malayo-Polynesian",1463,"Central Luzon",1317,1
-"510","Malayo-Polynesian",1463,"Chamorro",199,1
-"511","Malayo-Polynesian",1463,"Madurese",236,1
-"512","Malayo-Polynesian",1463,"Nasal",NA,1
-"513","Malayo-Polynesian",1463,"Palauan",191,1
-"514","Malayo-Polynesian",1463,"Rejang",1587,1
-"515","Malayo-Polynesian",1463,"Sundanese",205,1
-"516","Mansakan",1472,"Eastern",1357,1
-"517","Mansakan",1472,"Northern",1537,1
-"518","Mansakan",1472,"Western",1706,1
-"519","Markham",1475,"Lower",1446,1
-"520","Marquesic",1476,"Hawaiian",1226,1
-"521","Marquesic",1476,"Mangareva",1210,1
-"522","Marquesic",1476,"Marquesan",1223,1
-"523","Marquesic",1476,"Marquesan (Nukuhiva dialect)",1231,1
-"524","Melanau-Kajang",1481,"Kajang",1414,1
-"525","Melanau-Kajang",1481,"Melanau",1480,1
-"526","Micronesian",1486,"Nauruan",1505,1
-"527","Micronesian Proper",1488,"Ikiribati",1398,1
-"528","Micronesian Proper",1488,"Kusaiean",1437,1
-"529","Murutic",1503,"Murut",1502,1
-"530","Nehan-North Bougainville",1507,"Solos",795,1
-"531","New Caledonian",1509,"Haekic",1384,1
-"532","North",1518,"Northeast",1533,1
-"533","North and East",NA,"Chamic",1327,1
-"534","North and East",NA,"Malayic",1461,1
-"535","North Papuan Mainland-D'Entrecasteaux",1531,"Anuki",514,1
-"536","North Papuan Mainland-D'Entrecasteaux",1531,"Kakabai",1415,1
-"537","North Sarawakan",1532,"Bintulu",275,1
-"538","Northern",1537,"Pamona",1566,1
-"539","Northern",1537,"Toraja-Sa'dan",1678,1
-"540","Northern Luzon",1547,"Arta",55,1
-"541","Northern Luzon",1547,"Ilocano",1399,1
-"542","Northwest Sumatra-Barrier Islands",1550,"Nias",190,1
-"543","Nuclear Bel",1553,"Northern",1537,1
-"544","Nuclear Bel",1553,"Southern",1640,1
-"545","Nuclear Cordilleran",1554,"Balangaw",112,1
-"546","Oceanic",1560,"Yapese",237,1
-"547","Oumic",1561,"Magoric",1454,1
-"548","Papuan Tip",1568,"",NA,1
-"549","Philippine",1573,"Kalamian",1416,1
-"550","Piru Bay",1575,"West",1694,1
-"551","Ramelaic",1584,"Central",1306,1
-"552","Ramelaic",1584,"East",1339,1
-"553","Ramelaic",1584,"West",1694,1
-"554","Sabahan",1594,"Ida'an",297,1
-"555","Saluan-Banggai",1595,"Eastern",1357,1
-"556","Saluan-Banggai",1595,"Western",1706,1
-"557","Sama-Bajaw",1596,"Abaknon",1239,1
-"558","Samoic-Outlier",1600,"Pukapuka",1199,1
-"559","Samoic-Outlier",1600,"Samoan",1191,1
-"560","Samoic-Outlier",1600,"Tokelauan",1673,1
-"561","Sangiric",1602,"Southern",1640,1
-"562","Seram",1611,"Sawai-Nuaulu",1608,1
-"563","Seram Straits",1612,"Solehua",1618,1
-"564","Seram Straits",1612,"Uliase",1685,1
-"565","South Halmahera",1627,"Southeast",1634,1
-"566","South Sulawesi",1632,"Makassar",198,1
-"567","South Sulawesi",1632,"Northern",1537,1
-"568","South Sulawesi",1632,"Seko",NA,1
-"569","Southeast Maluku",1636,"Southern",1640,1
-"570","Southwest New Britain",1649,"Amara",614,1
-"571","Subanon",1653,"Eastern",1357,1
-"572","Sula",1654,"Taliabo",1660,1
-"573","Sulu-Borneo",1655,"Western Sulu Sama",1712,1
-"574","Tahitic",1659,"Manihiki",1229,1
-"575","Tahitic",1659,"Maori",1237,1
-"576","Tahitic",1659,"Maori (1773)",1224,1
-"577","Tahitic",1659,"Mooriori",NA,1
-"578","Tahitic",1659,"Penrhyn",1208,1
-"579","Tahitic",1659,"Ra'ivavae",1194,1
-"580","Tahitic",1659,"Rarotongan",1228,1
-"581","Tahitic",1659,"Rurutuan",1196,1
-"582","Tahitic",1659,"South Island Maori",1236,1
-"583","Tahitic",1659,"Tahiti (1773)",1225,1
-"584","Tahitic",1659,"Tahitian (18th Century)",1197,1
-"585","Tahitic",1659,"Tahitian (Modern)",1203,1
-"586","Tahitic",1659,"Tuamotu",1215,1
-"587","Tomini",1675,"Northern",1537,1
-"588","Tomini-Tolitoli",1676,"Tolitoli",1674,1
-"589","Tomini-Tolitoli",1676,"Tomini",1675,1
-"590","Uliase",1685,"Hatuhaha",1387,1
-"591","Vitiaz",1689,"Kilenge-Maleu",1430,1
-"592","Vitiaz",1689,"Mengen",630,1
-"593","Vitiaz",1689,"Sio",598,1
-"594","Vitiaz",1689,"Tami",584,1
-"595","West",1694,"Aklan",1243,1
-"596","West",1694,"Asilulu",NA,1
-"597","West",1694,"Kinarayan",1433,1
-"598","West",1694,"North",1518,1
-"599","West",1694,"North Central",NA,1
-"600","West Central Papuan",1698,"Gabadi",569,1
-"601","West Fijian-Rotuman",1702,"Rotuman",679,1
-"602","West Fijian-Rotuman",1702,"West Fijian",1701,1
-"603","Western Plains",1711,"Thao",1669,1
-"604","Wotu-Wolio",1716,"Wolio-Kamaru",1715,1
-"605",NA,1723,"'Are'are (Ma'asupa Village)",744,1
-"606",NA,1723,"'Are'are (Waiahaa Village)",745,1
-"607",NA,1723,"'Oyaoya",548,1
-"608",NA,1723,"‘Aragùr<U+025B>",876,1
-"609",NA,1723,"’Aek<U+025B>",877,1
-"610",NA,1723,"’Avek<U+025B>",878,1
-"611",NA,1723,"<U+0272>ua",869,1
-"612",NA,1723,"<U+029D>alasu",870,1
-"613",NA,1723,"<U+02B0>Moaek<U+025B>",871,1
-"614",NA,1723,"<U+02B0>Moavek<U+025B>",872,1
-"615",NA,1723,"<U+1D50>Belep",873,1
-"616",NA,1723,"<U+1D50>Boewe",875,1
-"617",NA,1723,"<U+1D50>Bonnde",874,1
-"618",NA,1723,"Acehnese",337,1
-"619",NA,1723,"Agta",110,1
-"620",NA,1723,"Agutyanen",NA,1
-"621",NA,1723,"Aitchin (Orap)",1138,1
-"622",NA,1723,"Aitchin (Small Island)",1155,1
-"623",NA,1723,"Äiwoo",840,1
-"624",NA,1723,"Ajiø",848,1
-"625",NA,1723,"Akei",985,1
-"626",NA,1723,"Akei (Penantsiro)",980,1
-"627",NA,1723,"Akei (Tasiriki)",1005,1
-"628",NA,1723,"Aklanon - Bisayan",131,1
-"629",NA,1723,"Akolet",607,1
-"630",NA,1723,"Alangan",69,1
-"631",NA,1723,"Alavas-Wowo (Wowo 1)",NA,1
-"632",NA,1723,"Alavas-Wowo (Wowo 2)",NA,1
-"633",NA,1723,"Alavas 1",NA,1
-"634",NA,1723,"Alavas 2",NA,1
-"635",NA,1723,"Ali",620,1
-"636",NA,1723,"Alune",437,1
-"637",NA,1723,"Amara",614,1
-"638",NA,1723,"Ambae, East (Lolomatui)",1077,1
-"639",NA,1723,"Ambae, East (Lolsiwoi)",1052,1
-"640",NA,1723,"Ambae, East (Wailengi)",1068,1
-"641",NA,1723,"Ambae, West (Ngwatua)",1080,1
-"642",NA,1723,"Ambai (Yapen)",506,1
-"643",NA,1723,"Amblong",994,1
-"644",NA,1723,"Ambrym, North (Fonah)",1074,1
-"645",NA,1723,"Ambrym, North (Ranon)",1044,1
-"646",NA,1723,"Ambrym, South-East",1091,1
-"647",NA,1723,"Ambrym, Southeast (Maat)",1047,1
-"648",NA,1723,"Ambrym, Southeast (Toak)",1078,1
-"649",NA,1723,"Amis (Central)",18,1
-"650",NA,1723,"Amis (Farang)",32,1
-"651",NA,1723,"Amis (Fata'an)",31,1
-"652",NA,1723,"Anakalang",465,1
-"653",NA,1723,"Andio",404,1
-"654",NA,1723,"Andra",639,1
-"655",NA,1723,"Aneityum",678,1
-"656",NA,1723,"Anejom (Aneityum)",681,1
-"657",NA,1723,"Anesù",849,1
-"658",NA,1723,"Angavae (Dixon Reef)",NA,1
-"659",NA,1723,"Angkola / Mandailing",240,1
-"660",NA,1723,"Ansus",NA,1
-"661",NA,1723,"Anuki",514,1
-"662",NA,1723,"Anuta",1217,1
-"663",NA,1723,"Aore",999,1
-"664",NA,1723,"Apma",1084,1
-"665",NA,1723,"Apma (Suru Kavian)",1097,1
-"666",NA,1723,"Apma (Suru Mwerani)",1096,1
-"667",NA,1723,"Aputai",444,1
-"668",NA,1723,"Ar<U+0283>a",851,1
-"669",NA,1723,"Araki",976,1
-"670",NA,1723,"Araki (Southwest Santo)",1040,1
-"671",NA,1723,"Aria",616,1
-"672",NA,1723,"Aro",850,1
-"673",NA,1723,"Arop",602,1
-"674",NA,1723,"Arosi",701,1
-"675",NA,1723,"Arosi (Oneibia Village)",742,1
-"676",NA,1723,"Arosi (Tawatana Village)",743,1
-"677",NA,1723,"Arta",55,1
-"678",NA,1723,"As",504,1
-"679",NA,1723,"Asilulu",NA,1
-"680",NA,1723,"Asumboa",835,1
-"681",NA,1723,"Atayal - C'uli' F69 (Bandai)",8,1
-"682",NA,1723,"Atayal - C'uli' L04 (Mayrinax)",26,1
-"683",NA,1723,"Atayal - C'uli' L04 (Skikun)",33,1
-"684",NA,1723,"Atayal - Squliq F69",7,1
-"685",NA,1723,"Atayal - Squliq L04",42,1
-"686",NA,1723,"Atoni",481,1
-"687",NA,1723,"Atta, Pamplona",111,1
-"688",NA,1723,"Aulua",1114,1
-"689",NA,1723,"Aulua (Loxse Asolokh)",1162,1
-"690",NA,1723,"Aulua (Loxse Lanfitfit)",1135,1
-"691",NA,1723,"Aulua (Netimb)",1137,1
-"692",NA,1723,"Avau",604,1
-"693",NA,1723,"Avava",971,1
-"694",NA,1723,"Avava (Banga<U+02D0>sak)",936,1
-"695",NA,1723,"Avava (Khatbol)",934,1
-"696",NA,1723,"Avava (Timbibi)",935,1
-"697",NA,1723,"Avava (Tisvel)",933,1
-"698",NA,1723,"Avok (Avok) 162-101",1180,1
-"699",NA,1723,"Avok (Avok) 162-99",1182,1
-"700",NA,1723,"Avok (Hokai) 162-97a",1174,1
-"701",NA,1723,"Avok (Hokai) 162-98",1169,1
-"702",NA,1723,"Avok (Shiaf)",1173,1
-"703",NA,1723,"Awa",634,1
-"704",NA,1723,"Axamb",1126,1
-"705",NA,1723,"Axamb (Avok)",1115,1
-"706",NA,1723,"Axamb (Farun) 162-94",1177,1
-"707",NA,1723,"Axamb (Maxbaxo)",1106,1
-"708",NA,1723,"Axamb (Small Island-Brisbane) 162-89",1167,1
-"709",NA,1723,"Axamb (Small Island-Maliambur) 162-88",1175,1
-"710",NA,1723,"Ayta Abellen",61,1
-"711",NA,1723,"Ayta Ambala",62,1
-"712",NA,1723,"Ayta Mag-anchi",63,1
-"713",NA,1723,"Ayta Mag-antsi",57,1
-"714",NA,1723,"Ayta Mag-indi",66,1
-"715",NA,1723,"Babatana",797,1
-"716",NA,1723,"Babatana (Avasö)",811,1
-"717",NA,1723,"Babatana (Katazi)",805,1
-"718",NA,1723,"Babatana (Lömaumbi)",814,1
-"719",NA,1723,"Babatana (Tunöe)",820,1
-"720",NA,1723,"Babuyan",98,1
-"721",NA,1723,"Babuza Ts82",20,1
-"722",NA,1723,"Badeng",NA,1
-"723",NA,1723,"Baetora",1057,1
-"724",NA,1723,"Baetora (Narovorovo)",1083,1
-"725",NA,1723,"Baetora (Nasawa)",1056,1
-"726",NA,1723,"Baetora (Navenevene)",1081,1
-"727",NA,1723,"Baetora (Tam)",1063,1
-"728",NA,1723,"Bahonsuai",353,1
-"729",NA,1723,"Bajo",313,1
-"730",NA,1723,"Bajo (Anaiwoi)",335,1
-"731",NA,1723,"Bajo (Bajoe)",324,1
-"732",NA,1723,"Bajo (Boepinang)",327,1
-"733",NA,1723,"Bajo (Kaleroang)",329,1
-"734",NA,1723,"Bajo (Kayuadi)",322,1
-"735",NA,1723,"Bajo (Kolo Bawah)",319,1
-"736",NA,1723,"Bajo (Lakaramba)",328,1
-"737",NA,1723,"Bajo (Lakonea)",330,1
-"738",NA,1723,"Bajo (Langara Laut)",332,1
-"739",NA,1723,"Bajo (Lapulu)",333,1
-"740",NA,1723,"Bajo (Lauru)",325,1
-"741",NA,1723,"Bajo (Lemo Bajo)",336,1
-"742",NA,1723,"Bajo (Luwuk)",334,1
-"743",NA,1723,"Bajo (Moramo)",326,1
-"744",NA,1723,"Bajo (Padei Laut)",321,1
-"745",NA,1723,"Bajo (Pitulua)",323,1
-"746",NA,1723,"Baki",990,1
-"747",NA,1723,"Balangaw",112,1
-"748",NA,1723,"Bali-Vitu",761,1
-"749",NA,1723,"Baliledo",NA,1
-"750",NA,1723,"Balinese",257,1
-"751",NA,1723,"Baluan",650,1
-"752",NA,1723,"Banam Bay (Burmbar)",1119,1
-"753",NA,1723,"Banam Bay (Lepaxsivir)",1123,1
-"754",NA,1723,"Banam Bay (Vartavo)",1112,1
-"755",NA,1723,"Banggai (W.dialect)",288,1
-"756",NA,1723,"Banggi",102,1
-"757",NA,1723,"Bangka Malay",263,1
-"758",NA,1723,"Banjarese Malay",276,1
-"759",NA,1723,"Banoni",796,1
-"760",NA,1723,"Bantik",161,1
-"761",NA,1723,"Bantoanon (Banton)",177,1
-"762",NA,1723,"Bare'e",291,1
-"763",NA,1723,"Bariai",587,1
-"764",NA,1723,"Barok",789,1
-"765",NA,1723,"Basay L04",51,1
-"766",NA,1723,"Basay TsYM91",19,1
-"767",NA,1723,"Batak, Palawan",113,1
-"768",NA,1723,"Batangan",71,1
-"769",NA,1723,"Batuley",418,1
-"770",NA,1723,"Bauro (Baroo Village)",741,1
-"771",NA,1723,"Bauro (Haununu)",733,1
-"772",NA,1723,"Bauro (Pawa Village)",740,1
-"773",NA,1723,"Bebeli",603,1
-"774",NA,1723,"Belait",277,1
-"775",NA,1723,"Bellona",1227,1
-"776",NA,1723,"Berawan (Long Terawan)",308,1
-"777",NA,1723,"Besemah",338,1
-"778",NA,1723,"Bierebo (Bonkovia)",993,1
-"779",NA,1723,"Bierebo (Burupika)",984,1
-"780",NA,1723,"Bierebo (Tavio)",1037,1
-"781",NA,1723,"Bierebo (Yevali)",978,1
-"782",NA,1723,"Bieria (Vowa)",989,1
-"783",NA,1723,"Biga (Misool)",507,1
-"784",NA,1723,"Bikol (Bisakol)",186,1
-"785",NA,1723,"Bikol (Buhinon)",178,1
-"786",NA,1723,"Bikol (Naga City)",157,1
-"787",NA,1723,"Bikol (Rinconada)",181,1
-"788",NA,1723,"Bilaan, Koronadal",114,1
-"789",NA,1723,"Bilaan, Sarangani",115,1
-"790",NA,1723,"Bilibil",623,1
-"791",NA,1723,"Bilur",793,1
-"792",NA,1723,"Bima",426,1
-"793",NA,1723,"Bintulu",275,1
-"794",NA,1723,"Binukid",116,1
-"795",NA,1723,"Bipi",645,1
-"796",NA,1723,"Blablanga",826,1
-"797",NA,1723,"Blablanga (Ghove)",825,1
-"798",NA,1723,"Bobot",428,1
-"799",NA,1723,"Bola",753,1
-"800",NA,1723,"Bolaang Mongondow",87,1
-"801",NA,1723,"Bolinao",64,1
-"802",NA,1723,"Bonerate",280,1
-"803",NA,1723,"Bonfia",435,1
-"804",NA,1723,"Bontok, Eastern",168,1
-"805",NA,1723,"Botolan Sambal",65,1
-"806",NA,1723,"Bughotu",699,1
-"807",NA,1723,"Buginese (Soppeng Dialect)",208,1
-"808",NA,1723,"Buhid",72,1
-"809",NA,1723,"Buhutu",516,1
-"810",NA,1723,"Bujan",643,1
-"811",NA,1723,"Bukat",287,1
-"812",NA,1723,"Bulalakawnon",NA,1
-"813",NA,1723,"Buli",508,1
-"814",NA,1723,"Bulu",754,1
-"815",NA,1723,"Buma",837,1
-"816",NA,1723,"Bunama",517,1
-"817",NA,1723,"Bundu Dusun (Central Dusun)",316,1
-"818",NA,1723,"Bungku",354,1
-"819",NA,1723,"Bungku (Landawe)",355,1
-"820",NA,1723,"Bungku (Routa)",356,1
-"821",NA,1723,"Bungku (Torete)",357,1
-"822",NA,1723,"Bungku (Tulambatu)",358,1
-"823",NA,1723,"Bungku (Waia)",359,1
-"824",NA,1723,"Bunun (Iskubun)",NA,1
-"825",NA,1723,"Bunun (Takbanuaz)",NA,1
-"826",NA,1723,"Bunun (Takituduh L04)",NA,1
-"827",NA,1723,"Bunun (Takituduh L88)",25,1
-"828",NA,1723,"Bunun F69, Southern",4,1
-"829",NA,1723,"Buol",163,1
-"830",NA,1723,"Burmbar",1159,1
-"831",NA,1723,"Burmbar (Fartavo)",1141,1
-"832",NA,1723,"Buru [Namrole Bay]",484,1
-"833",NA,1723,"Butmas-Tur (Butmas)",919,1
-"834",NA,1723,"Butmas-Tur (Tur)",921,1
-"835",NA,1723,"Butuanon",158,1
-"836",NA,1723,"Bwatoo",NA,1
-"837",NA,1723,"Caac",NA,1
-"838",NA,1723,"Caluyanun (Semirara)",NA,1
-"839",NA,1723,"camuki",867,1
-"840",NA,1723,"Canala",879,1
-"841",NA,1723,"Capisano",165,1
-"842",NA,1723,"Carolinian",888,1
-"843",NA,1723,"Cebuano",83,1
-"844",NA,1723,"Cemuhî",NA,1
-"845",NA,1723,"Central Masela",458,1
-"846",NA,1723,"Cham, Western",352,1
-"847",NA,1723,"Chamorro",199,1
-"848",NA,1723,"Cheke Holo",771,1
-"849",NA,1723,"Chru",305,1
-"850",NA,1723,"Ciri",868,1
-"851",NA,1723,"Cuyonon",175,1
-"852",NA,1723,"Daa kaka (West Ambrym, Vanuatu)",NA,1
-"853",NA,1723,"Daakaka (Baiap)",1051,1
-"854",NA,1723,"Daakaka (Sesivi)",1058,1
-"855",NA,1723,"Dadu'a",420,1
-"856",NA,1723,"Dai",453,1
-"857",NA,1723,"Dawawa",519,1
-"858",NA,1723,"Dawera-Daweloor",452,1
-"859",NA,1723,"Dayak Bakatiq-Sara/Riok",312,1
-"860",NA,1723,"Dehu",685,1
-"861",NA,1723,"Diodio",563,1
-"862",NA,1723,"Dobel (Koijabi dialect)",416,1
-"863",NA,1723,"Dobu",520,1
-"864",NA,1723,"Dobuan",555,1
-"865",NA,1723,"Dori'o",708,1
-"866",NA,1723,"Dorig",1071,1
-"867",NA,1723,"Doura",568,1
-"868",NA,1723,"Drubea",846,1
-"869",NA,1723,"Dumagat, Casiguran",118,1
-"870",NA,1723,"Dupaningan Agta",182,1
-"871",NA,1723,"Dusun Tuhauon (Tambunan)",340,1
-"872",NA,1723,"East Ambae (Lolovoli)",NA,1
-"873",NA,1723,"East Ambae (Sana)",NA,1
-"874",NA,1723,"East Ambae (Vuindondo)",NA,1
-"875",NA,1723,"East Damar",447,1
-"876",NA,1723,"East Kara (Lemakot)",832,1
-"877",NA,1723,"East Makian",511,1
-"878",NA,1723,"East Masela",457,1
-"879",NA,1723,"East Sumbanese Kambera, Southern dialect",471,1
-"880",NA,1723,"East Sumbanese, Lewa dialect",472,1
-"881",NA,1723,"East Sumbanese, Umbu Ratu Nggai dialect",473,1
-"882",NA,1723,"Eastern Ngad'a",197,1
-"883",NA,1723,"Efate, North (Nguna)",1033,1
-"884",NA,1723,"Efate, North (Pwele)",1004,1
-"885",NA,1723,"Efate, North (Sesake)",1024,1
-"886",NA,1723,"Efate, North (Siviri)",1003,1
-"887",NA,1723,"Efate, North (Woraviu)",1011,1
-"888",NA,1723,"Efate, South (Eratap)",1017,1
-"889",NA,1723,"Elat, Kei Besar",436,1
-"890",NA,1723,"Emae",1207,1
-"891",NA,1723,"Emae (Makatea)",1187,1
-"892",NA,1723,"Emplawas",459,1
-"893",NA,1723,"Ende",485,1
-"894",NA,1723,"Enfitena",676,1
-"895",NA,1723,"Enggano",194,1
-"896",NA,1723,"Enggano (Banjar Sari)",210,1
-"897",NA,1723,"Enggano (Malakoni Village)",209,1
-"898",NA,1723,"Enggano (Meok)",255,1
-"899",NA,1723,"Erai",477,1
-"900",NA,1723,"Espiegel's Bay (Litebral)",1153,1
-"901",NA,1723,"Espiegels' Bay (Shore)",1152,1
-"902",NA,1723,"Eton",1007,1
-"903",NA,1723,"Fagani",705,1
-"904",NA,1723,"Fagani (Agufi)",735,1
-"905",NA,1723,"Fagani (Rihu'a)",725,1
-"906",NA,1723,"Fatakai (Nuaulu)",410,1
-"907",NA,1723,"Fataleka",732,1
-"908",NA,1723,"Favorlang F69",9,1
-"909",NA,1723,"Favorlang OL03",50,1
-"910",NA,1723,"Fifti (Khatbol)",955,1
-"911",NA,1723,"Fijian (Bau)",671,1
-"912",NA,1723,"Fijian (Suva Dialect)",692,1
-"913",NA,1723,"Fila",1190,1
-"914",NA,1723,"Fordata",421,1
-"915",NA,1723,"Fortsenal",1036,1
-"916",NA,1723,"Futuna-Aniwa",1201,1
-"917",NA,1723,"Futuna-Aniwa (Aniwa)",1186,1
-"918",NA,1723,"Futuna-Aniwa (Futuna)",1189,1
-"919",NA,1723,"Futuna, East",1205,1
-"920",NA,1723,"Futuna, West",1220,1
-"921",NA,1723,"Fwâi",NA,1
-"922",NA,1723,"Gabadi",569,1
-"923",NA,1723,"Gaddang",119,1
-"924",NA,1723,"Galolen (Talur)",445,1
-"925",NA,1723,"Gaura Nggaura",468,1
-"926",NA,1723,"Gayo",217,1
-"927",NA,1723,"Gedaged",628,1
-"928",NA,1723,"Geser",493,1
-"929",NA,1723,"Ghanongga",806,1
-"930",NA,1723,"Ghari",750,1
-"931",NA,1723,"Ghari (Ndi)",712,1
-"932",NA,1723,"Ghari (Nggae)",711,1
-"933",NA,1723,"Ghari (Nggeri)",713,1
-"934",NA,1723,"Ghari (Nginia)",715,1
-"935",NA,1723,"Ghari (Tandai)",714,1
-"936",NA,1723,"Ghayavi",523,1
-"937",NA,1723,"Gimán",498,1
-"938",NA,1723,"Gitua",601,1
-"939",NA,1723,"Gorontalo (Hulondalo)",52,1
-"940",NA,1723,"Guiangan (Baguio)",NA,1
-"941",NA,1723,"Guiangan (Sirib)",NA,1
-"942",NA,1723,"Haeke",NA,1
-"943",NA,1723,"Hainan Cham",302,1
-"944",NA,1723,"Haku",783,1
-"945",NA,1723,"Halia (Selau)",827,1
-"946",NA,1723,"Ham",590,1
-"947",NA,1723,"Hamea",NA,1
-"948",NA,1723,"Hanunoo",73,1
-"949",NA,1723,"Hanunóo",78,1
-"950",NA,1723,"Haveke",NA,1
-"951",NA,1723,"Hewa",412,1
-"952",NA,1723,"Hiligaynon",86,1
-"953",NA,1723,"Hitu (Ambon)",486,1
-"954",NA,1723,"Hoanya Ts82",21,1
-"955",NA,1723,"Hoava",812,1
-"956",NA,1723,"Hote (Misim dialect)",605,1
-"957",NA,1723,"Houaïlou",845,1
-"958",NA,1723,"Hula",525,1
-"959",NA,1723,"Hus",640,1
-"960",NA,1723,"Iaai",689,1
-"961",NA,1723,"Iai",680,1
-"962",NA,1723,"Iamalele",526,1
-"963",NA,1723,"Ibaloi",170,1
-"964",NA,1723,"Iban",300,1
-"965",NA,1723,"Ibanag",96,1
-"966",NA,1723,"Ida'an",297,1
-"967",NA,1723,"Iduna",527,1
-"968",NA,1723,"Ifira-Mele (Mele-Fila)",1211,1
-"969",NA,1723,"Ifo (Utaha)",NA,1
-"970",NA,1723,"Ifugao, Amganad",120,1
-"971",NA,1723,"Ifugao, Batad",121,1
-"972",NA,1723,"Ifugao, Bayninan",122,1
-"973",NA,1723,"Ikiti",664,1
-"974",NA,1723,"Ikiyau",665,1
-"975",NA,1723,"Iliun",441,1
-"976",NA,1723,"Ilokano",97,1
-"977",NA,1723,"Ilonggo",156,1
-"978",NA,1723,"Ilongot, Kakiduge:n",123,1
-"979",NA,1723,"Imorod",90,1
-"980",NA,1723,"Imreang",677,1
-"981",NA,1723,"Imroing",461,1
-"982",NA,1723,"Inabaknon",314,1
-"983",NA,1723,"Inati (Hamtic)",NA,1
-"984",NA,1723,"Inati (Jordan, Guimaras)",NA,1
-"985",NA,1723,"Inati (Nagpana)",59,1
-"986",NA,1723,"Indonesian",303,1
-"987",NA,1723,"Inibaloi",124,1
-"988",NA,1723,"Inonhan (Dispoholnon)",NA,1
-"989",NA,1723,"Iranun",154,1
-"990",NA,1723,"Iraralay",88,1
-"991",NA,1723,"Irarutu",500,1
-"992",NA,1723,"Iraya",68,1
-"993",NA,1723,"Isamorong",92,1
-"994",NA,1723,"Isinay (Dupax)",82,1
-"995",NA,1723,"Isneg, Dibagat-Kabugao-Isneg",125,1
-"996",NA,1723,"Itbayat",89,1
-"997",NA,1723,"Itneg, Binongan",127,1
-"998",NA,1723,"Ivasay",91,1
-"999",NA,1723,"Ivatan, Basco Dialect",128,1
-"1000",NA,1723,"Jambi Malay",264,1
-"1001",NA,1723,"Jarai",347,1
-"1002",NA,1723,"Javanese",201,1
-"1003",NA,1723,"Javanese (Malang)",NA,1
-"1004",NA,1723,"Javanese (Yogyakarta)",NA,1
-"1005",NA,1723,"Jiriw",641,1
-"1006",NA,1723,"Kadazan Dusun of Taginambur, Kota Belud, Sabah, Malaysia",400,1
-"1007",NA,1723,"Kadorih",311,1
-"1008",NA,1723,"Kagayanen",188,1
-"1009",NA,1723,"Kahua",703,1
-"1010",NA,1723,"Kahua (Mami)",702,1
-"1011",NA,1723,"Kaidipang",99,1
-"1012",NA,1723,"Kairiru",617,1
-"1013",NA,1723,"Kaisabu",NA,1
-"1014",NA,1723,"Kakiduge:n Ilongot",103,1
-"1015",NA,1723,"Kala",NA,1
-"1016",NA,1723,"Kalagan",129,1
-"1017",NA,1723,"Kalinga (Minangali)",179,1
-"1018",NA,1723,"Kalinga, Guinaang, Lubuagan Dialect",130,1
-"1019",NA,1723,"Kalinga, Limos",167,1
-"1020",NA,1723,"Kalinga, Southern",166,1
-"1021",NA,1723,"Kallahan, Kayapa Proper",132,1
-"1022",NA,1723,"Kallahan, Keleyqiq",133,1
-"1023",NA,1723,"Kamayo",NA,1
-"1024",NA,1723,"Kambera",464,1
-"1025",NA,1723,"Kambowa",401,1
-"1026",NA,1723,"Kanakanabu F69",5,1
-"1027",NA,1723,"Kanakanabu L04",48,1
-"1028",NA,1723,"Kandas",790,1
-"1029",NA,1723,"Kaniet",632,1
-"1030",NA,1723,"Kankanaey",171,1
-"1031",NA,1723,"Kankanay, Northern",134,1
-"1032",NA,1723,"Kapingamarangi",1206,1
-"1033",NA,1723,"Kapone",854,1
-"1034",NA,1723,"Kara (West)",786,1
-"1035",NA,1723,"Karo Batak",235,1
-"1036",NA,1723,"Kasira (Irahutu)",509,1
-"1037",NA,1723,"Katbol",920,1
-"1038",NA,1723,"Katingan",279,1
-"1039",NA,1723,"Kaulong (Au Village)",625,1
-"1040",NA,1723,"Kavalan F69",10,1
-"1041",NA,1723,"Kavalan LTs",24,1
-"1042",NA,1723,"Kayan",NA,1
-"1043",NA,1723,"Kayan (Uma Juman)",296,1
-"1044",NA,1723,"Kayupulau [Kajupulau]",626,1
-"1045",NA,1723,"Kazukuru",818,1
-"1046",NA,1723,"Keapara (Kalo Dialect)",549,1
-"1047",NA,1723,"Keapara (Keapara/Kerepunu Dialect)",551,1
-"1048",NA,1723,"Kédang",439,1
-"1049",NA,1723,"Kei (Tanimbar-Kei)",487,1
-"1050",NA,1723,"Kelabit (Bario)",318,1
-"1051",NA,1723,"Kemak",490,1
-"1052",NA,1723,"Kenyah (Long Anap)",320,1
-"1053",NA,1723,"Kerinci",331,1
-"1054",NA,1723,"Kilokaka (Ysabel)",772,1
-"1055",NA,1723,"Kinaray-a",164,1
-"1056",NA,1723,"Kioko",402,1
-"1057",NA,1723,"Kiribati",897,1
-"1058",NA,1723,"Kis",611,1
-"1059",NA,1723,"Kisar",429,1
-"1060",NA,1723,"Kodeoha",360,1
-"1061",NA,1723,"Kodi",462,1
-"1062",NA,1723,"Koiwai (Irian Jaya)",430,1
-"1063",NA,1723,"Kokota",779,1
-"1064",NA,1723,"Kola",417,1
-"1065",NA,1723,"Koluwawa",529,1
-"1066",NA,1723,"Komering",207,1
-"1067",NA,1723,"Komering (Ilir), Palau Gemantung Village",213,1
-"1068",NA,1723,"Komering (Kayu Agung Asli)",211,1
-"1069",NA,1723,"Komering (Kayu Agung Pendatang)",231,1
-"1070",NA,1723,"Komering (Ulu), Adumanis Village",212,1
-"1071",NA,1723,"Komering (Ulu), Damarpura Village",215,1
-"1072",NA,1723,"Komering (Ulu), Perjaya Village",214,1
-"1073",NA,1723,"Koro",1049,1
-"1074",NA,1723,"Koronadal Blaan",100,1
-"1075",NA,1723,"Koroni",361,1
-"1076",NA,1723,"Koumac",855,1
-"1077",NA,1723,"Kove",613,1
-"1078",NA,1723,"Kubokota",801,1
-"1079",NA,1723,"Kulisusu",362,1
-"1080",NA,1723,"Kumbewaha",NA,1
-"1081",NA,1723,"Kuni",566,1
-"1082",NA,1723,"Kusaghe",807,1
-"1083",NA,1723,"Kusaie",902,1
-"1084",NA,1723,"Kwai",724,1
-"1085",NA,1723,"Kwaio",748,1
-"1086",NA,1723,"Kwamera",690,1
-"1087",NA,1723,"Kwamera (Isiai)",663,1
-"1088",NA,1723,"Kwamera (Port Resolution)",673,1
-"1089",NA,1723,"Kwamera (Yatukwey)",668,1
-"1090",NA,1723,"Kwara'ae (Solomon Islands')",696,1
-"1091",NA,1723,"Label",758,1
-"1092",NA,1723,"Labo (Ninde)",909,1
-"1093",NA,1723,"Labo (Windua)",911,1
-"1094",NA,1723,"Laghu (Samasodu)",815,1
-"1095",NA,1723,"Lahanan",290,1
-"1096",NA,1723,"Lahat (Central Malay)",266,1
-"1097",NA,1723,"Lakalai",775,1
-"1098",NA,1723,"Lakona",1046,1
-"1099",NA,1723,"Lamaholot Ile Mandiri (Flores Timur)",475,1
-"1100",NA,1723,"Lamalera (lembata)",483,1
-"1101",NA,1723,"Lamboya",466,1
-"1102",NA,1723,"Lamenu",1015,1
-"1103",NA,1723,"Lamenu (Filakara)",1028,1
-"1104",NA,1723,"Lamenu (Mapremo)",1008,1
-"1105",NA,1723,"Lamenu (Mate)",1026,1
-"1106",NA,1723,"Lamenu (Nikaura)",998,1
-"1107",NA,1723,"Lamenu (Nul)",1013,1
-"1108",NA,1723,"Lamenu (Nuvi)",995,1
-"1109",NA,1723,"Lamenu (Visina)",979,1
-"1110",NA,1723,"Lamogai (Mulakaino)",627,1
-"1111",NA,1723,"Lampung",202,1
-"1112",NA,1723,"Lampung Api (Belalau)",221,1
-"1113",NA,1723,"Lampung Api (Daya)",216,1
-"1114",NA,1723,"Lampung Api (Jabung)",230,1
-"1115",NA,1723,"Lampung Api (Kalianda)",228,1
-"1116",NA,1723,"Lampung Api (Kota Agung)",223,1
-"1117",NA,1723,"Lampung Api (Krui)",220,1
-"1118",NA,1723,"Lampung Api (Pubian)",227,1
-"1119",NA,1723,"Lampung Api (Ranau)",218,1
-"1120",NA,1723,"Lampung Api (Sukau)",219,1
-"1121",NA,1723,"Lampung Api (Sungkai)",226,1
-"1122",NA,1723,"Lampung Api (Talang Padang)",224,1
-"1123",NA,1723,"Lampung Api (Way Kanan)",222,1
-"1124",NA,1723,"Lampung Api (Way Lima)",225,1
-"1125",NA,1723,"Lampung Nyo (Abung/Kotabumi)",233,1
-"1126",NA,1723,"Lampung Nyo (Abung/Sukadana)",232,1
-"1127",NA,1723,"Lampung Nyo (Melinting)",229,1
-"1128",NA,1723,"Lampung Nyo (Menggala/Tulang Bawang)",234,1
-"1129",NA,1723,"Langalanga",723,1
-"1130",NA,1723,"Lapwangtoai",661,1
-"1131",NA,1723,"Larevat",908,1
-"1132",NA,1723,"Lasalimu",NA,1
-"1133",NA,1723,"Lau",749,1
-"1134",NA,1723,"Lau (North)",747,1
-"1135",NA,1723,"Lau (Walade)",746,1
-"1136",NA,1723,"Lebei",646,1
-"1137",NA,1723,"Lebo' Vo'",270,1
-"1138",NA,1723,"Lehali",1086,1
-"1139",NA,1723,"Leipon",654,1
-"1140",NA,1723,"Lelepa (Pango)",1014,1
-"1141",NA,1723,"Lemerig",NA,1
-"1142",NA,1723,"Lemerig (Bek)",1076,1
-"1143",NA,1723,"Lemerig (Sasar)",1090,1
-"1144",NA,1723,"Lenakel (Lenaukas)",667,1
-"1145",NA,1723,"Lenakel (Lonasilian)",672,1
-"1146",NA,1723,"Lengo",729,1
-"1147",NA,1723,"Lengo (Ghaimuta)",707,1
-"1148",NA,1723,"Lengo (Paripao)",706,1
-"1149",NA,1723,"Lepo' Gah",271,1
-"1150",NA,1723,"Lepo' Laang",272,1
-"1151",NA,1723,"Lepo' Sawa",273,1
-"1152",NA,1723,"Lepo' Tau",274,1
-"1153",NA,1723,"Letemboi",918,1
-"1154",NA,1723,"Letemboi (Aingelemolesa)",942,1
-"1155",NA,1723,"Letemboi (Natingatlang North)",943,1
-"1156",NA,1723,"Letemboi (Nevatanyene)",944,1
-"1157",NA,1723,"Letemboi (Newotenyene)",945,1
-"1158",NA,1723,"Letinese",491,1
-"1159",NA,1723,"Levei",655,1
-"1160",NA,1723,"Lihir (Sunglik)",787,1
-"1161",NA,1723,"Likum",656,1
-"1162",NA,1723,"Lio, Flores Tongah",438,1
-"1163",NA,1723,"Litzlitz",913,1
-"1164",NA,1723,"Lolkasai",NA,1
-"1165",NA,1723,"Lom (Mapurese)",265,1
-"1166",NA,1723,"Longgu",728,1
-"1167",NA,1723,"Loniu",657,1
-"1168",NA,1723,"Lonwolwol",1048,1
-"1169",NA,1723,"Lorediakarkar",910,1
-"1170",NA,1723,"Lou",658,1
-"1171",NA,1723,"Low Malay (1773)",310,1
-"1172",NA,1723,"Löyöp",1069,1
-"1173",NA,1723,"Luang",446,1
-"1174",NA,1723,"Luangiua",1209,1
-"1175",NA,1723,"Lundayeh",343,1
-"1176",NA,1723,"Lunga Lunga  (Minigir)",788,1
-"1177",NA,1723,"Lungga",819,1
-"1178",NA,1723,"Lup",636,1
-"1179",NA,1723,"Luqa",802,1
-"1180",NA,1723,"Lwepe, Santa Cruz",843,1
-"1181",NA,1723,"Ma'anyan",292,1
-"1182",NA,1723,"Madak",785,1
-"1183",NA,1723,"Madak (Lamasong Dial.)",765,1
-"1184",NA,1723,"Madara",782,1
-"1185",NA,1723,"Madurese",236,1
-"1186",NA,1723,"Mae",1122,1
-"1187",NA,1723,"Mae (Orap)",1107,1
-"1188",NA,1723,"Maewo, Central (Peterara)",1061,1
-"1189",NA,1723,"Mafea",1025,1
-"1190",NA,1723,"Magori (South East Papua)",552,1
-"1191",NA,1723,"Maguindanaon",172,1
-"1192",NA,1723,"Maii",1002,1
-"1193",NA,1723,"Makassar",198,1
-"1194",NA,1723,"Malagasy (Sakalava)",260,1
-"1195",NA,1723,"Malagasy (Tanala)",262,1
-"1196",NA,1723,"Malagasy (Tandroy)",261,1
-"1197",NA,1723,"Malalamai",589,1
-"1198",NA,1723,"Malango",716,1
-"1199",NA,1723,"Malasanga",599,1
-"1200",NA,1723,"Malaweg",77,1
-"1201",NA,1723,"Malay",1460,1
-"1202",NA,1723,"Malay (Bahasa Indonesia)",295,1
-"1203",NA,1723,"Maleu",629,1
-"1204",NA,1723,"Malo (North)",996,1
-"1205",NA,1723,"Malo (South)",983,1
-"1206",NA,1723,"Malo, Santa Cruz",842,1
-"1207",NA,1723,"Maloh",239,1
-"1208",NA,1723,"Malua Bay",1116,1
-"1209",NA,1723,"Malua Bay (Marasup)",1157,1
-"1210",NA,1723,"Malua Bay (Petarmul 1)",1139,1
-"1211",NA,1723,"Malua Bay (Petarmul 2)",1154,1
-"1212",NA,1723,"Malua Bay (Petarmur)",1127,1
-"1213",NA,1723,"Malua Bay (TipTir)",1161,1
-"1214",NA,1723,"Mamanwa",135,1
-"1215",NA,1723,"Mambai",431,1
-"1216",NA,1723,"Mamboru",467,1
-"1217",NA,1723,"Manam",610,1
-"1218",NA,1723,"Mandri (Faru) 162-100",NA,1
-"1219",NA,1723,"Mandri (Farun) 162-91",NA,1
-"1220",NA,1723,"Mangap-Mbula",583,1
-"1221",NA,1723,"Manggarai",495,1
-"1222",NA,1723,"Mangseng",586,1
-"1223",NA,1723,"Manide",58,1
-"1224",NA,1723,"Manobo, Ata (down-river)",137,1
-"1225",NA,1723,"Manobo, Ata (up-river)",136,1
-"1226",NA,1723,"Manobo, Dibabawon",138,1
-"1227",NA,1723,"Manobo, Ilianen (Kibudtungan Dialect)",139,1
-"1228",NA,1723,"Manobo, Kalamansig Cotabato (Paril Dialect)",140,1
-"1229",NA,1723,"Manobo, Sarangani, Kayaponga Dialect",141,1
-"1230",NA,1723,"Manobo, Tigwa, Iglogsad Dialect",142,1
-"1231",NA,1723,"Manobo, Western Bukidnon",143,1
-"1232",NA,1723,"Mansaka",144,1
-"1233",NA,1723,"Mapun",315,1
-"1234",NA,1723,"Maragus",912,1
-"1235",NA,1723,"Maranao",187,1
-"1236",NA,1723,"Marau (Guadalcanal)",734,1
-"1237",NA,1723,"Maraxus",959,1
-"1238",NA,1723,"Marinduque Tagalog",185,1
-"1239",NA,1723,"Maringe (Kmagha)",824,1
-"1240",NA,1723,"Maringe (Leleghia)",823,1
-"1241",NA,1723,"Maringe (Tataba)",822,1
-"1242",NA,1723,"Marino",1062,1
-"1243",NA,1723,"Marovo",830,1
-"1244",NA,1723,"Marshallese",895,1
-"1245",NA,1723,"Marshallese (E. Dialect)",883,1
-"1246",NA,1723,"Masbatenyo",183,1
-"1247",NA,1723,"Masiwang",497,1
-"1248",NA,1723,"Maskelynes",1102,1
-"1249",NA,1723,"Mato (Ramuk dialect)",582,1
-"1250",NA,1723,"Matukar",622,1
-"1251",NA,1723,"Maututu",794,1
-"1252",NA,1723,"Mbaelelea",730,1
-"1253",NA,1723,"Mbaengguu",731,1
-"1254",NA,1723,"Mbareke",816,1
-"1255",NA,1723,"Mbirao",722,1
-"1256",NA,1723,"Mbughotu (Dhadhaje)",739,1
-"1257",NA,1723,"Mbunai",649,1
-"1258",NA,1723,"Mbwenelang (Xoli)",NA,1
-"1259",NA,1723,"Megiar",621,1
-"1260",NA,1723,"Mekeo",577,1
-"1261",NA,1723,"Mekeo, East",521,1
-"1262",NA,1723,"Mekeo, North-West",537,1
-"1263",NA,1723,"Melanau (Mukah)",378,1
-"1264",NA,1723,"Melayu",309,1
-"1265",NA,1723,"Melayu Ambon",281,1
-"1266",NA,1723,"Melayu Brunei (Dialect)",298,1
-"1267",NA,1723,"Melayu Sarawak (dialect)",317,1
-"1268",NA,1723,"Mele",1188,1
-"1269",NA,1723,"Mengen",630,1
-"1270",NA,1723,"Mentawai",241,1
-"1271",NA,1723,"Mentawai (Bariulou)",246,1
-"1272",NA,1723,"Mentawai (Boriai)",252,1
-"1273",NA,1723,"Mentawai (Bosua)",247,1
-"1274",NA,1723,"Mentawai (Bulasat)",253,1
-"1275",NA,1723,"Mentawai (Madobat)",243,1
-"1276",NA,1723,"Mentawai (Ngangan Sakalagan)",193,1
-"1277",NA,1723,"Mentawai (Pagai and Sipora)",195,1
-"1278",NA,1723,"Mentawai (Pasapuat)",249,1
-"1279",NA,1723,"Mentawai (Salappa)",244,1
-"1280",NA,1723,"Mentawai (Saumanganya)",251,1
-"1281",NA,1723,"Mentawai (Sikakap)",254,1
-"1282",NA,1723,"Mentawai (Silabu)",250,1
-"1283",NA,1723,"Mentawai (Sioban)",248,1
-"1284",NA,1723,"Mentawai (Ulubaga)",245,1
-"1285",NA,1723,"Meramera",755,1
-"1286",NA,1723,"Merina (Malagasy)",399,1
-"1287",NA,1723,"Minangkabau",282,1
-"1288",NA,1723,"Minaveha",532,1
-"1289",NA,1723,"Mindiri",597,1
-"1290",NA,1723,"Mindoro Tagalog",NA,1
-"1291",NA,1723,"Minyaifuin (Gebe)",512,1
-"1292",NA,1723,"Modang",294,1
-"1293",NA,1723,"Moene<U+1D50>be<U+014B>",856,1
-"1294",NA,1723,"Mokaren",644,1
-"1295",NA,1723,"Moken",242,1
-"1296",NA,1723,"Mokilese",893,1
-"1297",NA,1723,"Moklen",1492,1
-"1298",NA,1723,"Mono",828,1
-"1299",NA,1723,"Mono (Alu)",809,1
-"1300",NA,1723,"Mono (Fauro)",808,1
-"1301",NA,1723,"Moor",513,1
-"1302",NA,1723,"Mor",505,1
-"1303",NA,1723,"Mori",306,1
-"1304",NA,1723,"Mori Atas (Doule)",363,1
-"1305",NA,1723,"Mori Atas (Impo)",364,1
-"1306",NA,1723,"Mori Atas (Kolo-Kolo)",365,1
-"1307",NA,1723,"Mori Atas (Lolonggoio)",366,1
-"1308",NA,1723,"Mori Atas (Molio'A)",367,1
-"1309",NA,1723,"Mori Atas (Molongkuni)",368,1
-"1310",NA,1723,"Mori Atas (Olota)",369,1
-"1311",NA,1723,"Mori Atas (Tambee)",370,1
-"1312",NA,1723,"Mori Atas (Ulu'Uwoi)",371,1
-"1313",NA,1723,"Mori Atas (Wulanderi)",372,1
-"1314",NA,1723,"Mori Bawah (<U+014A>gusumbatu)",382,1
-"1315",NA,1723,"Mori Bawah (Bahano)",373,1
-"1316",NA,1723,"Mori Bawah (Kangua)",374,1
-"1317",NA,1723,"Mori Bawah (Karunsi'E)",375,1
-"1318",NA,1723,"Mori Bawah (Mo'Iki)",376,1
-"1319",NA,1723,"Mori Bawah (Petasia)",377,1
-"1320",NA,1723,"Mori Bawah (Roda)",379,1
-"1321",NA,1723,"Mori Bawah (Soroako)",380,1
-"1322",NA,1723,"Mori Bawah (Tofatu)",403,1
-"1323",NA,1723,"Mori Bawah (Watu)",381,1
-"1324",NA,1723,"Moronene",383,1
-"1325",NA,1723,"Moronene (Mornene)",384,1
-"1326",NA,1723,"Moronene (Tokotu'A)",385,1
-"1327",NA,1723,"Morouas",1012,1
-"1328",NA,1723,"Morouas (Batunlamak)",986,1
-"1329",NA,1723,"Mortlockese",896,1
-"1330",NA,1723,"Mortlockese (Lukunosh)",904,1
-"1331",NA,1723,"Mouk",615,1
-"1332",NA,1723,"Mpotovoro",1103,1
-"1333",NA,1723,"Mumeng (Patep dialect)",585,1
-"1334",NA,1723,"Muna (Katobu-Tongkuno Dialect)",299,1
-"1335",NA,1723,"Murnaten (Alune)",494,1
-"1336",NA,1723,"Musau",196,1
-"1337",NA,1723,"Mussau",238,1
-"1338",NA,1723,"Mutu",600,1
-"1339",NA,1723,"Mwerlap (Merig)",1045,1
-"1340",NA,1723,"Mwerlap (Merlav)",1067,1
-"1341",NA,1723,"Mwerlap (of N. Maewo)",NA,1
-"1342",NA,1723,"N<U+025B>mi",859,1
-"1343",NA,1723,"Na'ahai (Mbatambang) 162-83",1168,1
-"1344",NA,1723,"Na'ahai (Mbatvanui) 162-85",1166,1
-"1345",NA,1723,"Na'ahai (Toman Island) 162-82",1172,1
-"1346",NA,1723,"Na'axai (Malfaxal) 162-84",1170,1
-"1347",NA,1723,"Na:ti (Windua)",938,1
-"1348",NA,1723,"Naga Bikol",54,1
-"1349",NA,1723,"Nage",476,1
-"1350",NA,1723,"Naha'ai",1117,1
-"1351",NA,1723,"Nahavaq",1183,1
-"1352",NA,1723,"Nahavaq (Caroline Bay)",1128,1
-"1353",NA,1723,"Nahavaq (Lembinwen)",1109,1
-"1354",NA,1723,"Nahavaq (Lembinwin)",1130,1
-"1355",NA,1723,"Najit",NA,1
-"1356",NA,1723,"Nakanai (Bileki Dialect)",766,1
-"1357",NA,1723,"Namakir",1042,1
-"1358",NA,1723,"Namakura (Bongabonga)",1022,1
-"1359",NA,1723,"Namakura (Makura)",992,1
-"1360",NA,1723,"Namakura (Mataso)",1001,1
-"1361",NA,1723,"Namakura (Tongariki)",1009,1
-"1362",NA,1723,"Naman",972,1
-"1363",NA,1723,"Naman (Litzlitz)",958,1
-"1364",NA,1723,"Nanggu",841,1
-"1365",NA,1723,"Nanumea",1235,1
-"1366",NA,1723,"Narango",1032,1
-"1367",NA,1723,"Narango (Nambel)",997,1
-"1368",NA,1723,"Nasal",NA,1
-"1369",NA,1723,"Nasarian (Wileven tu)",946,1
-"1370",NA,1723,"Nasvang (Farun - children) 162-96",968,1
-"1371",NA,1723,"Nasvang (Farun) 162-90",967,1
-"1372",NA,1723,"Nasvang (Farun) 162-93",965,1
-"1373",NA,1723,"Nasvang (Farun) 162-95a",969,1
-"1374",NA,1723,"Natangan (Farun) 162-95b",966,1
-"1375",NA,1723,"Natangan (Mbonvor) 162-86",964,1
-"1376",NA,1723,"Nati",1185,1
-"1377",NA,1723,"Naueti",422,1
-"1378",NA,1723,"Nauna",659,1
-"1379",NA,1723,"Nauru",905,1
-"1380",NA,1723,"Navut",1020,1
-"1381",NA,1723,"Navut (Matae)",1018,1
-"1382",NA,1723,"Navwien 162-87",NA,1
-"1383",NA,1723,"nDe’u",683,1
-"1384",NA,1723,"nDu<U+1D50>bea",852,1
-"1385",NA,1723,"Nduke",804,1
-"1386",NA,1723,"Ne<U+014B>one",682,1
-"1387",NA,1723,"Nehan",798,1
-"1388",NA,1723,"Nehan Hape",831,1
-"1389",NA,1723,"Neku",857,1
-"1390",NA,1723,"Nêlêmwa",881,1
-"1391",NA,1723,"Nembao",834,1
-"1392",NA,1723,"Nemi (East cost area)",NA,1
-"1393",NA,1723,"Nemi (Temala area)",NA,1
-"1394",NA,1723,"Nenaya",595,1
-"1395",NA,1723,"Nenema",858,1
-"1396",NA,1723,"Nengone",693,1
-"1397",NA,1723,"Nese",1184,1
-"1398",NA,1723,"Nese (Matanvat)",NA,1
-"1399",NA,1723,"Neverver",923,1
-"1400",NA,1723,"Neverver (Lingarak - Mindu)",951,1
-"1401",NA,1723,"Neverver (Lingarak - Sakan)",952,1
-"1402",NA,1723,"Ngadha",406,1
-"1403",NA,1723,"Ngaibor (S.Aru)",407,1
-"1404",NA,1723,"Nggao (Poro)",817,1
-"1405",NA,1723,"Nggela",694,1
-"1406",NA,1723,"Ngorek",NA,1
-"1407",NA,1723,"Nguna",988,1
-"1408",NA,1723,"Nias",190,1
-"1409",NA,1723,"Nila",450,1
-"1410",NA,1723,"Nimoa",576,1
-"1411",NA,1723,"Ninde (Labo)",931,1
-"1412",NA,1723,"Ninde (Lawa)",929,1
-"1413",NA,1723,"Ninde (Lorlo)",930,1
-"1414",NA,1723,"Ninde (Opmomba)",928,1
-"1415",NA,1723,"Ninde (Windua)",932,1
-"1416",NA,1723,"Ninigo",633,1
-"1417",NA,1723,"Nissan",751,1
-"1418",NA,1723,"Nisvai (Blacksands)",962,1
-"1419",NA,1723,"Nitita (Khatbol)",956,1
-"1420",NA,1723,"Niuafo'ou",1232,1
-"1421",NA,1723,"Niue",1216,1
-"1422",NA,1723,"Njada",637,1
-"1423",NA,1723,"Nokuku",1035,1
-"1424",NA,1723,"Nombotkote (Blacksands)",940,1
-"1425",NA,1723,"Nombotkote (Melaklak (Melkin))",941,1
-"1426",NA,1723,"Nombotkote (Usus - Melkin)",939,1
-"1427",NA,1723,"North Ambae (Havai)",NA,1
-"1428",NA,1723,"North Ambae (Leo)",NA,1
-"1429",NA,1723,"North Ambae (Leonda)",NA,1
-"1430",NA,1723,"North Babar",454,1
-"1431",NA,1723,"Novol (Bangir)",NA,1
-"1432",NA,1723,"Novol (Melaklak)",950,1
-"1433",NA,1723,"Nuguria",1234,1
-"1434",NA,1723,"Nukeria",1193,1
-"1435",NA,1723,"Nukuoro",1230,1
-"1436",NA,1723,"Numbami (Siboma)",612,1
-"1437",NA,1723,"Nume",1088,1
-"1438",NA,1723,"Numèè (Nââ Numèè)",NA,1
-"1439",NA,1723,"Numfor",499,1
-"1440",NA,1723,"Nyelâyu",844,1
-"1441",NA,1723,"Nyelâyu (Belep Dialect)",847,1
-"1442",NA,1723,"Nyindrou",651,1
-"1443",NA,1723,"Ogan",258,1
-"1444",NA,1723,"Old Javanese",206,1
-"1445",NA,1723,"Old Rapa (Rapa)",1195,1
-"1446",NA,1723,"Old/Middle Javanese",NA,1
-"1447",NA,1723,"Orkon",1094,1
-"1448",NA,1723,"Oroha",726,1
-"1449",NA,1723,"Paama (Faulili)",1054,1
-"1450",NA,1723,"Paama (Laul)",1079,1
-"1451",NA,1723,"Paama (Lironesa)",1043,1
-"1452",NA,1723,"Paamese (South)",1060,1
-"1453",NA,1723,"Padoe",386,1
-"1454",NA,1723,"Paicî",NA,1
-"1455",NA,1723,"Paiwan (Butanglu L04)",34,1
-"1456",NA,1723,"Paiwan (Kulalao F82)",3,1
-"1457",NA,1723,"Paiwan (Stimul L04)",35,1
-"1458",NA,1723,"Paiwan (Tjatjigel Egli)",1,1
-"1459",NA,1723,"Paiwan (Tjubar L04)",36,1
-"1460",NA,1723,"Pak",648,1
-"1461",NA,1723,"Palauan",191,1
-"1462",NA,1723,"Palawan Batak",94,1
-"1463",NA,1723,"Palembang Malay",NA,1
-"1464",NA,1723,"Palu'e (Nitung)",489,1
-"1465",NA,1723,"Pangasinan",108,1
-"1466",NA,1723,"Pangkumu (Datisman)",1132,1
-"1467",NA,1723,"Pangkumu (Ndarmif)",1131,1
-"1468",NA,1723,"Papitalai",660,1
-"1469",NA,1723,"Papora Ts82",22,1
-"1470",NA,1723,"Paser",267,1
-"1471",NA,1723,"Pat<U+032A>i",860,1
-"1472",NA,1723,"Patpatar",767,1
-"1473",NA,1723,"Paulohi",408,1
-"1474",NA,1723,"Pazih F69",11,1
-"1475",NA,1723,"Pazih LTs (Auran)",30,1
-"1476",NA,1723,"Perai",443,1
-"1477",NA,1723,"Peterara (Maewo)",1066,1
-"1478",NA,1723,"Phan Rang Cham (Eastern Cham)",304,1
-"1479",NA,1723,"Piamatsina",991,1
-"1480",NA,1723,"Pije (mountain)",NA,1
-"1481",NA,1723,"Pije (Ocean)",NA,1
-"1482",NA,1723,"Pinje",861,1
-"1483",NA,1723,"Pitilu",642,1
-"1484",NA,1723,"Piva",829,1
-"1485",NA,1723,"Poai",862,1
-"1486",NA,1723,"Poamei",863,1
-"1487",NA,1723,"Poapoã",864,1
-"1488",NA,1723,"Polonombauk",924,1
-"1489",NA,1723,"Ponam",638,1
-"1490",NA,1723,"Ponapean",886,1
-"1491",NA,1723,"Pondok",NA,1
-"1492",NA,1723,"Ponosakan",56,1
-"1493",NA,1723,"Popalia",259,1
-"1494",NA,1723,"Port Sandwich",1113,1
-"1495",NA,1723,"Port Sandwich (Lamap 1)",1160,1
-"1496",NA,1723,"Port Sandwich (Lamap 2",1164,1
-"1497",NA,1723,"Port Vato",1070,1
-"1498",NA,1723,"Proto-Atayalic",NA,1
-"1499",NA,1723,"Proto-Batanic",NA,1
-"1500",NA,1723,"Proto-Bisayan",NA,1
-"1501",NA,1723,"Proto-Bungku-Tolaki",NA,1
-"1502",NA,1723,"Proto-Central Eastern Malayo Polynesian",NA,1
-"1503",NA,1723,"Proto-Central Luzon",NA,1
-"1504",NA,1723,"Proto-Central Malayo Polynesian",NA,1
-"1505",NA,1723,"Proto-Central Pacific",NA,1
-"1506",NA,1723,"Proto-Chamic",NA,1
-"1507",NA,1723,"Proto-Chuukic",NA,1
-"1508",NA,1723,"Proto-Danaw",NA,1
-"1509",NA,1723,"Proto-East Mindanao",NA,1
-"1510",NA,1723,"Proto-Gorontalo-Mongondow",NA,1
-"1511",NA,1723,"Proto-Greater Central Philippines",NA,1
-"1512",NA,1723,"Proto-Kalamianic",NA,1
-"1513",NA,1723,"Proto-Kimbe",NA,1
-"1514",NA,1723,"Proto-Lampungic",NA,1
-"1515",NA,1723,"Proto-Malayic",NA,1
-"1516",NA,1723,"Proto-Malayo-Polynesian",NA,1
-"1517",NA,1723,"Proto-Malayo-Polynesian (Zorc)",NA,1
-"1518",NA,1723,"Proto-Manide-Alabat",NA,1
-"1519",NA,1723,"Proto-Manobo",NA,1
-"1520",NA,1723,"Proto-Micronesian",NA,1
-"1521",NA,1723,"Proto-Minahasan",NA,1
-"1522",NA,1723,"Proto-Moken-Moklen",NA,1
-"1523",NA,1723,"Proto-Oceanic (Blust)",NA,1
-"1524",NA,1723,"Proto-Oceanic (Pawley)",NA,1
-"1525",NA,1723,"Proto-Palawan",NA,1
-"1526",NA,1723,"Proto-Philippine",NA,1
-"1527",NA,1723,"Proto-Polynesian",NA,1
-"1528",NA,1723,"Proto-Puyuma",27,1
-"1529",NA,1723,"Proto-Rukai",NA,1
-"1530",NA,1723,"Proto-Sama-Bajaw",NA,1
-"1531",NA,1723,"Proto-Sangiric",NA,1
-"1532",NA,1723,"Proto-Seko",NA,1
-"1533",NA,1723,"Proto-South Sulawesi",NA,1
-"1534",NA,1723,"Proto-Southern Mindanaon",NA,1
-"1535",NA,1723,"Proto-Subanen",NA,1
-"1536",NA,1723,"Proto-Sumba-Hawu",NA,1
-"1537",NA,1723,"Proto-Tsouic",28,1
-"1538",NA,1723,"Proto Central Papuan",NA,1
-"1539",NA,1723,"Proto Kenyah",NA,1
-"1540",NA,1723,"Proto Malagasy",NA,1
-"1541",NA,1723,"Proto North Mainland/D'Entrecasteaux",NA,1
-"1542",NA,1723,"Proto North Sarawak",NA,1
-"1543",NA,1723,"Proto Northern Central Vanuatu",NA,1
-"1544",NA,1723,"Proto Papuan Tip",NA,1
-"1545",NA,1723,"Proto Siraya",NA,1
-"1546",NA,1723,"Proto Suauic",NA,1
-"1547",NA,1723,"Pukapuka",1199,1
-"1548",NA,1723,"Pulau (Arguni)",432,1
-"1549",NA,1723,"Pulo-Annan",890,1
-"1550",NA,1723,"Pulo Anna",884,1
-"1551",NA,1723,"Puluwatese",889,1
-"1552",NA,1723,"Punan Kelai",283,1
-"1553",NA,1723,"Puyuma (Chihpen F69)",12,1
-"1554",NA,1723,"Puyuma (Katipul L04)",NA,1
-"1555",NA,1723,"Puyuma (Lower Pinlang L04)",NA,1
-"1556",NA,1723,"Puyuma (Nanwang Cq)",29,1
-"1557",NA,1723,"Puyuma (Pilam L04)",NA,1
-"1558",NA,1723,"Pwapwâ - mBoyen",NA,1
-"1559",NA,1723,"Ramoaaina",759,1
-"1560",NA,1723,"Rano (Chinambong)",1147,1
-"1561",NA,1723,"Rano (Potora)",1149,1
-"1562",NA,1723,"Rano (Small Island)",1148,1
-"1563",NA,1723,"Rapa",1233,1
-"1564",NA,1723,"Rapanui (Easter Island)",1221,1
-"1565",NA,1723,"Ratagnon",74,1
-"1566",NA,1723,"Rawo",736,1
-"1567",NA,1723,"Rejang Rejang",192,1
-"1568",NA,1723,"Rennellese",1204,1
-"1569",NA,1723,"Repanbitipmbangir",915,1
-"1570",NA,1723,"Rerep",1121,1
-"1571",NA,1723,"Rhade",346,1
-"1572",NA,1723,"Ririo",768,1
-"1573",NA,1723,"Riwo",NA,1
-"1574",NA,1723,"Roglai, Northern",348,1
-"1575",NA,1723,"Roinji",594,1
-"1576",NA,1723,"Roma",474,1
-"1577",NA,1723,"Romblon",174,1
-"1578",NA,1723,"Roon",503,1
-"1579",NA,1723,"Roria",977,1
-"1580",NA,1723,"Roti (Termanu Dialect)",409,1
-"1581",NA,1723,"Rotuman",679,1
-"1582",NA,1723,"Roviana",752,1
-"1583",NA,1723,"Rukai (Budai F69)",13,1
-"1584",NA,1723,"Rukai (Budai L04)",38,1
-"1585",NA,1723,"Rukai (Maga L04)",39,1
-"1586",NA,1723,"Rukai (Mantauran L04)",41,1
-"1587",NA,1723,"Rukai (Tanan L04)",37,1
-"1588",NA,1723,"Rukai (Tona)",40,1
-"1589",NA,1723,"S.W. Palawano",159,1
-"1590",NA,1723,"Sa",1087,1
-"1591",NA,1723,"Sa'a",697,1
-"1592",NA,1723,"Sa'a (A'ulu Village)",738,1
-"1593",NA,1723,"Sa'a (Sa'a Village)",737,1
-"1594",NA,1723,"Sa'a (Uki Ni Masi)",710,1
-"1595",NA,1723,"Sa'a (Ulawa)",709,1
-"1596",NA,1723,"Sa (Bunlap)",NA,1
-"1597",NA,1723,"Sa (F Yantas)",NA,1
-"1598",NA,1723,"Sa (Ha)",NA,1
-"1599",NA,1723,"Sa (south-eastern dialect)",1098,1
-"1600",NA,1723,"Saaroa F69",14,1
-"1601",NA,1723,"Saaroa L04",49,1
-"1602",NA,1723,"Saipan Carolinian",891,1
-"1603",NA,1723,"Saipan Carolinian Tanapag",892,1
-"1604",NA,1723,"Saisiyat F69",15,1
-"1605",NA,1723,"Saisiyat L04 (Ta'ai)",NA,1
-"1606",NA,1723,"Saisiyat L04 (Tungho)",NA,1
-"1607",NA,1723,"Sakao",922,1
-"1608",NA,1723,"Sakao (Port-Olry)",970,1
-"1609",NA,1723,"Sakizaya",NA,1
-"1610",NA,1723,"Salang (Dixon Reef)",937,1
-"1611",NA,1723,"Sama (Pangutaran)",345,1
-"1612",NA,1723,"Sama (Sibutu)",344,1
-"1613",NA,1723,"Samal, Siasi Dialect",307,1
-"1614",NA,1723,"Samar-Leyte",184,1
-"1615",NA,1723,"Sambal",67,1
-"1616",NA,1723,"Sambal, Botolan",145,1
-"1617",NA,1723,"Samoan",1191,1
-"1618",NA,1723,"Sangil, Saragani Islands",146,1
-"1619",NA,1723,"Sangir",85,1
-"1620",NA,1723,"Sangir, Tabukang Dialect",147,1
-"1621",NA,1723,"Santa Ana",695,1
-"1622",NA,1723,"Santa Catalina",727,1
-"1623",NA,1723,"Sarangani Blaan",101,1
-"1624",NA,1723,"Sasak",284,1
-"1625",NA,1723,"Satawalese",894,1
-"1626",NA,1723,"Savu",411,1
-"1627",NA,1723,"Savu (1773)",482,1
-"1628",NA,1723,"Seediq F69 (Sakura)",16,1
-"1629",NA,1723,"Seediq L04 (Hecuo)",45,1
-"1630",NA,1723,"Seediq L04 (Paran)",43,1
-"1631",NA,1723,"Seediq L04 (Toda)",44,1
-"1632",NA,1723,"Seediq L04 (Truku)",46,1
-"1633",NA,1723,"Seimat",631,1
-"1634",NA,1723,"Sekar",433,1
-"1635",NA,1723,"Seke",1050,1
-"1636",NA,1723,"Selaru",413,1
-"1637",NA,1723,"Sengga",821,1
-"1638",NA,1723,"Sengseng",579,1
-"1639",NA,1723,"Serili",456,1
-"1640",NA,1723,"Serua",449,1
-"1641",NA,1723,"Si<U+014B>orakai",591,1
-"1642",NA,1723,"Siar",778,1
-"1643",NA,1723,"Sie",662,1
-"1644",NA,1723,"Sika",414,1
-"1645",NA,1723,"Sikaiana",1212,1
-"1646",NA,1723,"Simbo",799,1
-"1647",NA,1723,"Simeulue",256,1
-"1648",NA,1723,"Sinaugoro (Balawaia Dialect)",515,1
-"1649",NA,1723,"Sinaugoro (Saroa Dialect)",540,1
-"1650",NA,1723,"Sinauna",173,1
-"1651",NA,1723,"Singhi",268,1
-"1652",NA,1723,"Sio",598,1
-"1653",NA,1723,"Siraya A",NA,1
-"1654",NA,1723,"Siraya F69",17,1
-"1655",NA,1723,"Siraya Gospel dialect",NA,1
-"1656",NA,1723,"Siraya UM (Utrecht Manuscript) dialect",NA,1
-"1657",NA,1723,"Sirehë",865,1
-"1658",NA,1723,"Sishëë",NA,1
-"1659",NA,1723,"Sisingga",777,1
-"1660",NA,1723,"Sissano (Arop dialect)",606,1
-"1661",NA,1723,"Sivisa Titan",653,1
-"1662",NA,1723,"Siviti (Beterbu, Jericho)",NA,1
-"1663",NA,1723,"Siviti (Womol)",NA,1
-"1664",NA,1723,"Ske (Seke)",1100,1
-"1665",NA,1723,"So'a",470,1
-"1666",NA,1723,"Sobei",580,1
-"1667",NA,1723,"Soboyo",415,1
-"1668",NA,1723,"Sogodnin (Boracay)",75,1
-"1669",NA,1723,"Sogodnin (Iloilo)",76,1
-"1670",NA,1723,"Solos",795,1
-"1671",NA,1723,"Sonsorolese",901,1
-"1672",NA,1723,"Sori",635,1
-"1673",NA,1723,"Sou Amana Teru",479,1
-"1674",NA,1723,"South-East Babar",455,1
-"1675",NA,1723,"South Ambae (Biribiri)",NA,1
-"1676",NA,1723,"South Ambae (Lolovele)",NA,1
-"1677",NA,1723,"South Ambae (Sakao)",NA,1
-"1678",NA,1723,"South Efate",1039,1
-"1679",NA,1723,"ßatarxobu (Benut)",NA,1
-"1680",NA,1723,"ßatarxobu (Gunwar)",NA,1
-"1681",NA,1723,"ßatarxobu (Limsak)",NA,1
-"1682",NA,1723,"ßatarxobu (Lipitav)",NA,1
-"1683",NA,1723,"Subanon, Siocon",149,1
-"1684",NA,1723,"Subanun, Sindangan",148,1
-"1685",NA,1723,"Sumbawa",341,1
-"1686",NA,1723,"Sundanese",205,1
-"1687",NA,1723,"Sungagage (Asanvari)",NA,1
-"1688",NA,1723,"Sungagage (Avanbatai)",NA,1
-"1689",NA,1723,"Sungagage (Avavanvae)",NA,1
-"1690",NA,1723,"Sungwada (Ngota)",NA,1
-"1691",NA,1723,"Sungwadaga (Lalaundi)",NA,1
-"1692",NA,1723,"Sungwadaga (Ro<U+014B>nawo)",NA,1
-"1693",NA,1723,"Sungwadia (Marino)",NA,1
-"1694",NA,1723,"Sungwadia (Naomumu)",NA,1
-"1695",NA,1723,"Sungwadia (Naone)",NA,1
-"1696",NA,1723,"Sungwadia (Tasmaor)",NA,1
-"1697",NA,1723,"Sungwadia (Uta)",NA,1
-"1698",NA,1723,"Sungwadoga (Rata)",NA,1
-"1699",NA,1723,"Sungwadola (G<U+02B7>aaran Uta)",NA,1
-"1700",NA,1723,"Sungwaloge (Nalemba) as spoken at Narovorovo)",NA,1
-"1701",NA,1723,"Sungwaloge (Nalemba) as spoken at Nasawa",NA,1
-"1702",NA,1723,"Sungwaloge (Tawet) as spoken at Narovorovo",NA,1
-"1703",NA,1723,"Sungwaloge (Tawet) as spoken at Naviso",NA,1
-"1704",NA,1723,"Surigaonon",155,1
-"1705",NA,1723,"Sursurunga",760,1
-"1706",NA,1723,"Sye (Erromangan)",687,1
-"1707",NA,1723,"Taba",510,1
-"1708",NA,1723,"Tabar",756,1
-"1709",NA,1723,"Tadyawan",70,1
-"1710",NA,1723,"Tae' (S.Toraja)",203,1
-"1711",NA,1723,"Tagabili",150,1
-"1712",NA,1723,"Tagalog (Anthony dela Paz)",109,1
-"1713",NA,1723,"Tagbanwa, Aborlan Dialect",151,1
-"1714",NA,1723,"Tagbanwa, Kalamian, Coron Island Dialect",152,1
-"1715",NA,1723,"Taiof",773,1
-"1716",NA,1723,"Takuu",1213,1
-"1717",NA,1723,"Talise",721,1
-"1718",NA,1723,"Talise (Koo)",717,1
-"1719",NA,1723,"Talise (Malagheti)",718,1
-"1720",NA,1723,"Talise (Moli)",719,1
-"1721",NA,1723,"Talise (Poleo)",720,1
-"1722",NA,1723,"Taloki",387,1
-"1723",NA,1723,"Tambotalo",1006,1
-"1724",NA,1723,"Tami",584,1
-"1725",NA,1723,"Tandaganon (Naturalis)",NA,1
-"1726",NA,1723,"Tanema",839,1
-"1727",NA,1723,"Tangga",757,1
-"1728",NA,1723,"Tangga (Feni)",NA,1
-"1729",NA,1723,"Tangoa",987,1
-"1730",NA,1723,"Tanimbili",836,1
-"1731",NA,1723,"Tanna, North",669,1
-"1732",NA,1723,"Tanna, Southwest",686,1
-"1733",NA,1723,"Taokas Ts82",23,1
-"1734",NA,1723,"Tape",973,1
-"1735",NA,1723,"Tape (Tautu)",957,1
-"1736",NA,1723,"Tarangan Barat (Feruni)",488,1
-"1737",NA,1723,"Tarpia",581,1
-"1738",NA,1723,"Tasmate",1016,1
-"1739",NA,1723,"Tausug, Jolo Dialect",153,1
-"1740",NA,1723,"Tawaroga",704,1
-"1741",NA,1723,"Tboli (Tagabili)",79,1
-"1742",NA,1723,"Teanu",833,1
-"1743",NA,1723,"Tela-Masbuar",460,1
-"1744",NA,1723,"Tengger (Ngadas)",NA,1
-"1745",NA,1723,"Teop",769,1
-"1746",NA,1723,"Ternate (Pasar-Lingua franca)",339,1
-"1747",NA,1723,"Tesmbol (Melaklak)",NA,1
-"1748",NA,1723,"Tesmbol (Usus)",NA,1
-"1749",NA,1723,"Tetun Fehan",423,1
-"1750",NA,1723,"Tetun Terik (Fehan dialect)",480,1
-"1751",NA,1723,"Teun",448,1
-"1752",NA,1723,"Thao B96",6,1
-"1753",NA,1723,"Tiale",1021,1
-"1754",NA,1723,"Tiang",792,1
-"1755",NA,1723,"Tigak",762,1
-"1756",NA,1723,"Tikopia",1200,1
-"1757",NA,1723,"Timbembe",917,1
-"1758",NA,1723,"Timugon (Murut)",293,1
-"1759",NA,1723,"Tirax (Bakru)",1140,1
-"1760",NA,1723,"Tirax (Mae A)",1156,1
-"1761",NA,1723,"Tirax (Mae B)",1158,1
-"1762",NA,1723,"Tirax (Olamb)",1143,1
-"1763",NA,1723,"Tîrî (Tsîrî - Tintin)",NA,1
-"1764",NA,1723,"Tiruray",176,1
-"1765",NA,1723,"To'ambaita",698,1
-"1766",NA,1723,"Toba Batak",200,1
-"1767",NA,1723,"Tobati",NA,1
-"1768",NA,1723,"Toga",1082,1
-"1769",NA,1723,"Tokelau",1214,1
-"1770",NA,1723,"Tokodede",424,1
-"1771",NA,1723,"Tolai",784,1
-"1772",NA,1723,"Tolaki",342,1
-"1773",NA,1723,"Tolaki (Asera)",388,1
-"1774",NA,1723,"Tolaki (Konawe)",389,1
-"1775",NA,1723,"Tolaki (Laiwui)",390,1
-"1776",NA,1723,"Tolaki (Mekongga)",391,1
-"1777",NA,1723,"Tolaki (Wiwirano)",392,1
-"1778",NA,1723,"Tolo",700,1
-"1779",NA,1723,"Tolomako",1031,1
-"1780",NA,1723,"Tomadino",393,1
-"1781",NA,1723,"Tomini (Tialo)",350,1
-"1782",NA,1723,"Tongan",1198,1
-"1783",NA,1723,"Tonsea",160,1
-"1784",NA,1723,"Tontemboan",80,1
-"1785",NA,1723,"Torau",791,1
-"1786",NA,1723,"Totoli",349,1
-"1787",NA,1723,"Tsou (Duhtu L04)",47,1
-"1788",NA,1723,"Tsou T63",2,1
-"1789",NA,1723,"Tubetube",545,1
-"1790",NA,1723,"Tugun",442,1
-"1791",NA,1723,"Tulu",647,1
-"1792",NA,1723,"Tungag / Tungak / Lavongai",776,1
-"1793",NA,1723,"Tunjung",285,1
-"1794",NA,1723,"Tutuba",981,1
-"1795",NA,1723,"Tuvalu",1202,1
-"1796",NA,1723,"Ubir",558,1
-"1797",NA,1723,"Ughele",803,1
-"1798",NA,1723,"Ujir (N.Aru)",434,1
-"1799",NA,1723,"Ujir (Schapper)",419,1
-"1800",NA,1723,"Ulithian",882,1
-"1801",NA,1723,"Uliveo (Lurtes) 162-107",1176,1
-"1802",NA,1723,"Uliveo (Palongk) 162-103",1179,1
-"1803",NA,1723,"Uliveo (Palongk) 162-104",1171,1
-"1804",NA,1723,"Uliveo (Pescaros) 162-106",1178,1
-"1805",NA,1723,"Uliveo (Peskaros) 162-105",1181,1
-"1806",NA,1723,"Uma' Pawe",NA,1
-"1807",NA,1723,"Uma (Kantewu dialect)",405,1
-"1808",NA,1723,"Umiray Dumaget",60,1
-"1809",NA,1723,"Unua",1110,1
-"1810",NA,1723,"Unua (Mbatumbo)",1134,1
-"1811",NA,1723,"Unua (Noferai)",1133,1
-"1812",NA,1723,"Urak Lawoi'",351,1
-"1813",NA,1723,"Uripiv-Wala-Rano-Atchin (Atchin)",1118,1
-"1814",NA,1723,"Uripiv-Wala-Rano-Atchin (Pinalum)",1125,1
-"1815",NA,1723,"Uripiv-Wala-Rano-Atchin (Rano)",1105,1
-"1816",NA,1723,"Uripiv-Wala-Rano-Atchin (Tautu)",1108,1
-"1817",NA,1723,"Uripiv-Wala-Rano-Atchin (Uri)",1111,1
-"1818",NA,1723,"Uripiv-Wala-Rano-Atchin (Uripiv)",1104,1
-"1819",NA,1723,"Uripiv-Wala-Rano-Atchin (Wala)",1120,1
-"1820",NA,1723,"Uripiv (D'urpif 1)",1142,1
-"1821",NA,1723,"Uripiv (D'urpif 2",1144,1
-"1822",NA,1723,"Uripiv (Potnambwe)",1151,1
-"1823",NA,1723,"Uruava",800,1
-"1824",NA,1723,"Utudnon",NA,1
-"1825",NA,1723,"Uvea, East",1218,1
-"1826",NA,1723,"Uvea, West",1219,1
-"1827",NA,1723,"V'ënen Taut (Leviamp)",926,1
-"1828",NA,1723,"V'ënen Taut (Unmet)",925,1
-"1829",NA,1723,"Vaeakau-Taumako",1222,1
-"1830",NA,1723,"Vaghua",763,1
-"1831",NA,1723,"Valpei",1029,1
-"1832",NA,1723,"Valpei (Hukua)",1030,1
-"1833",NA,1723,"Vangunu",810,1
-"1834",NA,1723,"Vano",838,1
-"1835",NA,1723,"Vao",1101,1
-"1836",NA,1723,"Vao (Beetehul)",1165,1
-"1837",NA,1723,"Vao (Peteri)",1150,1
-"1838",NA,1723,"Vao (Torono)",1136,1
-"1839",NA,1723,"Varisi",770,1
-"1840",NA,1723,"Varisi (Ghone)",813,1
-"1841",NA,1723,"Venen Taute (Alpalak)",963,1
-"1842",NA,1723,"Venen Taute (Hamax)",961,1
-"1843",NA,1723,"Venen Taute (Unmet)",960,1
-"1844",NA,1723,"Vera'a (Vatrata)",1059,1
-"1845",NA,1723,"Vilirupu",564,1
-"1846",NA,1723,"Vitu",764,1
-"1847",NA,1723,"Vovo",NA,1
-"1848",NA,1723,"Vunapu",982,1
-"1849",NA,1723,"Vurës (Mosina)",1055,1
-"1850",NA,1723,"Vurës (Vetumboso)",1065,1
-"1851",NA,1723,"Wab",592,1
-"1852",NA,1723,"Wailapa",1019,1
-"1853",NA,1723,"Waima'a",425,1
-"1854",NA,1723,"Wakole dialect of Kumbewaha",NA,1
-"1855",NA,1723,"Wala (Botku)",1145,1
-"1856",NA,1723,"Wala (Worprev A)",1146,1
-"1857",NA,1723,"Wala (Worprev B)",1163,1
-"1858",NA,1723,"Wamoa<U+014B>",866,1
-"1859",NA,1723,"Wampar",608,1
-"1860",NA,1723,"Wanukaka",463,1
-"1861",NA,1723,"Waray-Waray",162,1
-"1862",NA,1723,"Waropen",501,1
-"1863",NA,1723,"Waru",394,1
-"1864",NA,1723,"Waru (Lalomerui)",395,1
-"1865",NA,1723,"Wasambua dialect of Cia-Cia",NA,1
-"1866",NA,1723,"Watubela",427,1
-"1867",NA,1723,"Wawonii",396,1
-"1868",NA,1723,"Wawonii (Menui)",397,1
-"1869",NA,1723,"Werinama",440,1
-"1870",NA,1723,"West Ambae (Walaha)",NA,1
-"1871",NA,1723,"West Damar",451,1
-"1872",NA,1723,"Western Bukidnon Manobo",81,1
-"1873",NA,1723,"Western Fijian (Navosa)",691,1
-"1874",NA,1723,"Wetamut",1075,1
-"1875",NA,1723,"Wetan",496,1
-"1876",NA,1723,"Wewewa (Tana Righu dialect)",469,1
-"1877",NA,1723,"Whitesands (Iarkei)",674,1
-"1878",NA,1723,"Whitesands (Loniel)",670,1
-"1879",NA,1723,"Wiau",398,1
-"1880",NA,1723,"Windesi Wandamen",502,1
-"1881",NA,1723,"Woleai",887,1
-"1882",NA,1723,"Woleaian",898,1
-"1883",NA,1723,"Wolio",286,1
-"1884",NA,1723,"Wolowa dialect of Kumbewaha",NA,1
-"1885",NA,1723,"Wuna",269,1
-"1886",NA,1723,"Wusi (Kerepua)",1027,1
-"1887",NA,1723,"Wusi (Mana)",1023,1
-"1888",NA,1723,"Wusi (Nonona)",1038,1
-"1889",NA,1723,"Wusi (Valui)",1000,1
-"1890",NA,1723,"Wuvulu",652,1
-"1891",NA,1723,"Xalangi (Baetora)",NA,1
-"1892",NA,1723,"Xârâcùù",NA,1
-"1893",NA,1723,"Xârâgurè",NA,1
-"1894",NA,1723,"Yabem",618,1
-"1895",NA,1723,"Yakan",289,1
-"1896",NA,1723,"Yamdena",492,1
-"1897",NA,1723,"Yapese",237,1
-"1898",NA,1723,"Yogad",180,1
-"1899",NA,1723,"Yogya",204,1
-"1900",NA,1723,"Zabana (Kia)",774,1
+"227","Cenderawasih Bay",1305,"Yapen",1720,4
+"228","Central",1306,"Marquesic",1476,4
+"229","Central Malayo-Polynesian",1318,"Southeast Maluku",1636,4
+"230","East",1339,"Seram Straits",1612,4
+"231","East Formosan",1351,"Amis",1247,4
+"232","East Formosan",1351,"Northern",1537,4
+"233","Gela-Guadalcanal",1376,"Gela",1375,4
+"234","Greater Barito",1380,"West",1694,4
+"235","Greater Central Philippine",1381,"Danao",1334,4
+"236","Greater Central Philippine",1381,"South Mangyan",1630,4
+"237","Kairiru-Manam",1413,"Manam",610,4
+"238","Kalinga-Itneg",1418,"Kalinga",1417,4
+"239","Kayan-Kenyah",1423,"Kayanic",1425,4
+"240","Kilivila-Louisiades",1432,"Kilivila",528,4
+"241","Munan",1500,"Munic",1501,4
+"242","Munic",1501,"Western",1706,4
+"243","North Borneo",1526,"Sabahan",1594,4
+"244","North New Guinea",1529,"Sarmi-Jayapura Bay",1606,4
+"245","Northern",1537,"Central",1306,4
+"246","Nuclear Muna-Buton",1555,"Munan",1500,4
+"247","Piru Bay",1575,"East",1339,4
+"248","Ponapeic-Trukic",1580,"Ponapeic",1579,4
+"249","Santa Isabel",1603,"Central",1306,4
+"250","South",1620,"Masela-South Babar",1478,4
+"251","Southern",1640,"Extreme Southern",1368,4
+"252","Temotu",1666,"Reefs-Santa Cruz",1586,4
+"253","Yapen",1720,"Central-Western",1315,4
+"254",NA,1723,"Raga",1072,4
+"255","Arawe",1250,"East Arawe",1346,3
+"256","Atayal",1258,"C'uli'",1301,3
+"257","Babar",1260,"North",1518,3
+"258","Bel",1273,"Astrolabe",1256,3
+"259","Bikol",1280,"Inland",1401,3
+"260","Bima-Sumba",1283,"Ende-Lio",1363,3
+"261","Bontok-Kankanay",1289,"Bontok",1288,3
+"262","Cenderawasih Bay",1305,"Raja Ampat",1583,3
+"263","Central",1306,"Periphera",1571,3
+"264","Central",1306,"South",1620,3
+"265","Central",1306,"Warayan",1692,3
+"266","Central",1306,"West",1694,3
+"267","Central Luzon",1317,"Pampangan",1567,3
+"268","Central Philippine",1323,"Mansakan",1472,3
+"269","Central Western Plains",1325,"Favorlang-Babuza",1369,3
+"270","Dusun",1337,"Central",1306,3
+"271","Dusunic",1338,"Dusun",1337,3
+"272","East",1339,"Banda-Geser",1266,3
+"273","East Coast",1347,"Kulisusu",362,3
+"274","Eastern",1357,"Southeast Islands",1635,3
+"275","Eastern",1357,"Southwest",1646,3
+"276","Gorontalo-Mongondow",1379,"Gorontalic",1378,3
+"277","Greater Central Philippine",1381,"Subanon",1653,3
+"278","Greater Central Philippine",1381,"Umiray Dumaget",60,3
+"279","Highlands",1388,"Chru-Northern",1330,3
+"280","Kilivila-Louisiades",1432,"Nimoa-Sudest",1517,3
+"281","Luang-Kisar",1450,"Luang",446,3
+"282","Malayo-Polynesian",1463,"Bali-Sasak-Sumbawa",1264,3
+"283","Malayo-Polynesian",1463,"Moklen",1492,3
+"284","Meso Melanesian",1484,"Bali-Vitu",761,3
+"285","Nehan-North Bougainville",1507,"Nehan",798,3
+"286","New Georgia",1511,"East",1339,3
+"287","New Ireland",1512,"Madak",785,3
+"288","Ngero",1513,"Bariai",587,3
+"289","North",1518,"Hmwaveke",1389,3
+"290","North Sarawakan",1532,"Dayic",1335,3
+"291","Northwest Sumatra-Barrier Islands",1550,"Batak",1272,3
+"292","Nuclear Southern Cordilleran",1556,"Kallahan",1419,3
+"293","Philippine",1573,"Minahasan",1489,3
+"294","Philippine",1573,"North Mangyan",1528,3
+"295","Sabahan",1594,"Dusunic",1338,3
+"296","Sangiric",1602,"Northern",1537,3
+"297","South",1620,"Ata-Tigwa",1257,3
+"298","South",1620,"Southwest Babar",1648,3
+"299","South Halmahera",1627,"East Makian-Gane",1352,3
+"300","Southeast Maluku",1636,"Kei-Tanimbar",1427,3
+"301","Southwest New Britain",1649,"Bibling",1277,3
+"302","Timor",1671,"Ramelaic",1584,3
+"303","Utupua-Vanikoro",1688,"Utupua",1687,3
+"304","Vitiaz",1689,"Korap",1435,3
+"305","Vitiaz",1689,"Roinji-Nenaya",1589,3
+"306","West",1694,"South",1620,3
+"307",NA,1723,"Jawe",853,3
+"308",NA,1723,"Novol (Usus - Dixon Reef)",947,3
+"309","Amalumute",1244,"Northwest Seram",1549,2
+"310","Arawe-Pasismanua",1251,"Pasismanua",1570,2
+"311","Atayal",1258,"Squliq",1650,2
+"312","Bali-Sasak-Sumbawa",1264,"Sasak-Sumbawa",1607,2
+"313","Banda-Geser",1266,"Geser-Gorom",1377,2
+"314","Bashiic",1271,"Yami",93,2
+"315","Batak",1272,"Southern",1640,2
+"316","Bel",1273,"Nuclear Bel",1553,2
+"317","Bikol",1280,"Coastal",1331,2
+"318","Bilic",1281,"Tboli",1665,2
+"319","Bontok-Kankanay",1289,"Kankanay",1421,2
+"320","Buka",1295,"Halia",1385,2
+"321","Celebic",1304,"Kaili-Pamona",1411,2
+"322","Celebic",1304,"Tomini-Tolitoli",1676,2
+"323","Cenderawasih Bay",1305,"Mor",505,2
+"324","Central Malayo-Polynesian",1318,"North Bomberai",1525,2
+"325","Central Pacific",1321,"West Fijian-Rotuman",1702,2
+"326","Chamic",1327,"Coastal",1331,2
+"327","Chru-Northern",1330,"Northern Cham",1545,2
+"328","Coastal",1331,"Cham",1326,2
+"329","Coastal",1331,"Naga",1504,2
+"330","Danao",1334,"Maranao-Iranon",1474,2
+"331","Dayic",1335,"Kelabitic",1428,2
+"332","East",1339,"Teun-Nila-Serua",1668,2
+"333","East Fijian-Polynesian",1350,"East Fijian",1349,2
+"334","East Santo",1353,"North",1518,2
+"335","Eastern",1357,"Saluan-Banggai",1595,2
+"336","Epi",1364,"Bieria-Maii",1279,2
+"337","Extra-Ramelaic",1366,"West",1694,2
+"338","Gela-Guadalcanal",1376,"Bughotu",699,2
+"339","Gorontalo-Mongondow",1379,"Mongondowic",1494,2
+"340","Huon Gulf",1392,"North",1518,2
+"341","Huon Gulf",1392,"South",1620,2
+"342","Ibanagic",1394,"Gaddangic",1374,2
+"343","Kayanic",1425,"Modang",294,2
+"344","Kei-Tanimbar",1427,"Kei-Fordata",1426,2
+"345","Kilivila-Louisiades",1432,"Misima",533,2
+"346","Luang-Kisar",1450,"Kisar",429,2
+"347","Malayo-Polynesian",1463,"Bilic",1281,2
+"348","Malayo-Polynesian",1463,"Kalamian",1416,2
+"349","Malayo-Polynesian",1463,"Land Dayak",1443,2
+"350","Malayo-Polynesian",1463,"Malayo-Sumbawan",NA,2
+"351","Manobo",1471,"North",1518,2
+"352","Manobo",1471,"South",1620,2
+"353","Manus",1473,"Mokoreng-Loniu",1493,2
+"354","Micronesian Proper",1488,"Marshallese",895,2
+"355","Minahasan",1489,"North",1518,2
+"356","Muna-Buton",1499,"Tukangbesi-Bonerate",1683,2
+"357","Nehan-North Bougainville",1507,"Buka",1295,2
+"358","Nehan-North Bougainville",1507,"Saposa-Tinputz",1604,2
+"359","New Ireland",1512,"Tabar",756,2
+"360","Ngero",1513,"Tuam",1682,2
+"361","North Borneo",1526,"Melanau-Kajang",1481,2
+"362","North Papuan Mainland-D'Entrecasteaux",1531,"Gumawana",524,2
+"363","North Sarawakan",1532,"Berawan-Lower Baram",1275,2
+"364","Northeastern Luzon",1536,"Northern",1537,2
+"365","Northern",1537,"Basay",1270,2
+"366","Northern",1537,"Kavalan",1422,2
+"367","Northern Cordilleran",1546,"Northeastern Luzon",1536,2
+"368","Northwest Seram",1549,"Ulat Inai",1684,2
+"369","Nuclear",1551,"Maisin",531,2
+"370","Nuclear Cordilleran",1554,"Ifugaw",1397,2
+"371","Nuclear Southern Cordilleran",1556,"Ibaloy",1393,2
+"372","Nunusaku",1559,"Three Rivers",1670,2
+"373","Oceanic",1560,"(Proto)",NA,2
+"374","Oceanic",1560,"St. Matthias",1651,2
+"375","Polynesian",1577,"Tongic",1677,2
+"376","Samoic-Outlier",1600,"East Uvean-Niuafo'ou",1354,2
+"377","Santa Isabel",1603,"West",1694,2
+"378","Sarmi-Jayapura Bay",1606,"Jayapura Bay",1410,2
+"379","Sarmi-Jayapura Bay",1606,"Sarmi",1605,2
+"380","Schouten",1609,"Siau",1613,2
+"381","Seram",1611,"Bobot",428,2
+"382","Seram",1611,"Masiwang",497,2
+"383","Seram Straits",1612,"Ambon",1246,2
+"384","South",1620,"Butuan-Tausug",1299,2
+"385","South",1620,"Hote-Buang",1391,2
+"386","South Mangyan",1630,"Buhid-Taubuid",1294,2
+"387","South Mangyan",1630,"Hanunoo",73,2
+"388","South New Ireland-Northwest Solomonic",1631,"Piva-Banoni",1576,2
+"389","South Sulawesi",1632,"Bugis",1293,2
+"390","South Vanuatu",1633,"Aneityum",678,2
+"391","Southern Cordilleran",1645,"Ilongot",1400,2
+"392","Sulu-Borneo",1655,"Inner Sulu Sama",1402,2
+"393","Tahitic",1659,"Mangaia",1192,2
+"394","Teun-Nila-Serua",1668,"Nila-Serua",1516,2
+"395","Three Rivers",1670,"Amalumute",1244,2
+"396","Tsouic",1681,"Kanakanabu",1420,2
+"397","Tsouic",1681,"Saaroa",1593,2
+"398","Tsouic",1681,"Tsou",1680,2
+"399","Warayan",1692,"Samar-Waray",1597,2
+"400","West",1694,"Kuyan",1438,2
+"401",NA,1723,"'Auhelawa",547,2
+"402",NA,1723,"Biliau",593,2
+"403",NA,1723,"Bontok, Guina-ang",106,2
+"404",NA,1723,"Bwaidoga",518,2
+"405",NA,1723,"Chuukese",885,2
+"406",NA,1723,"Dayak Ngaju",278,2
+"407",NA,1723,"Dixon Reef",906,2
+"408",NA,1723,"Gapapaiwa",522,2
+"409",NA,1723,"Gumawana",524,2
+"410",NA,1723,"Hiw",1053,2
+"411",NA,1723,"Itawis",169,2
+"412",NA,1723,"Itbayaten",84,2
+"413",NA,1723,"Kapampangan",53,2
+"414",NA,1723,"Kilivila",528,2
+"415",NA,1723,"Lala",530,2
+"416",NA,1723,"Lelepa",975,2
+"417",NA,1723,"Lenakel",666,2
+"418",NA,1723,"Maisin",531,2
+"419",NA,1723,"Merei",1034,2
+"420",NA,1723,"Misima",533,2
+"421",NA,1723,"Molima",534,2
+"422",NA,1723,"Mota",1064,2
+"423",NA,1723,"Motu",535,2
+"424",NA,1723,"Muyuw",536,2
+"425",NA,1723,"Mwotlap",1073,2
+"426",NA,1723,"Nahavaq (Benour)",1124,2
+"427",NA,1723,"Nalik",780,2
+"428",NA,1723,"Neve'ei",907,2
+"429",NA,1723,"Neve'ei (Vinmavis)",953,2
+"430",NA,1723,"Pingilapese",900,2
+"431",NA,1723,"Roro",538,2
+"432",NA,1723,"Saliba",539,2
+"433",NA,1723,"Sewa",541,2
+"434",NA,1723,"Shark Bay",916,2
+"435",NA,1723,"Sowa",1089,2
+"436",NA,1723,"Suau",542,2
+"437",NA,1723,"Sudest",543,2
+"438",NA,1723,"Tagalog",95,2
+"439",NA,1723,"Takia",596,2
+"440",NA,1723,"Tawala",544,2
+"441",NA,1723,"Ura",675,2
+"442",NA,1723,"Wedau",546,2
+"443",NA,1723,"Wogeo",588,2
+"444",NA,1723,"Yami",93,2
+"445","Batak",1272,"Northern",1537,1
+"446","Berawan-Lower Baram",1275,"Berawan",1274,1
+"447","Berawan-Lower Baram",1275,"Lower Baram",1447,1
+"448","Bidayuh",1278,"Core",1333,1
+"449","Bisayan",1285,"Banton",1267,1
+"450","Bisayan",1285,"Cebuan",1303,1
+"451","Buang",1291,"Mumeng",1498,1
+"452","Bugis",1293,"Tamanic",1661,1
+"453","Cagayan Valley",1302,"Isnag",1406,1
+"454","Celebic",1304,"Bungku-Tolaki",1296,1
+"455","Celebic",1304,"Wotu-Wolio",1716,1
+"456","Cenderawasih Bay",1305,"Biakic",1276,1
+"457","Cenderawasih Bay",1305,"Waropen",501,1
+"458","Central",1306,"A",1238,1
+"459","Central",1306,"East",1339,1
+"460","Central",1306,"Romblon",174,1
+"461","Central-Eastern Malayo-Polynesian",1311,"Bima-Lembata",1282,1
+"462","Central-Eastern Malayo-Polynesian",1311,"Central-Malayo Polynesian",NA,1
+"463","Central-South",1314,"South",1620,1
+"464","Central Cordilleran",1316,"Isinai",1405,1
+"465","Central Luzon",1317,"Sinauna",173,1
+"466","Central Malayo-Polynesian",1318,"(Proto)",NA,1
+"467","Central Malayo-Polynesian",1318,"South Bomberai",1626,1
+"468","Central Malayo-Polynesian",1318,"West Damar",451,1
+"469","Central Maluku",1320,"Buru",1298,1
+"470","Central Maluku",1320,"Sula",1654,1
+"471","Central Papuan",1322,"Oumic",1561,1
+"472","Central Philippine",1323,"Mamanwa",135,1
+"473","Chamic",1327,"Acehnese",337,1
+"474","Core",1333,"Western",1706,1
+"475","Danao",1334,"Magindanao",1453,1
+"476","Dayic",1335,"Murutic",1503,1
+"477","East",1339,"Central-South",1314,1
+"478","East",1339,"East Damar",447,1
+"479","East",1339,"North",1518,1
+"480","East",1339,"Rapanui",1585,1
+"481","Eastern",1357,"Pak-Tong",1563,1
+"482","Elpaputi",1362,"Amahai",478,1
+"483","Greater Barito",1380,"Barito-Mahakam",1269,1
+"484","Hatuhaha",1387,"Elpaputi",1362,1
+"485","Hote-Buang",1391,"Buang",1291,1
+"486","Hote-Buang",1391,"Hote",1390,1
+"487","Huon Gulf",1392,"Markham",1475,1
+"488","Huon Gulf",1392,"Numbami",1558,1
+"489","Inland",1401,"Iriga",1404,1
+"490","Kaili-Pamona",1411,"Northern",1537,1
+"491","Kaili-Pamona",1411,"Southern",1640,1
+"492","Kairiru-Manam",1413,"Kairiru",617,1
+"493","Kalinga-Itneg",1418,"Itneg",1407,1
+"494","Kayanic",1425,"Kayan Proper",1424,1
+"495","Kayanic",1425,"Muller-Schwaner ‘Punan'",1497,1
+"496","Kei-Tanimbar",1427,"Yamdena",492,1
+"497","Land Dayak",1443,"Bakati'",1261,1
+"498","Land Dayak",1443,"Bidayuh",1278,1
+"499","Lower",1446,"Wampar",608,1
+"500","Lower Baram",1447,"Central",1306,1
+"501","Malaita",1458,"Longgu",728,1
+"502","Malayic",1461,"Ibanic",1395,1
+"503","Malayo-Polynesian",1463,"(Proto)",NA,1
+"504","Malayo-Polynesian",1463,"Bashiic",1271,1
+"505","Malayo-Polynesian",1463,"Central Luzon",1317,1
+"506","Malayo-Polynesian",1463,"Chamorro",199,1
+"507","Malayo-Polynesian",1463,"Madurese",236,1
+"508","Malayo-Polynesian",1463,"Nasal",NA,1
+"509","Malayo-Polynesian",1463,"Palauan",191,1
+"510","Malayo-Polynesian",1463,"Rejang",1587,1
+"511","Malayo-Polynesian",1463,"Sundanese",205,1
+"512","Mansakan",1472,"Eastern",1357,1
+"513","Mansakan",1472,"Northern",1537,1
+"514","Mansakan",1472,"Western",1706,1
+"515","Markham",1475,"Lower",1446,1
+"516","Marquesic",1476,"Hawaiian",1226,1
+"517","Marquesic",1476,"Mangareva",1210,1
+"518","Marquesic",1476,"Marquesan",1223,1
+"519","Marquesic",1476,"Marquesan (Nukuhiva dialect)",1231,1
+"520","Melanau-Kajang",1481,"Kajang",1414,1
+"521","Melanau-Kajang",1481,"Melanau",1480,1
+"522","Micronesian",1486,"Nauruan",1505,1
+"523","Micronesian Proper",1488,"Ikiribati",1398,1
+"524","Micronesian Proper",1488,"Kusaiean",1437,1
+"525","Murutic",1503,"Murut",1502,1
+"526","Nehan-North Bougainville",1507,"Solos",795,1
+"527","New Caledonian",1509,"Haekic",1384,1
+"528","North",1518,"Northeast",1533,1
+"529","North and East",NA,"Chamic",1327,1
+"530","North and East",NA,"Malayic",1461,1
+"531","North Papuan Mainland-D'Entrecasteaux",1531,"Anuki",514,1
+"532","North Papuan Mainland-D'Entrecasteaux",1531,"Kakabai",1415,1
+"533","North Sarawakan",1532,"Bintulu",275,1
+"534","Northern",1537,"Pamona",1566,1
+"535","Northern",1537,"Toraja-Sa'dan",1678,1
+"536","Northern Luzon",1547,"Arta",55,1
+"537","Northern Luzon",1547,"Ilocano",1399,1
+"538","Northwest Sumatra-Barrier Islands",1550,"Nias",190,1
+"539","Nuclear Bel",1553,"Northern",1537,1
+"540","Nuclear Bel",1553,"Southern",1640,1
+"541","Nuclear Cordilleran",1554,"Balangaw",112,1
+"542","Oceanic",1560,"Yapese",237,1
+"543","Oumic",1561,"Magoric",1454,1
+"544","Papuan Tip",1568,"",NA,1
+"545","Philippine",1573,"Kalamian",1416,1
+"546","Piru Bay",1575,"West",1694,1
+"547","Ramelaic",1584,"Central",1306,1
+"548","Ramelaic",1584,"East",1339,1
+"549","Ramelaic",1584,"West",1694,1
+"550","Sabahan",1594,"Ida'an",297,1
+"551","Saluan-Banggai",1595,"Eastern",1357,1
+"552","Saluan-Banggai",1595,"Western",1706,1
+"553","Sama-Bajaw",1596,"Abaknon",1239,1
+"554","Samoic-Outlier",1600,"Pukapuka",1199,1
+"555","Samoic-Outlier",1600,"Samoan",1191,1
+"556","Samoic-Outlier",1600,"Tokelauan",1673,1
+"557","Sangiric",1602,"Southern",1640,1
+"558","Seram",1611,"Sawai-Nuaulu",1608,1
+"559","Seram Straits",1612,"Solehua",1618,1
+"560","Seram Straits",1612,"Uliase",1685,1
+"561","South Halmahera",1627,"Southeast",1634,1
+"562","South Sulawesi",1632,"Makassar",198,1
+"563","South Sulawesi",1632,"Northern",1537,1
+"564","South Sulawesi",1632,"Seko",NA,1
+"565","Southeast Maluku",1636,"Southern",1640,1
+"566","Southwest New Britain",1649,"Amara",614,1
+"567","Subanon",1653,"Eastern",1357,1
+"568","Sula",1654,"Taliabo",1660,1
+"569","Sulu-Borneo",1655,"Western Sulu Sama",1712,1
+"570","Tahitic",1659,"Manihiki",1229,1
+"571","Tahitic",1659,"Maori",1237,1
+"572","Tahitic",1659,"Maori (1773)",1224,1
+"573","Tahitic",1659,"Mooriori",NA,1
+"574","Tahitic",1659,"Penrhyn",1208,1
+"575","Tahitic",1659,"Ra'ivavae",1194,1
+"576","Tahitic",1659,"Rarotongan",1228,1
+"577","Tahitic",1659,"Rurutuan",1196,1
+"578","Tahitic",1659,"South Island Maori",1236,1
+"579","Tahitic",1659,"Tahiti (1773)",1225,1
+"580","Tahitic",1659,"Tahitian (18th Century)",1197,1
+"581","Tahitic",1659,"Tahitian (Modern)",1203,1
+"582","Tahitic",1659,"Tuamotu",1215,1
+"583","Tomini",1675,"Northern",1537,1
+"584","Tomini-Tolitoli",1676,"Tolitoli",1674,1
+"585","Tomini-Tolitoli",1676,"Tomini",1675,1
+"586","Uliase",1685,"Hatuhaha",1387,1
+"587","Vitiaz",1689,"Kilenge-Maleu",1430,1
+"588","Vitiaz",1689,"Mengen",630,1
+"589","Vitiaz",1689,"Sio",598,1
+"590","Vitiaz",1689,"Tami",584,1
+"591","West",1694,"Aklan",1243,1
+"592","West",1694,"Asilulu",NA,1
+"593","West",1694,"Kinarayan",1433,1
+"594","West",1694,"North",1518,1
+"595","West",1694,"North Central",NA,1
+"596","West Central Papuan",1698,"Gabadi",569,1
+"597","West Fijian-Rotuman",1702,"Rotuman",679,1
+"598","West Fijian-Rotuman",1702,"West Fijian",1701,1
+"599","Western Plains",1711,"Thao",1669,1
+"600","Wotu-Wolio",1716,"Wolio-Kamaru",1715,1
+"601",NA,1723,"'Are'are (Ma'asupa Village)",744,1
+"602",NA,1723,"'Are'are (Waiahaa Village)",745,1
+"603",NA,1723,"'Oyaoya",548,1
+"604",NA,1723,"‘Aragùr<U+025B>",876,1
+"605",NA,1723,"’Aek<U+025B>",877,1
+"606",NA,1723,"’Avek<U+025B>",878,1
+"607",NA,1723,"<U+0272>ua",869,1
+"608",NA,1723,"<U+029D>alasu",870,1
+"609",NA,1723,"<U+02B0>Moaek<U+025B>",871,1
+"610",NA,1723,"<U+02B0>Moavek<U+025B>",872,1
+"611",NA,1723,"<U+1D50>Belep",873,1
+"612",NA,1723,"<U+1D50>Boewe",875,1
+"613",NA,1723,"<U+1D50>Bonnde",874,1
+"614",NA,1723,"Acehnese",337,1
+"615",NA,1723,"Agta",110,1
+"616",NA,1723,"Agutyanen",NA,1
+"617",NA,1723,"Aitchin (Orap)",1138,1
+"618",NA,1723,"Aitchin (Small Island)",1155,1
+"619",NA,1723,"Äiwoo",840,1
+"620",NA,1723,"Ajiø",848,1
+"621",NA,1723,"Akei",985,1
+"622",NA,1723,"Akei (Penantsiro)",980,1
+"623",NA,1723,"Akei (Tasiriki)",1005,1
+"624",NA,1723,"Aklanon - Bisayan",131,1
+"625",NA,1723,"Akolet",607,1
+"626",NA,1723,"Alangan",69,1
+"627",NA,1723,"Alavas-Wowo (Wowo 1)",NA,1
+"628",NA,1723,"Alavas-Wowo (Wowo 2)",NA,1
+"629",NA,1723,"Alavas 1",NA,1
+"630",NA,1723,"Alavas 2",NA,1
+"631",NA,1723,"Ali",620,1
+"632",NA,1723,"Alune",437,1
+"633",NA,1723,"Amara",614,1
+"634",NA,1723,"Ambae, East (Lolomatui)",1077,1
+"635",NA,1723,"Ambae, East (Lolsiwoi)",1052,1
+"636",NA,1723,"Ambae, East (Wailengi)",1068,1
+"637",NA,1723,"Ambae, West (Ngwatua)",1080,1
+"638",NA,1723,"Ambai (Yapen)",506,1
+"639",NA,1723,"Amblong",994,1
+"640",NA,1723,"Ambrym, North (Fonah)",1074,1
+"641",NA,1723,"Ambrym, North (Ranon)",1044,1
+"642",NA,1723,"Ambrym, South-East",1091,1
+"643",NA,1723,"Ambrym, Southeast (Maat)",1047,1
+"644",NA,1723,"Ambrym, Southeast (Toak)",1078,1
+"645",NA,1723,"Amis (Central)",18,1
+"646",NA,1723,"Amis (Farang)",32,1
+"647",NA,1723,"Amis (Fata'an)",31,1
+"648",NA,1723,"Anakalang",465,1
+"649",NA,1723,"Andio",404,1
+"650",NA,1723,"Andra",639,1
+"651",NA,1723,"Aneityum",678,1
+"652",NA,1723,"Anejom (Aneityum)",681,1
+"653",NA,1723,"Anesù",849,1
+"654",NA,1723,"Angavae (Dixon Reef)",NA,1
+"655",NA,1723,"Angkola / Mandailing",240,1
+"656",NA,1723,"Ansus",NA,1
+"657",NA,1723,"Anuki",514,1
+"658",NA,1723,"Anuta",1217,1
+"659",NA,1723,"Aore",999,1
+"660",NA,1723,"Apma",1084,1
+"661",NA,1723,"Apma (Suru Kavian)",1097,1
+"662",NA,1723,"Apma (Suru Mwerani)",1096,1
+"663",NA,1723,"Aputai",444,1
+"664",NA,1723,"Ar<U+0283>a",851,1
+"665",NA,1723,"Araki",976,1
+"666",NA,1723,"Araki (Southwest Santo)",1040,1
+"667",NA,1723,"Aria",616,1
+"668",NA,1723,"Aro",850,1
+"669",NA,1723,"Arop",602,1
+"670",NA,1723,"Arosi",701,1
+"671",NA,1723,"Arosi (Oneibia Village)",742,1
+"672",NA,1723,"Arosi (Tawatana Village)",743,1
+"673",NA,1723,"Arta",55,1
+"674",NA,1723,"As",504,1
+"675",NA,1723,"Asilulu",NA,1
+"676",NA,1723,"Asumboa",835,1
+"677",NA,1723,"Atayal - C'uli' F69 (Bandai)",8,1
+"678",NA,1723,"Atayal - C'uli' L04 (Mayrinax)",26,1
+"679",NA,1723,"Atayal - C'uli' L04 (Skikun)",33,1
+"680",NA,1723,"Atayal - Squliq F69",7,1
+"681",NA,1723,"Atayal - Squliq L04",42,1
+"682",NA,1723,"Atoni",481,1
+"683",NA,1723,"Atta, Pamplona",111,1
+"684",NA,1723,"Aulua",1114,1
+"685",NA,1723,"Aulua (Loxse Asolokh)",1162,1
+"686",NA,1723,"Aulua (Loxse Lanfitfit)",1135,1
+"687",NA,1723,"Aulua (Netimb)",1137,1
+"688",NA,1723,"Avau",604,1
+"689",NA,1723,"Avava",971,1
+"690",NA,1723,"Avava (Banga<U+02D0>sak)",936,1
+"691",NA,1723,"Avava (Khatbol)",934,1
+"692",NA,1723,"Avava (Timbibi)",935,1
+"693",NA,1723,"Avava (Tisvel)",933,1
+"694",NA,1723,"Avok (Avok) 162-101",1180,1
+"695",NA,1723,"Avok (Avok) 162-99",1182,1
+"696",NA,1723,"Avok (Hokai) 162-97a",1174,1
+"697",NA,1723,"Avok (Hokai) 162-98",1169,1
+"698",NA,1723,"Avok (Shiaf)",1173,1
+"699",NA,1723,"Awa",634,1
+"700",NA,1723,"Axamb",1126,1
+"701",NA,1723,"Axamb (Avok)",1115,1
+"702",NA,1723,"Axamb (Farun) 162-94",1177,1
+"703",NA,1723,"Axamb (Maxbaxo)",1106,1
+"704",NA,1723,"Axamb (Small Island-Brisbane) 162-89",1167,1
+"705",NA,1723,"Axamb (Small Island-Maliambur) 162-88",1175,1
+"706",NA,1723,"Ayta Abellen",61,1
+"707",NA,1723,"Ayta Ambala",62,1
+"708",NA,1723,"Ayta Mag-anchi",63,1
+"709",NA,1723,"Ayta Mag-antsi",57,1
+"710",NA,1723,"Ayta Mag-indi",66,1
+"711",NA,1723,"Babatana",797,1
+"712",NA,1723,"Babatana (Avasö)",811,1
+"713",NA,1723,"Babatana (Katazi)",805,1
+"714",NA,1723,"Babatana (Lömaumbi)",814,1
+"715",NA,1723,"Babatana (Tunöe)",820,1
+"716",NA,1723,"Babuyan",98,1
+"717",NA,1723,"Babuza Ts82",20,1
+"718",NA,1723,"Badeng",NA,1
+"719",NA,1723,"Baetora",1057,1
+"720",NA,1723,"Baetora (Narovorovo)",1083,1
+"721",NA,1723,"Baetora (Nasawa)",1056,1
+"722",NA,1723,"Baetora (Navenevene)",1081,1
+"723",NA,1723,"Baetora (Tam)",1063,1
+"724",NA,1723,"Bahonsuai",353,1
+"725",NA,1723,"Bajo",313,1
+"726",NA,1723,"Bajo (Anaiwoi)",335,1
+"727",NA,1723,"Bajo (Bajoe)",324,1
+"728",NA,1723,"Bajo (Boepinang)",327,1
+"729",NA,1723,"Bajo (Kaleroang)",329,1
+"730",NA,1723,"Bajo (Kayuadi)",322,1
+"731",NA,1723,"Bajo (Kolo Bawah)",319,1
+"732",NA,1723,"Bajo (Lakaramba)",328,1
+"733",NA,1723,"Bajo (Lakonea)",330,1
+"734",NA,1723,"Bajo (Langara Laut)",332,1
+"735",NA,1723,"Bajo (Lapulu)",333,1
+"736",NA,1723,"Bajo (Lauru)",325,1
+"737",NA,1723,"Bajo (Lemo Bajo)",336,1
+"738",NA,1723,"Bajo (Luwuk)",334,1
+"739",NA,1723,"Bajo (Moramo)",326,1
+"740",NA,1723,"Bajo (Padei Laut)",321,1
+"741",NA,1723,"Bajo (Pitulua)",323,1
+"742",NA,1723,"Baki",990,1
+"743",NA,1723,"Balangaw",112,1
+"744",NA,1723,"Bali-Vitu",761,1
+"745",NA,1723,"Baliledo",NA,1
+"746",NA,1723,"Balinese",257,1
+"747",NA,1723,"Baluan",650,1
+"748",NA,1723,"Banam Bay (Burmbar)",1119,1
+"749",NA,1723,"Banam Bay (Lepaxsivir)",1123,1
+"750",NA,1723,"Banam Bay (Vartavo)",1112,1
+"751",NA,1723,"Banggai (W.dialect)",288,1
+"752",NA,1723,"Banggi",102,1
+"753",NA,1723,"Bangka Malay",263,1
+"754",NA,1723,"Banjarese Malay",276,1
+"755",NA,1723,"Banoni",796,1
+"756",NA,1723,"Bantik",161,1
+"757",NA,1723,"Bantoanon (Banton)",177,1
+"758",NA,1723,"Bare'e",291,1
+"759",NA,1723,"Bariai",587,1
+"760",NA,1723,"Barok",789,1
+"761",NA,1723,"Basay L04",51,1
+"762",NA,1723,"Basay TsYM91",19,1
+"763",NA,1723,"Batak, Palawan",113,1
+"764",NA,1723,"Batangan",71,1
+"765",NA,1723,"Batuley",418,1
+"766",NA,1723,"Bauro (Baroo Village)",741,1
+"767",NA,1723,"Bauro (Haununu)",733,1
+"768",NA,1723,"Bauro (Pawa Village)",740,1
+"769",NA,1723,"Bebeli",603,1
+"770",NA,1723,"Belait",277,1
+"771",NA,1723,"Bellona",1227,1
+"772",NA,1723,"Berawan (Long Terawan)",308,1
+"773",NA,1723,"Besemah",338,1
+"774",NA,1723,"Bierebo (Bonkovia)",993,1
+"775",NA,1723,"Bierebo (Burupika)",984,1
+"776",NA,1723,"Bierebo (Tavio)",1037,1
+"777",NA,1723,"Bierebo (Yevali)",978,1
+"778",NA,1723,"Bieria (Vowa)",989,1
+"779",NA,1723,"Biga (Misool)",507,1
+"780",NA,1723,"Bikol (Bisakol)",186,1
+"781",NA,1723,"Bikol (Buhinon)",178,1
+"782",NA,1723,"Bikol (Naga City)",157,1
+"783",NA,1723,"Bikol (Rinconada)",181,1
+"784",NA,1723,"Bilaan, Koronadal",114,1
+"785",NA,1723,"Bilaan, Sarangani",115,1
+"786",NA,1723,"Bilibil",623,1
+"787",NA,1723,"Bilur",793,1
+"788",NA,1723,"Bima",426,1
+"789",NA,1723,"Bintulu",275,1
+"790",NA,1723,"Binukid",116,1
+"791",NA,1723,"Bipi",645,1
+"792",NA,1723,"Blablanga",826,1
+"793",NA,1723,"Blablanga (Ghove)",825,1
+"794",NA,1723,"Bobot",428,1
+"795",NA,1723,"Bola",753,1
+"796",NA,1723,"Bolaang Mongondow",87,1
+"797",NA,1723,"Bolinao",64,1
+"798",NA,1723,"Bonerate",280,1
+"799",NA,1723,"Bonfia",435,1
+"800",NA,1723,"Bontok, Eastern",168,1
+"801",NA,1723,"Botolan Sambal",65,1
+"802",NA,1723,"Bughotu",699,1
+"803",NA,1723,"Buginese (Soppeng Dialect)",208,1
+"804",NA,1723,"Buhid",72,1
+"805",NA,1723,"Buhutu",516,1
+"806",NA,1723,"Bujan",643,1
+"807",NA,1723,"Bukat",287,1
+"808",NA,1723,"Bulalakawnon",NA,1
+"809",NA,1723,"Buli",508,1
+"810",NA,1723,"Bulu",754,1
+"811",NA,1723,"Buma",837,1
+"812",NA,1723,"Bunama",517,1
+"813",NA,1723,"Bundu Dusun (Central Dusun)",316,1
+"814",NA,1723,"Bungku",354,1
+"815",NA,1723,"Bungku (Landawe)",355,1
+"816",NA,1723,"Bungku (Routa)",356,1
+"817",NA,1723,"Bungku (Torete)",357,1
+"818",NA,1723,"Bungku (Tulambatu)",358,1
+"819",NA,1723,"Bungku (Waia)",359,1
+"820",NA,1723,"Bunun (Iskubun)",NA,1
+"821",NA,1723,"Bunun (Takbanuaz)",NA,1
+"822",NA,1723,"Bunun (Takituduh L04)",NA,1
+"823",NA,1723,"Bunun (Takituduh L88)",25,1
+"824",NA,1723,"Bunun F69, Southern",4,1
+"825",NA,1723,"Buol",163,1
+"826",NA,1723,"Burmbar",1159,1
+"827",NA,1723,"Burmbar (Fartavo)",1141,1
+"828",NA,1723,"Buru [Namrole Bay]",484,1
+"829",NA,1723,"Butmas-Tur (Butmas)",919,1
+"830",NA,1723,"Butmas-Tur (Tur)",921,1
+"831",NA,1723,"Butuanon",158,1
+"832",NA,1723,"Bwatoo",NA,1
+"833",NA,1723,"Caac",NA,1
+"834",NA,1723,"Caluyanun (Semirara)",NA,1
+"835",NA,1723,"camuki",867,1
+"836",NA,1723,"Canala",879,1
+"837",NA,1723,"Capisano",165,1
+"838",NA,1723,"Carolinian",888,1
+"839",NA,1723,"Cebuano",83,1
+"840",NA,1723,"Cemuhî",NA,1
+"841",NA,1723,"Central Masela",458,1
+"842",NA,1723,"Cham, Western",352,1
+"843",NA,1723,"Chamorro",199,1
+"844",NA,1723,"Cheke Holo",771,1
+"845",NA,1723,"Chru",305,1
+"846",NA,1723,"Ciri",868,1
+"847",NA,1723,"Cuyonon",175,1
+"848",NA,1723,"Daa kaka (West Ambrym, Vanuatu)",NA,1
+"849",NA,1723,"Daakaka (Baiap)",1051,1
+"850",NA,1723,"Daakaka (Sesivi)",1058,1
+"851",NA,1723,"Dadu'a",420,1
+"852",NA,1723,"Dai",453,1
+"853",NA,1723,"Dawawa",519,1
+"854",NA,1723,"Dawera-Daweloor",452,1
+"855",NA,1723,"Dayak Bakatiq-Sara/Riok",312,1
+"856",NA,1723,"Dehu",685,1
+"857",NA,1723,"Diodio",563,1
+"858",NA,1723,"Dobel (Koijabi dialect)",416,1
+"859",NA,1723,"Dobu",520,1
+"860",NA,1723,"Dobuan",555,1
+"861",NA,1723,"Dori'o",708,1
+"862",NA,1723,"Dorig",1071,1
+"863",NA,1723,"Doura",568,1
+"864",NA,1723,"Drubea",846,1
+"865",NA,1723,"Dumagat, Casiguran",118,1
+"866",NA,1723,"Dupaningan Agta",182,1
+"867",NA,1723,"Dusun Tuhauon (Tambunan)",340,1
+"868",NA,1723,"East Ambae (Lolovoli)",NA,1
+"869",NA,1723,"East Ambae (Sana)",NA,1
+"870",NA,1723,"East Ambae (Vuindondo)",NA,1
+"871",NA,1723,"East Damar",447,1
+"872",NA,1723,"East Kara (Lemakot)",832,1
+"873",NA,1723,"East Makian",511,1
+"874",NA,1723,"East Masela",457,1
+"875",NA,1723,"East Sumbanese Kambera, Southern dialect",471,1
+"876",NA,1723,"East Sumbanese, Lewa dialect",472,1
+"877",NA,1723,"East Sumbanese, Umbu Ratu Nggai dialect",473,1
+"878",NA,1723,"Eastern Ngad'a",197,1
+"879",NA,1723,"Efate, North (Nguna)",1033,1
+"880",NA,1723,"Efate, North (Pwele)",1004,1
+"881",NA,1723,"Efate, North (Sesake)",1024,1
+"882",NA,1723,"Efate, North (Siviri)",1003,1
+"883",NA,1723,"Efate, North (Woraviu)",1011,1
+"884",NA,1723,"Efate, South (Eratap)",1017,1
+"885",NA,1723,"Elat, Kei Besar",436,1
+"886",NA,1723,"Emae",1207,1
+"887",NA,1723,"Emae (Makatea)",1187,1
+"888",NA,1723,"Emplawas",459,1
+"889",NA,1723,"Ende",485,1
+"890",NA,1723,"Enfitena",676,1
+"891",NA,1723,"Enggano",194,1
+"892",NA,1723,"Enggano (Banjar Sari)",210,1
+"893",NA,1723,"Enggano (Malakoni Village)",209,1
+"894",NA,1723,"Enggano (Meok)",255,1
+"895",NA,1723,"Erai",477,1
+"896",NA,1723,"Espiegel's Bay (Litebral)",1153,1
+"897",NA,1723,"Espiegels' Bay (Shore)",1152,1
+"898",NA,1723,"Eton",1007,1
+"899",NA,1723,"Fagani",705,1
+"900",NA,1723,"Fagani (Agufi)",735,1
+"901",NA,1723,"Fagani (Rihu'a)",725,1
+"902",NA,1723,"Fatakai (Nuaulu)",410,1
+"903",NA,1723,"Fataleka",732,1
+"904",NA,1723,"Favorlang F69",9,1
+"905",NA,1723,"Favorlang OL03",50,1
+"906",NA,1723,"Fifti (Khatbol)",955,1
+"907",NA,1723,"Fijian (Bau)",671,1
+"908",NA,1723,"Fijian (Suva Dialect)",692,1
+"909",NA,1723,"Fila",1190,1
+"910",NA,1723,"Fordata",421,1
+"911",NA,1723,"Fortsenal",1036,1
+"912",NA,1723,"Futuna-Aniwa",1201,1
+"913",NA,1723,"Futuna-Aniwa (Aniwa)",1186,1
+"914",NA,1723,"Futuna-Aniwa (Futuna)",1189,1
+"915",NA,1723,"Futuna, East",1205,1
+"916",NA,1723,"Futuna, West",1220,1
+"917",NA,1723,"Fwâi",NA,1
+"918",NA,1723,"Gabadi",569,1
+"919",NA,1723,"Gaddang",119,1
+"920",NA,1723,"Galolen (Talur)",445,1
+"921",NA,1723,"Gaura Nggaura",468,1
+"922",NA,1723,"Gayo",217,1
+"923",NA,1723,"Gedaged",628,1
+"924",NA,1723,"Geser",493,1
+"925",NA,1723,"Ghanongga",806,1
+"926",NA,1723,"Ghari",750,1
+"927",NA,1723,"Ghari (Ndi)",712,1
+"928",NA,1723,"Ghari (Nggae)",711,1
+"929",NA,1723,"Ghari (Nggeri)",713,1
+"930",NA,1723,"Ghari (Nginia)",715,1
+"931",NA,1723,"Ghari (Tandai)",714,1
+"932",NA,1723,"Ghayavi",523,1
+"933",NA,1723,"Gimán",498,1
+"934",NA,1723,"Gitua",601,1
+"935",NA,1723,"Gorontalo (Hulondalo)",52,1
+"936",NA,1723,"Guiangan (Baguio)",NA,1
+"937",NA,1723,"Guiangan (Sirib)",NA,1
+"938",NA,1723,"Haeke",NA,1
+"939",NA,1723,"Hainan Cham",302,1
+"940",NA,1723,"Haku",783,1
+"941",NA,1723,"Halia (Selau)",827,1
+"942",NA,1723,"Ham",590,1
+"943",NA,1723,"Hamea",NA,1
+"944",NA,1723,"Hanunoo",73,1
+"945",NA,1723,"Hanunóo",78,1
+"946",NA,1723,"Haveke",NA,1
+"947",NA,1723,"Hewa",412,1
+"948",NA,1723,"Hiligaynon",86,1
+"949",NA,1723,"Hitu (Ambon)",486,1
+"950",NA,1723,"Hoanya Ts82",21,1
+"951",NA,1723,"Hoava",812,1
+"952",NA,1723,"Hote (Misim dialect)",605,1
+"953",NA,1723,"Houaïlou",845,1
+"954",NA,1723,"Hula",525,1
+"955",NA,1723,"Hus",640,1
+"956",NA,1723,"Iaai",689,1
+"957",NA,1723,"Iai",680,1
+"958",NA,1723,"Iamalele",526,1
+"959",NA,1723,"Ibaloi",170,1
+"960",NA,1723,"Iban",300,1
+"961",NA,1723,"Ibanag",96,1
+"962",NA,1723,"Ida'an",297,1
+"963",NA,1723,"Iduna",527,1
+"964",NA,1723,"Ifira-Mele (Mele-Fila)",1211,1
+"965",NA,1723,"Ifo (Utaha)",NA,1
+"966",NA,1723,"Ifugao, Amganad",120,1
+"967",NA,1723,"Ifugao, Batad",121,1
+"968",NA,1723,"Ifugao, Bayninan",122,1
+"969",NA,1723,"Ikiti",664,1
+"970",NA,1723,"Ikiyau",665,1
+"971",NA,1723,"Iliun",441,1
+"972",NA,1723,"Ilokano",97,1
+"973",NA,1723,"Ilonggo",156,1
+"974",NA,1723,"Ilongot, Kakiduge:n",123,1
+"975",NA,1723,"Imorod",90,1
+"976",NA,1723,"Imreang",677,1
+"977",NA,1723,"Imroing",461,1
+"978",NA,1723,"Inabaknon",314,1
+"979",NA,1723,"Inati (Hamtic)",NA,1
+"980",NA,1723,"Inati (Jordan, Guimaras)",NA,1
+"981",NA,1723,"Inati (Nagpana)",59,1
+"982",NA,1723,"Indonesian",303,1
+"983",NA,1723,"Inibaloi",124,1
+"984",NA,1723,"Inonhan (Dispoholnon)",NA,1
+"985",NA,1723,"Iranun",154,1
+"986",NA,1723,"Iraralay",88,1
+"987",NA,1723,"Irarutu",500,1
+"988",NA,1723,"Iraya",68,1
+"989",NA,1723,"Isamorong",92,1
+"990",NA,1723,"Isinay (Dupax)",82,1
+"991",NA,1723,"Isneg, Dibagat-Kabugao-Isneg",125,1
+"992",NA,1723,"Itbayat",89,1
+"993",NA,1723,"Itneg, Binongan",127,1
+"994",NA,1723,"Ivasay",91,1
+"995",NA,1723,"Ivatan, Basco Dialect",128,1
+"996",NA,1723,"Jambi Malay",264,1
+"997",NA,1723,"Jarai",347,1
+"998",NA,1723,"Javanese",201,1
+"999",NA,1723,"Javanese (Malang)",NA,1
+"1000",NA,1723,"Javanese (Yogyakarta)",NA,1
+"1001",NA,1723,"Jiriw",641,1
+"1002",NA,1723,"Kadazan Dusun of Taginambur, Kota Belud, Sabah, Malaysia",400,1
+"1003",NA,1723,"Kadorih",311,1
+"1004",NA,1723,"Kagayanen",188,1
+"1005",NA,1723,"Kahua",703,1
+"1006",NA,1723,"Kahua (Mami)",702,1
+"1007",NA,1723,"Kaidipang",99,1
+"1008",NA,1723,"Kairiru",617,1
+"1009",NA,1723,"Kaisabu",NA,1
+"1010",NA,1723,"Kakiduge:n Ilongot",103,1
+"1011",NA,1723,"Kala",NA,1
+"1012",NA,1723,"Kalagan",129,1
+"1013",NA,1723,"Kalinga (Minangali)",179,1
+"1014",NA,1723,"Kalinga, Guinaang, Lubuagan Dialect",130,1
+"1015",NA,1723,"Kalinga, Limos",167,1
+"1016",NA,1723,"Kalinga, Southern",166,1
+"1017",NA,1723,"Kallahan, Kayapa Proper",132,1
+"1018",NA,1723,"Kallahan, Keleyqiq",133,1
+"1019",NA,1723,"Kamayo",NA,1
+"1020",NA,1723,"Kambera",464,1
+"1021",NA,1723,"Kambowa",401,1
+"1022",NA,1723,"Kanakanabu F69",5,1
+"1023",NA,1723,"Kanakanabu L04",48,1
+"1024",NA,1723,"Kandas",790,1
+"1025",NA,1723,"Kaniet",632,1
+"1026",NA,1723,"Kankanaey",171,1
+"1027",NA,1723,"Kankanay, Northern",134,1
+"1028",NA,1723,"Kapingamarangi",1206,1
+"1029",NA,1723,"Kapone",854,1
+"1030",NA,1723,"Kara (West)",786,1
+"1031",NA,1723,"Karo Batak",235,1
+"1032",NA,1723,"Kasira (Irahutu)",509,1
+"1033",NA,1723,"Katbol",920,1
+"1034",NA,1723,"Katingan",279,1
+"1035",NA,1723,"Kaulong (Au Village)",625,1
+"1036",NA,1723,"Kavalan F69",10,1
+"1037",NA,1723,"Kavalan LTs",24,1
+"1038",NA,1723,"Kayan",NA,1
+"1039",NA,1723,"Kayan (Uma Juman)",296,1
+"1040",NA,1723,"Kayupulau [Kajupulau]",626,1
+"1041",NA,1723,"Kazukuru",818,1
+"1042",NA,1723,"Keapara (Kalo Dialect)",549,1
+"1043",NA,1723,"Keapara (Keapara/Kerepunu Dialect)",551,1
+"1044",NA,1723,"Kédang",439,1
+"1045",NA,1723,"Kei (Tanimbar-Kei)",487,1
+"1046",NA,1723,"Kelabit (Bario)",318,1
+"1047",NA,1723,"Kemak",490,1
+"1048",NA,1723,"Kenyah (Long Anap)",320,1
+"1049",NA,1723,"Kerinci",331,1
+"1050",NA,1723,"Kilokaka (Ysabel)",772,1
+"1051",NA,1723,"Kinaray-a",164,1
+"1052",NA,1723,"Kioko",402,1
+"1053",NA,1723,"Kiribati",897,1
+"1054",NA,1723,"Kis",611,1
+"1055",NA,1723,"Kisar",429,1
+"1056",NA,1723,"Kodeoha",360,1
+"1057",NA,1723,"Kodi",462,1
+"1058",NA,1723,"Koiwai (Irian Jaya)",430,1
+"1059",NA,1723,"Kokota",779,1
+"1060",NA,1723,"Kola",417,1
+"1061",NA,1723,"Koluwawa",529,1
+"1062",NA,1723,"Komering",207,1
+"1063",NA,1723,"Komering (Ilir), Palau Gemantung Village",213,1
+"1064",NA,1723,"Komering (Kayu Agung Asli)",211,1
+"1065",NA,1723,"Komering (Kayu Agung Pendatang)",231,1
+"1066",NA,1723,"Komering (Ulu), Adumanis Village",212,1
+"1067",NA,1723,"Komering (Ulu), Damarpura Village",215,1
+"1068",NA,1723,"Komering (Ulu), Perjaya Village",214,1
+"1069",NA,1723,"Koro",1049,1
+"1070",NA,1723,"Koronadal Blaan",100,1
+"1071",NA,1723,"Koroni",361,1
+"1072",NA,1723,"Koumac",855,1
+"1073",NA,1723,"Kove",613,1
+"1074",NA,1723,"Kubokota",801,1
+"1075",NA,1723,"Kulisusu",362,1
+"1076",NA,1723,"Kumbewaha",NA,1
+"1077",NA,1723,"Kuni",566,1
+"1078",NA,1723,"Kusaghe",807,1
+"1079",NA,1723,"Kusaie",902,1
+"1080",NA,1723,"Kwai",724,1
+"1081",NA,1723,"Kwaio",748,1
+"1082",NA,1723,"Kwamera",690,1
+"1083",NA,1723,"Kwamera (Isiai)",663,1
+"1084",NA,1723,"Kwamera (Port Resolution)",673,1
+"1085",NA,1723,"Kwamera (Yatukwey)",668,1
+"1086",NA,1723,"Kwara'ae (Solomon Islands')",696,1
+"1087",NA,1723,"Label",758,1
+"1088",NA,1723,"Labo (Ninde)",909,1
+"1089",NA,1723,"Labo (Windua)",911,1
+"1090",NA,1723,"Laghu (Samasodu)",815,1
+"1091",NA,1723,"Lahanan",290,1
+"1092",NA,1723,"Lahat (Central Malay)",266,1
+"1093",NA,1723,"Lakalai",775,1
+"1094",NA,1723,"Lakona",1046,1
+"1095",NA,1723,"Lamaholot Ile Mandiri (Flores Timur)",475,1
+"1096",NA,1723,"Lamalera (lembata)",483,1
+"1097",NA,1723,"Lamboya",466,1
+"1098",NA,1723,"Lamenu",1015,1
+"1099",NA,1723,"Lamenu (Filakara)",1028,1
+"1100",NA,1723,"Lamenu (Mapremo)",1008,1
+"1101",NA,1723,"Lamenu (Mate)",1026,1
+"1102",NA,1723,"Lamenu (Nikaura)",998,1
+"1103",NA,1723,"Lamenu (Nul)",1013,1
+"1104",NA,1723,"Lamenu (Nuvi)",995,1
+"1105",NA,1723,"Lamenu (Visina)",979,1
+"1106",NA,1723,"Lamogai (Mulakaino)",627,1
+"1107",NA,1723,"Lampung",202,1
+"1108",NA,1723,"Lampung Api (Belalau)",221,1
+"1109",NA,1723,"Lampung Api (Daya)",216,1
+"1110",NA,1723,"Lampung Api (Jabung)",230,1
+"1111",NA,1723,"Lampung Api (Kalianda)",228,1
+"1112",NA,1723,"Lampung Api (Kota Agung)",223,1
+"1113",NA,1723,"Lampung Api (Krui)",220,1
+"1114",NA,1723,"Lampung Api (Pubian)",227,1
+"1115",NA,1723,"Lampung Api (Ranau)",218,1
+"1116",NA,1723,"Lampung Api (Sukau)",219,1
+"1117",NA,1723,"Lampung Api (Sungkai)",226,1
+"1118",NA,1723,"Lampung Api (Talang Padang)",224,1
+"1119",NA,1723,"Lampung Api (Way Kanan)",222,1
+"1120",NA,1723,"Lampung Api (Way Lima)",225,1
+"1121",NA,1723,"Lampung Nyo (Abung/Kotabumi)",233,1
+"1122",NA,1723,"Lampung Nyo (Abung/Sukadana)",232,1
+"1123",NA,1723,"Lampung Nyo (Melinting)",229,1
+"1124",NA,1723,"Lampung Nyo (Menggala/Tulang Bawang)",234,1
+"1125",NA,1723,"Langalanga",723,1
+"1126",NA,1723,"Lapwangtoai",661,1
+"1127",NA,1723,"Larevat",908,1
+"1128",NA,1723,"Lasalimu",NA,1
+"1129",NA,1723,"Lau",749,1
+"1130",NA,1723,"Lau (North)",747,1
+"1131",NA,1723,"Lau (Walade)",746,1
+"1132",NA,1723,"Lebei",646,1
+"1133",NA,1723,"Lebo' Vo'",270,1
+"1134",NA,1723,"Lehali",1086,1
+"1135",NA,1723,"Leipon",654,1
+"1136",NA,1723,"Lelepa (Pango)",1014,1
+"1137",NA,1723,"Lemerig",NA,1
+"1138",NA,1723,"Lemerig (Bek)",1076,1
+"1139",NA,1723,"Lemerig (Sasar)",1090,1
+"1140",NA,1723,"Lenakel (Lenaukas)",667,1
+"1141",NA,1723,"Lenakel (Lonasilian)",672,1
+"1142",NA,1723,"Lengo",729,1
+"1143",NA,1723,"Lengo (Ghaimuta)",707,1
+"1144",NA,1723,"Lengo (Paripao)",706,1
+"1145",NA,1723,"Lepo' Gah",271,1
+"1146",NA,1723,"Lepo' Laang",272,1
+"1147",NA,1723,"Lepo' Sawa",273,1
+"1148",NA,1723,"Lepo' Tau",274,1
+"1149",NA,1723,"Letemboi",918,1
+"1150",NA,1723,"Letemboi (Aingelemolesa)",942,1
+"1151",NA,1723,"Letemboi (Natingatlang North)",943,1
+"1152",NA,1723,"Letemboi (Nevatanyene)",944,1
+"1153",NA,1723,"Letemboi (Newotenyene)",945,1
+"1154",NA,1723,"Letinese",491,1
+"1155",NA,1723,"Levei",655,1
+"1156",NA,1723,"Lihir (Sunglik)",787,1
+"1157",NA,1723,"Likum",656,1
+"1158",NA,1723,"Lio, Flores Tongah",438,1
+"1159",NA,1723,"Litzlitz",913,1
+"1160",NA,1723,"Lolkasai",NA,1
+"1161",NA,1723,"Lom (Mapurese)",265,1
+"1162",NA,1723,"Longgu",728,1
+"1163",NA,1723,"Loniu",657,1
+"1164",NA,1723,"Lonwolwol",1048,1
+"1165",NA,1723,"Lorediakarkar",910,1
+"1166",NA,1723,"Lou",658,1
+"1167",NA,1723,"Low Malay (1773)",310,1
+"1168",NA,1723,"Löyöp",1069,1
+"1169",NA,1723,"Luang",446,1
+"1170",NA,1723,"Luangiua",1209,1
+"1171",NA,1723,"Lundayeh",343,1
+"1172",NA,1723,"Lunga Lunga  (Minigir)",788,1
+"1173",NA,1723,"Lungga",819,1
+"1174",NA,1723,"Lup",636,1
+"1175",NA,1723,"Luqa",802,1
+"1176",NA,1723,"Lwepe, Santa Cruz",843,1
+"1177",NA,1723,"Ma'anyan",292,1
+"1178",NA,1723,"Madak",785,1
+"1179",NA,1723,"Madak (Lamasong Dial.)",765,1
+"1180",NA,1723,"Madara",782,1
+"1181",NA,1723,"Madurese",236,1
+"1182",NA,1723,"Mae",1122,1
+"1183",NA,1723,"Mae (Orap)",1107,1
+"1184",NA,1723,"Maewo, Central (Peterara)",1061,1
+"1185",NA,1723,"Mafea",1025,1
+"1186",NA,1723,"Magori (South East Papua)",552,1
+"1187",NA,1723,"Maguindanaon",172,1
+"1188",NA,1723,"Maii",1002,1
+"1189",NA,1723,"Makassar",198,1
+"1190",NA,1723,"Malagasy (Sakalava)",260,1
+"1191",NA,1723,"Malagasy (Tanala)",262,1
+"1192",NA,1723,"Malagasy (Tandroy)",261,1
+"1193",NA,1723,"Malalamai",589,1
+"1194",NA,1723,"Malango",716,1
+"1195",NA,1723,"Malasanga",599,1
+"1196",NA,1723,"Malaweg",77,1
+"1197",NA,1723,"Malay",1460,1
+"1198",NA,1723,"Malay (Bahasa Indonesia)",295,1
+"1199",NA,1723,"Maleu",629,1
+"1200",NA,1723,"Malo (North)",996,1
+"1201",NA,1723,"Malo (South)",983,1
+"1202",NA,1723,"Malo, Santa Cruz",842,1
+"1203",NA,1723,"Maloh",239,1
+"1204",NA,1723,"Malua Bay",1116,1
+"1205",NA,1723,"Malua Bay (Marasup)",1157,1
+"1206",NA,1723,"Malua Bay (Petarmul 1)",1139,1
+"1207",NA,1723,"Malua Bay (Petarmul 2)",1154,1
+"1208",NA,1723,"Malua Bay (Petarmur)",1127,1
+"1209",NA,1723,"Malua Bay (TipTir)",1161,1
+"1210",NA,1723,"Mamanwa",135,1
+"1211",NA,1723,"Mambai",431,1
+"1212",NA,1723,"Mamboru",467,1
+"1213",NA,1723,"Manam",610,1
+"1214",NA,1723,"Mandri (Faru) 162-100",NA,1
+"1215",NA,1723,"Mandri (Farun) 162-91",NA,1
+"1216",NA,1723,"Mangap-Mbula",583,1
+"1217",NA,1723,"Manggarai",495,1
+"1218",NA,1723,"Mangseng",586,1
+"1219",NA,1723,"Manide",58,1
+"1220",NA,1723,"Manobo, Ata (down-river)",137,1
+"1221",NA,1723,"Manobo, Ata (up-river)",136,1
+"1222",NA,1723,"Manobo, Dibabawon",138,1
+"1223",NA,1723,"Manobo, Ilianen (Kibudtungan Dialect)",139,1
+"1224",NA,1723,"Manobo, Kalamansig Cotabato (Paril Dialect)",140,1
+"1225",NA,1723,"Manobo, Sarangani, Kayaponga Dialect",141,1
+"1226",NA,1723,"Manobo, Tigwa, Iglogsad Dialect",142,1
+"1227",NA,1723,"Manobo, Western Bukidnon",143,1
+"1228",NA,1723,"Mansaka",144,1
+"1229",NA,1723,"Mapun",315,1
+"1230",NA,1723,"Maragus",912,1
+"1231",NA,1723,"Maranao",187,1
+"1232",NA,1723,"Marau (Guadalcanal)",734,1
+"1233",NA,1723,"Maraxus",959,1
+"1234",NA,1723,"Marinduque Tagalog",185,1
+"1235",NA,1723,"Maringe (Kmagha)",824,1
+"1236",NA,1723,"Maringe (Leleghia)",823,1
+"1237",NA,1723,"Maringe (Tataba)",822,1
+"1238",NA,1723,"Marino",1062,1
+"1239",NA,1723,"Marovo",830,1
+"1240",NA,1723,"Marshallese",895,1
+"1241",NA,1723,"Marshallese (E. Dialect)",883,1
+"1242",NA,1723,"Masbatenyo",183,1
+"1243",NA,1723,"Masiwang",497,1
+"1244",NA,1723,"Maskelynes",1102,1
+"1245",NA,1723,"Mato (Ramuk dialect)",582,1
+"1246",NA,1723,"Matukar",622,1
+"1247",NA,1723,"Maututu",794,1
+"1248",NA,1723,"Mbaelelea",730,1
+"1249",NA,1723,"Mbaengguu",731,1
+"1250",NA,1723,"Mbareke",816,1
+"1251",NA,1723,"Mbirao",722,1
+"1252",NA,1723,"Mbughotu (Dhadhaje)",739,1
+"1253",NA,1723,"Mbunai",649,1
+"1254",NA,1723,"Mbwenelang (Xoli)",NA,1
+"1255",NA,1723,"Megiar",621,1
+"1256",NA,1723,"Mekeo",577,1
+"1257",NA,1723,"Mekeo, East",521,1
+"1258",NA,1723,"Mekeo, North-West",537,1
+"1259",NA,1723,"Melanau (Mukah)",378,1
+"1260",NA,1723,"Melayu",309,1
+"1261",NA,1723,"Melayu Ambon",281,1
+"1262",NA,1723,"Melayu Brunei (Dialect)",298,1
+"1263",NA,1723,"Melayu Sarawak (dialect)",317,1
+"1264",NA,1723,"Mele",1188,1
+"1265",NA,1723,"Mengen",630,1
+"1266",NA,1723,"Mentawai",241,1
+"1267",NA,1723,"Mentawai (Bariulou)",246,1
+"1268",NA,1723,"Mentawai (Boriai)",252,1
+"1269",NA,1723,"Mentawai (Bosua)",247,1
+"1270",NA,1723,"Mentawai (Bulasat)",253,1
+"1271",NA,1723,"Mentawai (Madobat)",243,1
+"1272",NA,1723,"Mentawai (Ngangan Sakalagan)",193,1
+"1273",NA,1723,"Mentawai (Pagai and Sipora)",195,1
+"1274",NA,1723,"Mentawai (Pasapuat)",249,1
+"1275",NA,1723,"Mentawai (Salappa)",244,1
+"1276",NA,1723,"Mentawai (Saumanganya)",251,1
+"1277",NA,1723,"Mentawai (Sikakap)",254,1
+"1278",NA,1723,"Mentawai (Silabu)",250,1
+"1279",NA,1723,"Mentawai (Sioban)",248,1
+"1280",NA,1723,"Mentawai (Ulubaga)",245,1
+"1281",NA,1723,"Meramera",755,1
+"1282",NA,1723,"Merina (Malagasy)",399,1
+"1283",NA,1723,"Minangkabau",282,1
+"1284",NA,1723,"Minaveha",532,1
+"1285",NA,1723,"Mindiri",597,1
+"1286",NA,1723,"Mindoro Tagalog",NA,1
+"1287",NA,1723,"Minyaifuin (Gebe)",512,1
+"1288",NA,1723,"Modang",294,1
+"1289",NA,1723,"Moene<U+1D50>be<U+014B>",856,1
+"1290",NA,1723,"Mokaren",644,1
+"1291",NA,1723,"Moken",242,1
+"1292",NA,1723,"Mokilese",893,1
+"1293",NA,1723,"Moklen",1492,1
+"1294",NA,1723,"Mono",828,1
+"1295",NA,1723,"Mono (Alu)",809,1
+"1296",NA,1723,"Mono (Fauro)",808,1
+"1297",NA,1723,"Moor",513,1
+"1298",NA,1723,"Mor",505,1
+"1299",NA,1723,"Mori",306,1
+"1300",NA,1723,"Mori Atas (Doule)",363,1
+"1301",NA,1723,"Mori Atas (Impo)",364,1
+"1302",NA,1723,"Mori Atas (Kolo-Kolo)",365,1
+"1303",NA,1723,"Mori Atas (Lolonggoio)",366,1
+"1304",NA,1723,"Mori Atas (Molio'A)",367,1
+"1305",NA,1723,"Mori Atas (Molongkuni)",368,1
+"1306",NA,1723,"Mori Atas (Olota)",369,1
+"1307",NA,1723,"Mori Atas (Tambee)",370,1
+"1308",NA,1723,"Mori Atas (Ulu'Uwoi)",371,1
+"1309",NA,1723,"Mori Atas (Wulanderi)",372,1
+"1310",NA,1723,"Mori Bawah (<U+014A>gusumbatu)",382,1
+"1311",NA,1723,"Mori Bawah (Bahano)",373,1
+"1312",NA,1723,"Mori Bawah (Kangua)",374,1
+"1313",NA,1723,"Mori Bawah (Karunsi'E)",375,1
+"1314",NA,1723,"Mori Bawah (Mo'Iki)",376,1
+"1315",NA,1723,"Mori Bawah (Petasia)",377,1
+"1316",NA,1723,"Mori Bawah (Roda)",379,1
+"1317",NA,1723,"Mori Bawah (Soroako)",380,1
+"1318",NA,1723,"Mori Bawah (Tofatu)",403,1
+"1319",NA,1723,"Mori Bawah (Watu)",381,1
+"1320",NA,1723,"Moronene",383,1
+"1321",NA,1723,"Moronene (Mornene)",384,1
+"1322",NA,1723,"Moronene (Tokotu'A)",385,1
+"1323",NA,1723,"Morouas",1012,1
+"1324",NA,1723,"Morouas (Batunlamak)",986,1
+"1325",NA,1723,"Mortlockese",896,1
+"1326",NA,1723,"Mortlockese (Lukunosh)",904,1
+"1327",NA,1723,"Mouk",615,1
+"1328",NA,1723,"Mpotovoro",1103,1
+"1329",NA,1723,"Mumeng (Patep dialect)",585,1
+"1330",NA,1723,"Muna (Katobu-Tongkuno Dialect)",299,1
+"1331",NA,1723,"Murnaten (Alune)",494,1
+"1332",NA,1723,"Musau",196,1
+"1333",NA,1723,"Mussau",238,1
+"1334",NA,1723,"Mutu",600,1
+"1335",NA,1723,"Mwerlap (Merig)",1045,1
+"1336",NA,1723,"Mwerlap (Merlav)",1067,1
+"1337",NA,1723,"Mwerlap (of N. Maewo)",NA,1
+"1338",NA,1723,"N<U+025B>mi",859,1
+"1339",NA,1723,"Na'ahai (Mbatambang) 162-83",1168,1
+"1340",NA,1723,"Na'ahai (Mbatvanui) 162-85",1166,1
+"1341",NA,1723,"Na'ahai (Toman Island) 162-82",1172,1
+"1342",NA,1723,"Na'axai (Malfaxal) 162-84",1170,1
+"1343",NA,1723,"Na:ti (Windua)",938,1
+"1344",NA,1723,"Naga Bikol",54,1
+"1345",NA,1723,"Nage",476,1
+"1346",NA,1723,"Naha'ai",1117,1
+"1347",NA,1723,"Nahavaq",1183,1
+"1348",NA,1723,"Nahavaq (Caroline Bay)",1128,1
+"1349",NA,1723,"Nahavaq (Lembinwen)",1109,1
+"1350",NA,1723,"Nahavaq (Lembinwin)",1130,1
+"1351",NA,1723,"Najit",NA,1
+"1352",NA,1723,"Nakanai (Bileki Dialect)",766,1
+"1353",NA,1723,"Namakir",1042,1
+"1354",NA,1723,"Namakura (Bongabonga)",1022,1
+"1355",NA,1723,"Namakura (Makura)",992,1
+"1356",NA,1723,"Namakura (Mataso)",1001,1
+"1357",NA,1723,"Namakura (Tongariki)",1009,1
+"1358",NA,1723,"Naman",972,1
+"1359",NA,1723,"Naman (Litzlitz)",958,1
+"1360",NA,1723,"Nanggu",841,1
+"1361",NA,1723,"Nanumea",1235,1
+"1362",NA,1723,"Narango",1032,1
+"1363",NA,1723,"Narango (Nambel)",997,1
+"1364",NA,1723,"Nasal",NA,1
+"1365",NA,1723,"Nasarian (Wileven tu)",946,1
+"1366",NA,1723,"Nasvang (Farun - children) 162-96",968,1
+"1367",NA,1723,"Nasvang (Farun) 162-90",967,1
+"1368",NA,1723,"Nasvang (Farun) 162-93",965,1
+"1369",NA,1723,"Nasvang (Farun) 162-95a",969,1
+"1370",NA,1723,"Natangan (Farun) 162-95b",966,1
+"1371",NA,1723,"Natangan (Mbonvor) 162-86",964,1
+"1372",NA,1723,"Nati",1185,1
+"1373",NA,1723,"Naueti",422,1
+"1374",NA,1723,"Nauna",659,1
+"1375",NA,1723,"Nauru",905,1
+"1376",NA,1723,"Navut",1020,1
+"1377",NA,1723,"Navut (Matae)",1018,1
+"1378",NA,1723,"Navwien 162-87",NA,1
+"1379",NA,1723,"nDe’u",683,1
+"1380",NA,1723,"nDu<U+1D50>bea",852,1
+"1381",NA,1723,"Nduke",804,1
+"1382",NA,1723,"Ne<U+014B>one",682,1
+"1383",NA,1723,"Nehan",798,1
+"1384",NA,1723,"Nehan Hape",831,1
+"1385",NA,1723,"Neku",857,1
+"1386",NA,1723,"Nêlêmwa",881,1
+"1387",NA,1723,"Nembao",834,1
+"1388",NA,1723,"Nemi (East cost area)",NA,1
+"1389",NA,1723,"Nemi (Temala area)",NA,1
+"1390",NA,1723,"Nenaya",595,1
+"1391",NA,1723,"Nenema",858,1
+"1392",NA,1723,"Nengone",693,1
+"1393",NA,1723,"Nese",1184,1
+"1394",NA,1723,"Nese (Matanvat)",NA,1
+"1395",NA,1723,"Neverver",923,1
+"1396",NA,1723,"Neverver (Lingarak - Mindu)",951,1
+"1397",NA,1723,"Neverver (Lingarak - Sakan)",952,1
+"1398",NA,1723,"Ngadha",406,1
+"1399",NA,1723,"Ngaibor (S.Aru)",407,1
+"1400",NA,1723,"Nggao (Poro)",817,1
+"1401",NA,1723,"Nggela",694,1
+"1402",NA,1723,"Ngorek",NA,1
+"1403",NA,1723,"Nguna",988,1
+"1404",NA,1723,"Nias",190,1
+"1405",NA,1723,"Nila",450,1
+"1406",NA,1723,"Nimoa",576,1
+"1407",NA,1723,"Ninde (Labo)",931,1
+"1408",NA,1723,"Ninde (Lawa)",929,1
+"1409",NA,1723,"Ninde (Lorlo)",930,1
+"1410",NA,1723,"Ninde (Opmomba)",928,1
+"1411",NA,1723,"Ninde (Windua)",932,1
+"1412",NA,1723,"Ninigo",633,1
+"1413",NA,1723,"Nissan",751,1
+"1414",NA,1723,"Nisvai (Blacksands)",962,1
+"1415",NA,1723,"Nitita (Khatbol)",956,1
+"1416",NA,1723,"Niuafo'ou",1232,1
+"1417",NA,1723,"Niue",1216,1
+"1418",NA,1723,"Njada",637,1
+"1419",NA,1723,"Nokuku",1035,1
+"1420",NA,1723,"Nombotkote (Blacksands)",940,1
+"1421",NA,1723,"Nombotkote (Melaklak (Melkin))",941,1
+"1422",NA,1723,"Nombotkote (Usus - Melkin)",939,1
+"1423",NA,1723,"North Ambae (Havai)",NA,1
+"1424",NA,1723,"North Ambae (Leo)",NA,1
+"1425",NA,1723,"North Ambae (Leonda)",NA,1
+"1426",NA,1723,"North Babar",454,1
+"1427",NA,1723,"Novol (Bangir)",NA,1
+"1428",NA,1723,"Novol (Melaklak)",950,1
+"1429",NA,1723,"Nuguria",1234,1
+"1430",NA,1723,"Nukeria",1193,1
+"1431",NA,1723,"Nukuoro",1230,1
+"1432",NA,1723,"Numbami (Siboma)",612,1
+"1433",NA,1723,"Nume",1088,1
+"1434",NA,1723,"Numèè (Nââ Numèè)",NA,1
+"1435",NA,1723,"Numfor",499,1
+"1436",NA,1723,"Nyelâyu",844,1
+"1437",NA,1723,"Nyelâyu (Belep Dialect)",847,1
+"1438",NA,1723,"Nyindrou",651,1
+"1439",NA,1723,"Ogan",258,1
+"1440",NA,1723,"Old Javanese",206,1
+"1441",NA,1723,"Old Rapa (Rapa)",1195,1
+"1442",NA,1723,"Old/Middle Javanese",NA,1
+"1443",NA,1723,"Orkon",1094,1
+"1444",NA,1723,"Oroha",726,1
+"1445",NA,1723,"Paama (Faulili)",1054,1
+"1446",NA,1723,"Paama (Laul)",1079,1
+"1447",NA,1723,"Paama (Lironesa)",1043,1
+"1448",NA,1723,"Paamese (South)",1060,1
+"1449",NA,1723,"Padoe",386,1
+"1450",NA,1723,"Paicî",NA,1
+"1451",NA,1723,"Paiwan (Butanglu L04)",34,1
+"1452",NA,1723,"Paiwan (Kulalao F82)",3,1
+"1453",NA,1723,"Paiwan (Stimul L04)",35,1
+"1454",NA,1723,"Paiwan (Tjatjigel Egli)",1,1
+"1455",NA,1723,"Paiwan (Tjubar L04)",36,1
+"1456",NA,1723,"Pak",648,1
+"1457",NA,1723,"Palauan",191,1
+"1458",NA,1723,"Palawan Batak",94,1
+"1459",NA,1723,"Palembang Malay",NA,1
+"1460",NA,1723,"Palu'e (Nitung)",489,1
+"1461",NA,1723,"Pangasinan",108,1
+"1462",NA,1723,"Pangkumu (Datisman)",1132,1
+"1463",NA,1723,"Pangkumu (Ndarmif)",1131,1
+"1464",NA,1723,"Papitalai",660,1
+"1465",NA,1723,"Papora Ts82",22,1
+"1466",NA,1723,"Paser",267,1
+"1467",NA,1723,"Pat<U+032A>i",860,1
+"1468",NA,1723,"Patpatar",767,1
+"1469",NA,1723,"Paulohi",408,1
+"1470",NA,1723,"Pazih F69",11,1
+"1471",NA,1723,"Pazih LTs (Auran)",30,1
+"1472",NA,1723,"Perai",443,1
+"1473",NA,1723,"Peterara (Maewo)",1066,1
+"1474",NA,1723,"Phan Rang Cham (Eastern Cham)",304,1
+"1475",NA,1723,"Piamatsina",991,1
+"1476",NA,1723,"Pije (mountain)",NA,1
+"1477",NA,1723,"Pije (Ocean)",NA,1
+"1478",NA,1723,"Pinje",861,1
+"1479",NA,1723,"Pitilu",642,1
+"1480",NA,1723,"Piva",829,1
+"1481",NA,1723,"Poai",862,1
+"1482",NA,1723,"Poamei",863,1
+"1483",NA,1723,"Poapoã",864,1
+"1484",NA,1723,"Polonombauk",924,1
+"1485",NA,1723,"Ponam",638,1
+"1486",NA,1723,"Ponapean",886,1
+"1487",NA,1723,"Pondok",NA,1
+"1488",NA,1723,"Ponosakan",56,1
+"1489",NA,1723,"Popalia",259,1
+"1490",NA,1723,"Port Sandwich",1113,1
+"1491",NA,1723,"Port Sandwich (Lamap 1)",1160,1
+"1492",NA,1723,"Port Sandwich (Lamap 2",1164,1
+"1493",NA,1723,"Port Vato",1070,1
+"1494",NA,1723,"Proto-Atayalic",NA,1
+"1495",NA,1723,"Proto-Batanic",NA,1
+"1496",NA,1723,"Proto-Bisayan",NA,1
+"1497",NA,1723,"Proto-Bungku-Tolaki",NA,1
+"1498",NA,1723,"Proto-Central Eastern Malayo Polynesian",NA,1
+"1499",NA,1723,"Proto-Central Luzon",NA,1
+"1500",NA,1723,"Proto-Central Malayo Polynesian",NA,1
+"1501",NA,1723,"Proto-Central Pacific",NA,1
+"1502",NA,1723,"Proto-Chamic",NA,1
+"1503",NA,1723,"Proto-Chuukic",NA,1
+"1504",NA,1723,"Proto-Danaw",NA,1
+"1505",NA,1723,"Proto-East Mindanao",NA,1
+"1506",NA,1723,"Proto-Gorontalo-Mongondow",NA,1
+"1507",NA,1723,"Proto-Greater Central Philippines",NA,1
+"1508",NA,1723,"Proto-Kalamianic",NA,1
+"1509",NA,1723,"Proto-Kimbe",NA,1
+"1510",NA,1723,"Proto-Lampungic",NA,1
+"1511",NA,1723,"Proto-Malayic",NA,1
+"1512",NA,1723,"Proto-Malayo-Polynesian",NA,1
+"1513",NA,1723,"Proto-Malayo-Polynesian (Zorc)",NA,1
+"1514",NA,1723,"Proto-Manide-Alabat",NA,1
+"1515",NA,1723,"Proto-Manobo",NA,1
+"1516",NA,1723,"Proto-Micronesian",NA,1
+"1517",NA,1723,"Proto-Minahasan",NA,1
+"1518",NA,1723,"Proto-Moken-Moklen",NA,1
+"1519",NA,1723,"Proto-Oceanic (Blust)",NA,1
+"1520",NA,1723,"Proto-Oceanic (Pawley)",NA,1
+"1521",NA,1723,"Proto-Palawan",NA,1
+"1522",NA,1723,"Proto-Philippine",NA,1
+"1523",NA,1723,"Proto-Polynesian",NA,1
+"1524",NA,1723,"Proto-Puyuma",27,1
+"1525",NA,1723,"Proto-Rukai",NA,1
+"1526",NA,1723,"Proto-Sama-Bajaw",NA,1
+"1527",NA,1723,"Proto-Sangiric",NA,1
+"1528",NA,1723,"Proto-Seko",NA,1
+"1529",NA,1723,"Proto-South Sulawesi",NA,1
+"1530",NA,1723,"Proto-Southern Mindanaon",NA,1
+"1531",NA,1723,"Proto-Subanen",NA,1
+"1532",NA,1723,"Proto-Sumba-Hawu",NA,1
+"1533",NA,1723,"Proto-Tsouic",28,1
+"1534",NA,1723,"Proto Central Papuan",NA,1
+"1535",NA,1723,"Proto Kenyah",NA,1
+"1536",NA,1723,"Proto Malagasy",NA,1
+"1537",NA,1723,"Proto North Mainland/D'Entrecasteaux",NA,1
+"1538",NA,1723,"Proto North Sarawak",NA,1
+"1539",NA,1723,"Proto Northern Central Vanuatu",NA,1
+"1540",NA,1723,"Proto Papuan Tip",NA,1
+"1541",NA,1723,"Proto Siraya",NA,1
+"1542",NA,1723,"Proto Suauic",NA,1
+"1543",NA,1723,"Pukapuka",1199,1
+"1544",NA,1723,"Pulau (Arguni)",432,1
+"1545",NA,1723,"Pulo-Annan",890,1
+"1546",NA,1723,"Pulo Anna",884,1
+"1547",NA,1723,"Puluwatese",889,1
+"1548",NA,1723,"Punan Kelai",283,1
+"1549",NA,1723,"Puyuma (Chihpen F69)",12,1
+"1550",NA,1723,"Puyuma (Katipul L04)",NA,1
+"1551",NA,1723,"Puyuma (Lower Pinlang L04)",NA,1
+"1552",NA,1723,"Puyuma (Nanwang Cq)",29,1
+"1553",NA,1723,"Puyuma (Pilam L04)",NA,1
+"1554",NA,1723,"Pwapwâ - mBoyen",NA,1
+"1555",NA,1723,"Ramoaaina",759,1
+"1556",NA,1723,"Rano (Chinambong)",1147,1
+"1557",NA,1723,"Rano (Potora)",1149,1
+"1558",NA,1723,"Rano (Small Island)",1148,1
+"1559",NA,1723,"Rapa",1233,1
+"1560",NA,1723,"Rapanui (Easter Island)",1221,1
+"1561",NA,1723,"Ratagnon",74,1
+"1562",NA,1723,"Rawo",736,1
+"1563",NA,1723,"Rejang Rejang",192,1
+"1564",NA,1723,"Rennellese",1204,1
+"1565",NA,1723,"Repanbitipmbangir",915,1
+"1566",NA,1723,"Rerep",1121,1
+"1567",NA,1723,"Rhade",346,1
+"1568",NA,1723,"Ririo",768,1
+"1569",NA,1723,"Riwo",NA,1
+"1570",NA,1723,"Roglai, Northern",348,1
+"1571",NA,1723,"Roinji",594,1
+"1572",NA,1723,"Roma",474,1
+"1573",NA,1723,"Romblon",174,1
+"1574",NA,1723,"Roon",503,1
+"1575",NA,1723,"Roria",977,1
+"1576",NA,1723,"Roti (Termanu Dialect)",409,1
+"1577",NA,1723,"Rotuman",679,1
+"1578",NA,1723,"Roviana",752,1
+"1579",NA,1723,"Rukai (Budai F69)",13,1
+"1580",NA,1723,"Rukai (Budai L04)",38,1
+"1581",NA,1723,"Rukai (Maga L04)",39,1
+"1582",NA,1723,"Rukai (Mantauran L04)",41,1
+"1583",NA,1723,"Rukai (Tanan L04)",37,1
+"1584",NA,1723,"Rukai (Tona)",40,1
+"1585",NA,1723,"S.W. Palawano",159,1
+"1586",NA,1723,"Sa",1087,1
+"1587",NA,1723,"Sa'a",697,1
+"1588",NA,1723,"Sa'a (A'ulu Village)",738,1
+"1589",NA,1723,"Sa'a (Sa'a Village)",737,1
+"1590",NA,1723,"Sa'a (Uki Ni Masi)",710,1
+"1591",NA,1723,"Sa'a (Ulawa)",709,1
+"1592",NA,1723,"Sa (Bunlap)",NA,1
+"1593",NA,1723,"Sa (F Yantas)",NA,1
+"1594",NA,1723,"Sa (Ha)",NA,1
+"1595",NA,1723,"Sa (south-eastern dialect)",1098,1
+"1596",NA,1723,"Saaroa F69",14,1
+"1597",NA,1723,"Saaroa L04",49,1
+"1598",NA,1723,"Saipan Carolinian",891,1
+"1599",NA,1723,"Saipan Carolinian Tanapag",892,1
+"1600",NA,1723,"Saisiyat F69",15,1
+"1601",NA,1723,"Saisiyat L04 (Ta'ai)",NA,1
+"1602",NA,1723,"Saisiyat L04 (Tungho)",NA,1
+"1603",NA,1723,"Sakao",922,1
+"1604",NA,1723,"Sakao (Port-Olry)",970,1
+"1605",NA,1723,"Sakizaya",NA,1
+"1606",NA,1723,"Salang (Dixon Reef)",937,1
+"1607",NA,1723,"Sama (Pangutaran)",345,1
+"1608",NA,1723,"Sama (Sibutu)",344,1
+"1609",NA,1723,"Samal, Siasi Dialect",307,1
+"1610",NA,1723,"Samar-Leyte",184,1
+"1611",NA,1723,"Sambal",67,1
+"1612",NA,1723,"Sambal, Botolan",145,1
+"1613",NA,1723,"Samoan",1191,1
+"1614",NA,1723,"Sangil, Saragani Islands",146,1
+"1615",NA,1723,"Sangir",85,1
+"1616",NA,1723,"Sangir, Tabukang Dialect",147,1
+"1617",NA,1723,"Santa Ana",695,1
+"1618",NA,1723,"Santa Catalina",727,1
+"1619",NA,1723,"Sarangani Blaan",101,1
+"1620",NA,1723,"Sasak",284,1
+"1621",NA,1723,"Satawalese",894,1
+"1622",NA,1723,"Savu",411,1
+"1623",NA,1723,"Savu (1773)",482,1
+"1624",NA,1723,"Seediq F69 (Sakura)",16,1
+"1625",NA,1723,"Seediq L04 (Hecuo)",45,1
+"1626",NA,1723,"Seediq L04 (Paran)",43,1
+"1627",NA,1723,"Seediq L04 (Toda)",44,1
+"1628",NA,1723,"Seediq L04 (Truku)",46,1
+"1629",NA,1723,"Seimat",631,1
+"1630",NA,1723,"Sekar",433,1
+"1631",NA,1723,"Seke",1050,1
+"1632",NA,1723,"Selaru",413,1
+"1633",NA,1723,"Sengga",821,1
+"1634",NA,1723,"Sengseng",579,1
+"1635",NA,1723,"Serili",456,1
+"1636",NA,1723,"Serua",449,1
+"1637",NA,1723,"Si<U+014B>orakai",591,1
+"1638",NA,1723,"Siar",778,1
+"1639",NA,1723,"Sie",662,1
+"1640",NA,1723,"Sika",414,1
+"1641",NA,1723,"Sikaiana",1212,1
+"1642",NA,1723,"Simbo",799,1
+"1643",NA,1723,"Simeulue",256,1
+"1644",NA,1723,"Sinaugoro (Balawaia Dialect)",515,1
+"1645",NA,1723,"Sinaugoro (Saroa Dialect)",540,1
+"1646",NA,1723,"Sinauna",173,1
+"1647",NA,1723,"Singhi",268,1
+"1648",NA,1723,"Sio",598,1
+"1649",NA,1723,"Siraya A",NA,1
+"1650",NA,1723,"Siraya F69",17,1
+"1651",NA,1723,"Siraya Gospel dialect",NA,1
+"1652",NA,1723,"Siraya UM (Utrecht Manuscript) dialect",NA,1
+"1653",NA,1723,"Sirehë",865,1
+"1654",NA,1723,"Sishëë",NA,1
+"1655",NA,1723,"Sisingga",777,1
+"1656",NA,1723,"Sissano (Arop dialect)",606,1
+"1657",NA,1723,"Sivisa Titan",653,1
+"1658",NA,1723,"Siviti (Beterbu, Jericho)",NA,1
+"1659",NA,1723,"Siviti (Womol)",NA,1
+"1660",NA,1723,"Ske (Seke)",1100,1
+"1661",NA,1723,"So'a",470,1
+"1662",NA,1723,"Sobei",580,1
+"1663",NA,1723,"Soboyo",415,1
+"1664",NA,1723,"Sogodnin (Boracay)",75,1
+"1665",NA,1723,"Sogodnin (Iloilo)",76,1
+"1666",NA,1723,"Solos",795,1
+"1667",NA,1723,"Sonsorolese",901,1
+"1668",NA,1723,"Sori",635,1
+"1669",NA,1723,"Sou Amana Teru",479,1
+"1670",NA,1723,"South-East Babar",455,1
+"1671",NA,1723,"South Ambae (Biribiri)",NA,1
+"1672",NA,1723,"South Ambae (Lolovele)",NA,1
+"1673",NA,1723,"South Ambae (Sakao)",NA,1
+"1674",NA,1723,"South Efate",1039,1
+"1675",NA,1723,"ßatarxobu (Benut)",NA,1
+"1676",NA,1723,"ßatarxobu (Gunwar)",NA,1
+"1677",NA,1723,"ßatarxobu (Limsak)",NA,1
+"1678",NA,1723,"ßatarxobu (Lipitav)",NA,1
+"1679",NA,1723,"Subanon, Siocon",149,1
+"1680",NA,1723,"Subanun, Sindangan",148,1
+"1681",NA,1723,"Sumbawa",341,1
+"1682",NA,1723,"Sundanese",205,1
+"1683",NA,1723,"Sungagage (Asanvari)",NA,1
+"1684",NA,1723,"Sungagage (Avanbatai)",NA,1
+"1685",NA,1723,"Sungagage (Avavanvae)",NA,1
+"1686",NA,1723,"Sungwada (Ngota)",NA,1
+"1687",NA,1723,"Sungwadaga (Lalaundi)",NA,1
+"1688",NA,1723,"Sungwadaga (Ro<U+014B>nawo)",NA,1
+"1689",NA,1723,"Sungwadia (Marino)",NA,1
+"1690",NA,1723,"Sungwadia (Naomumu)",NA,1
+"1691",NA,1723,"Sungwadia (Naone)",NA,1
+"1692",NA,1723,"Sungwadia (Tasmaor)",NA,1
+"1693",NA,1723,"Sungwadia (Uta)",NA,1
+"1694",NA,1723,"Sungwadoga (Rata)",NA,1
+"1695",NA,1723,"Sungwadola (G<U+02B7>aaran Uta)",NA,1
+"1696",NA,1723,"Sungwaloge (Nalemba) as spoken at Narovorovo)",NA,1
+"1697",NA,1723,"Sungwaloge (Nalemba) as spoken at Nasawa",NA,1
+"1698",NA,1723,"Sungwaloge (Tawet) as spoken at Narovorovo",NA,1
+"1699",NA,1723,"Sungwaloge (Tawet) as spoken at Naviso",NA,1
+"1700",NA,1723,"Surigaonon",155,1
+"1701",NA,1723,"Sursurunga",760,1
+"1702",NA,1723,"Sye (Erromangan)",687,1
+"1703",NA,1723,"Taba",510,1
+"1704",NA,1723,"Tabar",756,1
+"1705",NA,1723,"Tadyawan",70,1
+"1706",NA,1723,"Tae' (S.Toraja)",203,1
+"1707",NA,1723,"Tagabili",150,1
+"1708",NA,1723,"Tagalog (Anthony dela Paz)",109,1
+"1709",NA,1723,"Tagbanwa, Aborlan Dialect",151,1
+"1710",NA,1723,"Tagbanwa, Kalamian, Coron Island Dialect",152,1
+"1711",NA,1723,"Taiof",773,1
+"1712",NA,1723,"Takuu",1213,1
+"1713",NA,1723,"Talise",721,1
+"1714",NA,1723,"Talise (Koo)",717,1
+"1715",NA,1723,"Talise (Malagheti)",718,1
+"1716",NA,1723,"Talise (Moli)",719,1
+"1717",NA,1723,"Talise (Poleo)",720,1
+"1718",NA,1723,"Taloki",387,1
+"1719",NA,1723,"Tambotalo",1006,1
+"1720",NA,1723,"Tami",584,1
+"1721",NA,1723,"Tandaganon (Naturalis)",NA,1
+"1722",NA,1723,"Tanema",839,1
+"1723",NA,1723,"Tangga",757,1
+"1724",NA,1723,"Tangga (Feni)",NA,1
+"1725",NA,1723,"Tangoa",987,1
+"1726",NA,1723,"Tanimbili",836,1
+"1727",NA,1723,"Tanna, North",669,1
+"1728",NA,1723,"Tanna, Southwest",686,1
+"1729",NA,1723,"Taokas Ts82",23,1
+"1730",NA,1723,"Tape",973,1
+"1731",NA,1723,"Tape (Tautu)",957,1
+"1732",NA,1723,"Tarangan Barat (Feruni)",488,1
+"1733",NA,1723,"Tarpia",581,1
+"1734",NA,1723,"Tasmate",1016,1
+"1735",NA,1723,"Tausug, Jolo Dialect",153,1
+"1736",NA,1723,"Tawaroga",704,1
+"1737",NA,1723,"Tboli (Tagabili)",79,1
+"1738",NA,1723,"Teanu",833,1
+"1739",NA,1723,"Tela-Masbuar",460,1
+"1740",NA,1723,"Tengger (Ngadas)",NA,1
+"1741",NA,1723,"Teop",769,1
+"1742",NA,1723,"Ternate (Pasar-Lingua franca)",339,1
+"1743",NA,1723,"Tesmbol (Melaklak)",NA,1
+"1744",NA,1723,"Tesmbol (Usus)",NA,1
+"1745",NA,1723,"Tetun Fehan",423,1
+"1746",NA,1723,"Tetun Terik (Fehan dialect)",480,1
+"1747",NA,1723,"Teun",448,1
+"1748",NA,1723,"Thao B96",6,1
+"1749",NA,1723,"Tiale",1021,1
+"1750",NA,1723,"Tiang",792,1
+"1751",NA,1723,"Tigak",762,1
+"1752",NA,1723,"Tikopia",1200,1
+"1753",NA,1723,"Timbembe",917,1
+"1754",NA,1723,"Timugon (Murut)",293,1
+"1755",NA,1723,"Tirax (Bakru)",1140,1
+"1756",NA,1723,"Tirax (Mae A)",1156,1
+"1757",NA,1723,"Tirax (Mae B)",1158,1
+"1758",NA,1723,"Tirax (Olamb)",1143,1
+"1759",NA,1723,"Tîrî (Tsîrî - Tintin)",NA,1
+"1760",NA,1723,"Tiruray",176,1
+"1761",NA,1723,"To'ambaita",698,1
+"1762",NA,1723,"Toba Batak",200,1
+"1763",NA,1723,"Tobati",NA,1
+"1764",NA,1723,"Toga",1082,1
+"1765",NA,1723,"Tokelau",1214,1
+"1766",NA,1723,"Tokodede",424,1
+"1767",NA,1723,"Tolai",784,1
+"1768",NA,1723,"Tolaki",342,1
+"1769",NA,1723,"Tolaki (Asera)",388,1
+"1770",NA,1723,"Tolaki (Konawe)",389,1
+"1771",NA,1723,"Tolaki (Laiwui)",390,1
+"1772",NA,1723,"Tolaki (Mekongga)",391,1
+"1773",NA,1723,"Tolaki (Wiwirano)",392,1
+"1774",NA,1723,"Tolo",700,1
+"1775",NA,1723,"Tolomako",1031,1
+"1776",NA,1723,"Tomadino",393,1
+"1777",NA,1723,"Tomini (Tialo)",350,1
+"1778",NA,1723,"Tongan",1198,1
+"1779",NA,1723,"Tonsea",160,1
+"1780",NA,1723,"Tontemboan",80,1
+"1781",NA,1723,"Torau",791,1
+"1782",NA,1723,"Totoli",349,1
+"1783",NA,1723,"Tsou (Duhtu L04)",47,1
+"1784",NA,1723,"Tsou T63",2,1
+"1785",NA,1723,"Tubetube",545,1
+"1786",NA,1723,"Tugun",442,1
+"1787",NA,1723,"Tulu",647,1
+"1788",NA,1723,"Tungag / Tungak / Lavongai",776,1
+"1789",NA,1723,"Tunjung",285,1
+"1790",NA,1723,"Tutuba",981,1
+"1791",NA,1723,"Tuvalu",1202,1
+"1792",NA,1723,"Ubir",558,1
+"1793",NA,1723,"Ughele",803,1
+"1794",NA,1723,"Ujir (N.Aru)",434,1
+"1795",NA,1723,"Ujir (Schapper)",419,1
+"1796",NA,1723,"Ulithian",882,1
+"1797",NA,1723,"Uliveo (Lurtes) 162-107",1176,1
+"1798",NA,1723,"Uliveo (Palongk) 162-103",1179,1
+"1799",NA,1723,"Uliveo (Palongk) 162-104",1171,1
+"1800",NA,1723,"Uliveo (Pescaros) 162-106",1178,1
+"1801",NA,1723,"Uliveo (Peskaros) 162-105",1181,1
+"1802",NA,1723,"Uma' Pawe",NA,1
+"1803",NA,1723,"Uma (Kantewu dialect)",405,1
+"1804",NA,1723,"Umiray Dumaget",60,1
+"1805",NA,1723,"Unua",1110,1
+"1806",NA,1723,"Unua (Mbatumbo)",1134,1
+"1807",NA,1723,"Unua (Noferai)",1133,1
+"1808",NA,1723,"Urak Lawoi'",351,1
+"1809",NA,1723,"Uripiv-Wala-Rano-Atchin (Atchin)",1118,1
+"1810",NA,1723,"Uripiv-Wala-Rano-Atchin (Pinalum)",1125,1
+"1811",NA,1723,"Uripiv-Wala-Rano-Atchin (Rano)",1105,1
+"1812",NA,1723,"Uripiv-Wala-Rano-Atchin (Tautu)",1108,1
+"1813",NA,1723,"Uripiv-Wala-Rano-Atchin (Uri)",1111,1
+"1814",NA,1723,"Uripiv-Wala-Rano-Atchin (Uripiv)",1104,1
+"1815",NA,1723,"Uripiv-Wala-Rano-Atchin (Wala)",1120,1
+"1816",NA,1723,"Uripiv (D'urpif 1)",1142,1
+"1817",NA,1723,"Uripiv (D'urpif 2",1144,1
+"1818",NA,1723,"Uripiv (Potnambwe)",1151,1
+"1819",NA,1723,"Uruava",800,1
+"1820",NA,1723,"Utudnon",NA,1
+"1821",NA,1723,"Uvea, East",1218,1
+"1822",NA,1723,"Uvea, West",1219,1
+"1823",NA,1723,"V'ënen Taut (Leviamp)",926,1
+"1824",NA,1723,"V'ënen Taut (Unmet)",925,1
+"1825",NA,1723,"Vaeakau-Taumako",1222,1
+"1826",NA,1723,"Vaghua",763,1
+"1827",NA,1723,"Valpei",1029,1
+"1828",NA,1723,"Valpei (Hukua)",1030,1
+"1829",NA,1723,"Vangunu",810,1
+"1830",NA,1723,"Vano",838,1
+"1831",NA,1723,"Vao",1101,1
+"1832",NA,1723,"Vao (Beetehul)",1165,1
+"1833",NA,1723,"Vao (Peteri)",1150,1
+"1834",NA,1723,"Vao (Torono)",1136,1
+"1835",NA,1723,"Varisi",770,1
+"1836",NA,1723,"Varisi (Ghone)",813,1
+"1837",NA,1723,"Venen Taute (Alpalak)",963,1
+"1838",NA,1723,"Venen Taute (Hamax)",961,1
+"1839",NA,1723,"Venen Taute (Unmet)",960,1
+"1840",NA,1723,"Vera'a (Vatrata)",1059,1
+"1841",NA,1723,"Vilirupu",564,1
+"1842",NA,1723,"Vitu",764,1
+"1843",NA,1723,"Vovo",NA,1
+"1844",NA,1723,"Vunapu",982,1
+"1845",NA,1723,"Vurës (Mosina)",1055,1
+"1846",NA,1723,"Vurës (Vetumboso)",1065,1
+"1847",NA,1723,"Wab",592,1
+"1848",NA,1723,"Wailapa",1019,1
+"1849",NA,1723,"Waima'a",425,1
+"1850",NA,1723,"Wakole dialect of Kumbewaha",NA,1
+"1851",NA,1723,"Wala (Botku)",1145,1
+"1852",NA,1723,"Wala (Worprev A)",1146,1
+"1853",NA,1723,"Wala (Worprev B)",1163,1
+"1854",NA,1723,"Wamoa<U+014B>",866,1
+"1855",NA,1723,"Wampar",608,1
+"1856",NA,1723,"Wanukaka",463,1
+"1857",NA,1723,"Waray-Waray",162,1
+"1858",NA,1723,"Waropen",501,1
+"1859",NA,1723,"Waru",394,1
+"1860",NA,1723,"Waru (Lalomerui)",395,1
+"1861",NA,1723,"Wasambua dialect of Cia-Cia",NA,1
+"1862",NA,1723,"Watubela",427,1
+"1863",NA,1723,"Wawonii",396,1
+"1864",NA,1723,"Wawonii (Menui)",397,1
+"1865",NA,1723,"Werinama",440,1
+"1866",NA,1723,"West Ambae (Walaha)",NA,1
+"1867",NA,1723,"West Damar",451,1
+"1868",NA,1723,"Western Bukidnon Manobo",81,1
+"1869",NA,1723,"Western Fijian (Navosa)",691,1
+"1870",NA,1723,"Wetamut",1075,1
+"1871",NA,1723,"Wetan",496,1
+"1872",NA,1723,"Wewewa (Tana Righu dialect)",469,1
+"1873",NA,1723,"Whitesands (Iarkei)",674,1
+"1874",NA,1723,"Whitesands (Loniel)",670,1
+"1875",NA,1723,"Wiau",398,1
+"1876",NA,1723,"Windesi Wandamen",502,1
+"1877",NA,1723,"Woleai",887,1
+"1878",NA,1723,"Woleaian",898,1
+"1879",NA,1723,"Wolio",286,1
+"1880",NA,1723,"Wolowa dialect of Kumbewaha",NA,1
+"1881",NA,1723,"Wuna",269,1
+"1882",NA,1723,"Wusi (Kerepua)",1027,1
+"1883",NA,1723,"Wusi (Mana)",1023,1
+"1884",NA,1723,"Wusi (Nonona)",1038,1
+"1885",NA,1723,"Wusi (Valui)",1000,1
+"1886",NA,1723,"Wuvulu",652,1
+"1887",NA,1723,"Xalangi (Baetora)",NA,1
+"1888",NA,1723,"Xârâcùù",NA,1
+"1889",NA,1723,"Xârâgurè",NA,1
+"1890",NA,1723,"Yabem",618,1
+"1891",NA,1723,"Yakan",289,1
+"1892",NA,1723,"Yamdena",492,1
+"1893",NA,1723,"Yapese",237,1
+"1894",NA,1723,"Yogad",180,1
+"1895",NA,1723,"Yogya",204,1
+"1896",NA,1723,"Zabana (Kia)",774,1

@@ -153,7 +153,7 @@ ggplot(plot_new_lang_heir_arr) +
 
 # Generate centroid for language groups
 cntr_lang_groups <- tibble(
-  group = character(),
+  name = character(),
   lat = numeric(),
   lon = numeric()
 )
@@ -163,20 +163,21 @@ for (grp in 2:14){
     group_by_at(grp_col) %>% 
     summarize(lat = mean(latitude, na.rm=T), 
               lon = mean(longitude, na.rm=T)) %>% 
-    ungroup %>% rename_with(function(var){ return ("group")}, starts_with("group"))
+    ungroup %>% rename_with(function(var){ return ("name")}, starts_with("group"))
   cntr_lang_groups <- bind_rows(cntr_lang_groups, result) %>% 
-    arrange(group)
+    arrange(name)
 }
 cntr_lang_groups <- cntr_lang_groups %>% bind_rows(
-  new_lang_heir_arr %>% group_by(branch) %>% summarize(lat = mean(latitude, na.rm=T), 
-                                                       lon = mean(longitude, na.rm=T)) %>%
-    rename(group = branch)
-) %>% arrange(group)
+  new_lang_heir_arr %>% group_by(branch) %>% 
+    summarize(lat = mean(latitude, na.rm=T),lon = mean(longitude, na.rm=T)) %>%
+    rename(name = branch)
+) %>% arrange(name)
 
 # Generate data for origin map
-heirarchy_location <- new_lang_heir_arr %>% select(id_lang, language, latitude, longitude, branch, branch_id) %>%
+heirarchy_location <- new_lang_heir_arr %>% select(id_lang, language, latitude, longitude) %>%
   rename(lat = latitude, lon = longitude, name = language) %>%
-  bind_rows(cntr_lang_groups %>% rename(name = group)) %>%
+  bind_rows(cntr_lang_groups) %>%
+  filter(!is.na(lat) | !is.na(lon)) %>%
   mutate(node_id = row_number())
 
 # Generate data for flow map
@@ -212,11 +213,17 @@ for(row in 1:nrow(new_lang_heir_arr)){
 }
 
 heir_orig_ref <- heirarchy_location %>% select(name, node_id)
-heirarchy_flows %>% group_by(origin, dest) %>% summarize(count = n()) %>% 
+heirarchy_flows <- heirarchy_flows %>% group_by(origin, dest) %>% summarize(count = n()) %>% 
   arrange(desc(count)) %>% 
   mutate(origin_id = heir_orig_ref$node_id[match(origin, heir_orig_ref$name)]) %>%
   mutate(dest_id = heir_orig_ref$node_id[match(dest, heir_orig_ref$name)]) %>%
-  select(origin, origin_id, dest, dest_id, count)
+  select(origin, origin_id, dest, dest_id, count) %>%
+  rename(origin_name = origin,
+         origin = origin_id,
+         dest_name = dest,
+         dest = dest_id)
 
 write_json(heirarchy_location, "data/output/json/heirarchy/language_heirarchy_location.json", pretty=T)
 write_json(heirarchy_flows, "data/output/json/heirarchy/language_heirarchy_flows.json", pretty=T)
+write.csv(heirarchy_location, "data/output/csv/heirarchy/language_heirarchy_location.csv")
+write.csv(heirarchy_flows, "data/output/csv/heirarchy/language_heirarchy_flows.csv")
