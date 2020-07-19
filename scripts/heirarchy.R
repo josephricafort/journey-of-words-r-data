@@ -12,6 +12,9 @@ library(rvest)
 library(magrittr)
 library(stringr)
 
+language_info_api_clean
+language_heirarchy_api_clean
+
 cleanupWord <- function(word){
   # Replace dashes with undescores
   result <- str_replace_all(word, "\\-", "") %>% 
@@ -57,8 +60,8 @@ language_heirarchy_scrape_data <- tibble(name_group, level_group, classification
 
 # Getting a better heirarchy in order
 
-branch_order <- c("Formosan", "Philippine", "Western Malayo-Polynesian",
-                  "Central Malayo-Polynesian", "Eastern Malayo-Polynesian", "South Halmahera-West New Guinea",
+branch_order <- c("Proto-Austronesian", "Formosan", "Philippine", "Malayo-Polynesian",
+                  "Western Malayo-Polynesian", "Central Malayo-Polynesian", "South Halmahera-West New Guinea",
                   "Papuan Tip", "North New Guinea", "Admiralty Islands", "Central-Eastern Oceanic", 
                   "Southeast Solomonic", "Meso Melanesian", "Temotu", "New Caledonian", 
                   "Micronesian", "North and Central Vanuatu","Northeast Vanuatu-Banks Islands",
@@ -71,12 +74,12 @@ branch_order <- c("Formosan", "Philippine", "Western Malayo-Polynesian",
 # https://observablehq.com/d/a5e74ac875ca5c6d
 
 # 1. Formosan (no node, created) - all children in group 2
-gp_formosan <- c("Atayalic", "East-Formosan", "Western Plains", "Tsouic", 
+gp_formosan <- c("Atayalic", "East-Formosan", "East Formosan", "Western Plains", "Tsouic", 
               "Bunun", "Northwest Formosan", "Paiwan", "Puyuma", "Rukai")
 
 # 2. Philippine (group 3) - all children in group 4
 # Child nodes: group 3
-gp_philippine_toadd <- c("Bashiic")
+gp_philippine_toadd <- c("Bashiic", "Greater Central Philippine", "Bilic")
 # Possible child nodes: South Sulawesi
 
 # 3. Western Malayo-Polynesian (no node) - all children in group 3
@@ -96,15 +99,14 @@ gp_western_malayo_polynesian <- c("Celebic", "North Borneo", "Malayo-Chamic", "G
 # 14. Central Pacific (group 8)
 # 15. Polynesian (group 10) // under Central Pacific
 
+gp2 <- c("Eastern ", "Malayo-Polynesian")
 gp3 <- c("Philippine")
-gp4 <- c("Central Malayo-Polynesian", "Eastern Malayo-Polynesian")
-# gp5 <- c("South Halmahera-West New Guinea")
-gp5 <- ("")
-# gp6 <- c("Admiralty Islands", "Central-Eastern Oceanic")
-gp6 <- ("")
+gp4 <- c("Central Malayo-Polynesian")
+gp5 <- c("South Halmahera-West New Guinea")
+gp6 <- c("Admiralty Islands", "Central-Eastern Oceanic", "Temotu")
 gp7 <- c("Papuan Tip", "North New Guinea", "Southeast Solomonic", "Meso Melanesian")
-# gp8 <- c("North and Central Vanuatu", "Micronesian", "New Caledonian")
-gp8 <- c("North and Central Vanuatu", "New Caledonian")
+gp8 <- c("North and Central Vanuatu", "Micronesian", "New Caledonian")
+# gp8 <- c("North and Central Vanuatu", "New Caledonian")
 gp9 <- c("Northeast Vanuatu-Banks Islands")
 gp10 <- c("Polynesian", "East Vanuatu", "Malekula Coastal")
 new_heirarchy_group <- list(gp3, gp4, gp5, gp6, gp7, gp8, gp10)
@@ -113,7 +115,9 @@ new_heirarchy_group <- list(gp3, gp4, gp5, gp6, gp7, gp8, gp10)
 new_lang_heir_arr <- language_heirarchy_array %>%
   mutate(branch = as.character("")) %>%
   select(id_lang:silcode, branch, group1:group14) %>%
+  mutate(branch = ifelse(is.na(group2), "Proto-Austronesian", branch)) %>%
   mutate(branch = ifelse(group2 %in% gp_formosan, "Formosan", branch)) %>%
+  mutate(branch = ifelse(group2 %in% gp2, group2, branch)) %>%
   mutate(branch = ifelse(group3 == "Philippines" & group3 %in% gp_philippine_toadd, "Philippine", branch)) %>%
   mutate(branch = ifelse(group3 %in% gp_western_malayo_polynesian, "Western Malayo-Polynesian", branch)) %>%
   mutate(branch = ifelse(group3 %in% gp3, group3, branch)) %>%
@@ -127,18 +131,92 @@ new_lang_heir_arr <- language_heirarchy_array %>%
   # Relevel branch into factor
   mutate(branch = fct_relevel(branch, branch_order)) %>%
   mutate(branch_id = match(branch, branch_order)) %>%
-  select(id_lang:silcode, branch, branch_id, group1:group14)
-  
+  select(id_lang:silcode, branch, branch_id, group1:group14) %>%
+  arrange(branch_id, id_lang) %>%
+  left_join(language_info_api_clean %>% select(id_lang, latitude, longitude)) %>%
+  # Remove Proto-Austronesian
+  filter(branch_id != 1)
+
+write_json(new_lang_heir_arr, "data/output/json/heirarchy/language_heirarchy_array.json", pretty=T)
+
+# Just a quick plot of how the data would look like
+
 branch_list <- new_lang_heir_arr$branch %>% unique
 
 plot_new_lang_heir_arr <- new_lang_heir_arr %>%
   group_by(branch) %>%
   summarize(n = n()) %>% as.data.frame
 
-write_json(new_lang_heir_arr, "data/output/json/language_heirarchy_array.json", pretty=T)
-
-# Just a quick plot of how the data would look like
-
 ggplot(plot_new_lang_heir_arr) +
   geom_bar(aes(branch, weight=n)) +
   theme(axis.text.x = element_text(angle = 90))
+
+# Generate centroid for language groups
+cntr_lang_groups <- tibble(
+  group = character(),
+  lat = numeric(),
+  lon = numeric()
+)
+for (grp in 2:14){
+  grp_col <- c(paste0("group", grp))
+  result <- new_lang_heir_arr %>% 
+    group_by_at(grp_col) %>% 
+    summarize(lat = mean(latitude, na.rm=T), 
+              lon = mean(longitude, na.rm=T)) %>% 
+    ungroup %>% rename_with(function(var){ return ("group")}, starts_with("group"))
+  cntr_lang_groups <- bind_rows(cntr_lang_groups, result) %>% 
+    arrange(group)
+}
+cntr_lang_groups <- cntr_lang_groups %>% bind_rows(
+  new_lang_heir_arr %>% group_by(branch) %>% summarize(lat = mean(latitude, na.rm=T), 
+                                                       lon = mean(longitude, na.rm=T)) %>%
+    rename(group = branch)
+) %>% arrange(group)
+
+# Generate data for origin map
+heirarchy_location <- new_lang_heir_arr %>% select(id_lang, language, latitude, longitude, branch, branch_id) %>%
+  rename(lat = latitude, lon = longitude, name = language) %>%
+  bind_rows(cntr_lang_groups %>% rename(name = group)) %>%
+  mutate(node_id = row_number())
+
+# Generate data for flow map
+heirarchy_flows <- tibble(
+  origin = character(),
+  dest = character()
+)
+# flow: branch -> group 2, 3,.. n, -> language
+for(row in 1:nrow(new_lang_heir_arr)){
+  branch <- new_lang_heir_arr$branch[row] %>% as.character
+  language <- new_lang_heir_arr$language[row] %>% as.character
+  id_lang <- new_lang_heir_arr$id_lang[row] %>% as.character
+  origin <- dest <- NA
+  for(col in 1:14){ # Start from group2 (Ignore 'Austronesian' group)
+    if(col == 1){
+      # 1. branch ->  group2
+      origin <- branch
+      dest <- new_lang_heir_arr[row, paste0("group", col+1)] %>% as.character
+    } else if (col >= 2 & col < 14) {
+      # 2. group 2, 3, 4... n
+      origin <- new_lang_heir_arr[row, paste0("group", col)] %>% as.character
+      dest <- new_lang_heir_arr[row, paste0("group", col+1)] %>% as.character
+    } else if (col == 14) { 
+      # 3. group n -> language
+      origin <- new_lang_heir_arr[row, paste0("group", col)] %>% as.character
+      dest <- language %>% as.character
+    }
+    if(!is.na(dest)){
+      heirarchy_flows <- bind_rows(heirarchy_flows, tibble(origin, dest))
+    }
+  }
+  print(paste0("Row ", row, ": Done!"))
+}
+
+heir_orig_ref <- heirarchy_location %>% select(name, node_id)
+heirarchy_flows %>% group_by(origin, dest) %>% summarize(count = n()) %>% 
+  arrange(desc(count)) %>% 
+  mutate(origin_id = heir_orig_ref$node_id[match(origin, heir_orig_ref$name)]) %>%
+  mutate(dest_id = heir_orig_ref$node_id[match(dest, heir_orig_ref$name)]) %>%
+  select(origin, origin_id, dest, dest_id, count)
+
+write_json(heirarchy_location, "data/output/json/heirarchy/language_heirarchy_location.json", pretty=T)
+write_json(heirarchy_flows, "data/output/json/heirarchy/language_heirarchy_flows.json", pretty=T)
