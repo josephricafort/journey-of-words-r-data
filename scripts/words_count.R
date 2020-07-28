@@ -2,15 +2,22 @@ library(tidyverse)
 
 language_words_api_clean
 words_info_all
+language_info_api_clean
 
 language_words_count <- language_words_api_clean %>%
-  group_by(item, word) %>% summarize(count = n(), cognacy1 = mean(cognacy1, na.rm=T)) %>% 
+  left_join( language_info_api_clean %>% select(id_lang, latitude, longitude), by=("id_lang")) %>%
+  group_by(item, word) %>% summarize(
+    count = n(), 
+    cognacy1 = mean(cognacy1, na.rm=T),
+    latitude = mean(latitude, na.rm=T),
+    longitude = mean(longitude, na.rm=T)) %>%
   mutate(cognate_group = 10*ceiling(cognacy1/10)) %>%
   arrange(cognacy1, desc(count)) %>%
   left_join(words_info_all) %>% select(-entries) %>%
   mutate(word = str_replace_all(word, "\\,", ""),
          word = str_replace_all(word, " ", "_")) %>%
   ungroup() %>%
+  filter(!is.na(longitude)) %>%
   filter(!is.na(cognacy1))
 
 # Top 20% count of every cognate group
