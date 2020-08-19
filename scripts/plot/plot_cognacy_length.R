@@ -27,12 +27,23 @@ number_factors <- c("one", "two", "three", "four", "five",
                     "six", "seven", "eight", "nine", "ten",
                     "twenty", "fifty", "one hundred", "one thousand")
 
-# word length vs cognacy
-# density2d
-ggplot(dataplot_length %>% filter(group == "Numbers") %>% mutate(word = fct_relevel(word, number_factors))) +
+# word length vs cognacy (ALL)
+# density
+ggplot(dataplot_length %>% #filter(group == "Numbers") %>% 
+         mutate(word = fct_relevel(word, number_factors))) +
+  # geom_jitter(aes(x=item_length, y=cognacy1, color=group), alpha=1/10, stroke=0, shape=16,
+  #             width=0.5, height=0.5) +
+  geom_density(aes(x=item_length, color=group)) +
+  # geom_density2d(aes(x=item_length, y=cognacy1))
+  facet_wrap(~group) +
+  xlim(0, 15)
+
+# word length vs cognacy filtered group
+ggplot(dataplot_length %>% filter(group == "Numbers") %>% 
+         mutate(word = fct_relevel(word, number_factors))) +
   geom_density2d(aes(x=item_length, y=cognacy1)) +
   # geom_jitter(aes(x=item_length, y=cognacy1), alpha=1/5, stroke=0, shape=16) +
-  facet_wrap(~word) #xlim(0, 11)
+  facet_wrap(~word) #xlim(0, 11) 
 
 # word per word
 categories <- words_info_all$group %>% unique

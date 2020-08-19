@@ -2,17 +2,24 @@ library(tidyverse)
 library(rvest)
 library(ggplot2)
 library(magrittr)
+library(jsonlite)
 
 URL_ACD <- "https://www.trussel2.com/ACD/"
 URL_ACD_FP <- paste0(URL_ACD, "acd-s_a1.htm")
 
+# # Reread the saved data rather than rerunning the script
+# acd_data_fragment_AtoG <- read.csv("data/output/csv/acd_data_cognatesets_AtoG.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
+# acd_data_fragment_HtoM <- read.csv("data/output/csv/acd_data_cognatesets_HtoM.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
+# acd_data_fragment_NtoR <- read.csv("data/output/csv/acd_data_cognatesets_NtoR.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
+# acd_data_fragment_StoZ <- read.csv("data/output/csv/acd_data_cognatesets_StoZ.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
+
 data_acd_raw <- read_html(paste0(URL_ACD_FP))
 
 acd_letters_AtoZ <- data_acd_raw %>% html_node("map") %>% html_nodes("area") %>% html_attr("href")
-acd_letters_AtoG <- acd_letters_url[0:7]
-acd_letters_HtoM <- acd_letters_url[8:13]
-acd_letters_NtoR <- acd_letters_url[14:22]
-acd_letters_StoZ <- acd_letters_url[22:29]
+acd_letters_AtoG <- acd_letters_AtoZ[0:7]
+acd_letters_HtoM <- acd_letters_AtoZ[8:13]
+acd_letters_NtoR <- acd_letters_AtoZ[14:22]
+acd_letters_StoZ <- acd_letters_AtoZ[22:29]
 
 # Input the hyperlinks and return data
 acd_data_fetch <- function(acd_letters_url){
@@ -82,4 +89,35 @@ acd_data_consolidated <- bind_rows(acd_data_fragment_AtoG, acd_data_fragment_Hto
 acd_data_clean <- acd_data_consolidated %>% 
   filter(!is.na(formuni) & !is.na(gloss))
 
-write.csv(acd_data_clean, "data/output/csv/acd_data.csv")
+# write.csv(acd_data_clean, "data/output/csv/acd_data.csv")
+
+# Save individual data fragments
+write.csv(acd_data_fragment_AtoG, "data/output/csv/acd_data_cognatesets_AtoG.csv")
+write.csv(acd_data_fragment_HtoM, "data/output/csv/acd_data_cognatesets_HtoM.csv")
+write.csv(acd_data_fragment_NtoR, "data/output/csv/acd_data_cognatesets_NtoR.csv")
+write.csv(acd_data_fragment_StoZ, "data/output/csv/acd_data_cognatesets_StoZ.csv")
+
+# Prep data to be used for web
+language_words_count_top20pc  # follow similar structure
+
+acd_data_prep <- acd_data_clean %>% rename(
+  cognate_gp = key, cognate_gloss = setline,
+  plang_id = pidno, plang_subgroup = subgroup,
+  item = formuni, lang = lg
+) %>% group_by(cognate_gp, plang_subgroup, item) %>%
+  summarize(cognate_gloss = first(cognate_gloss),
+            plang_id = first(plang_id),
+            plang_lineform = first(plang_lineform),
+            plang_gloss = first(plang_gloss),
+            lang = paste0(lang, collapse=", "),
+            count = n()) %>%
+  select(cognate_gp, cognate_gloss, plang_subgroup, plang_id:plang_gloss, item, lang, count) %>%
+  arrange(desc(count))
+
+# FIlter only top20 percent
+acd_data_prep_plus25 <- acd_data_prep %>%
+  group_by(cognate_gp) %>% filter(n() >= 25 & count >= 2) %>% arrange(cognate_gp)
+  # top_frac(0.15, count)
+
+write_json(acd_data_prep, "data/output/json/acd/cognate_sets.json")
+write_json(acd_data_prep_plus25, "data/output/json/acd/cognate_sets_plus25.json")
