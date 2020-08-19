@@ -112,7 +112,10 @@ acd_data_prep <- acd_data_clean %>% rename(
             lang = paste0(lang, collapse=", "),
             count = n()) %>%
   select(cognate_gp, cognate_gloss, plang_subgroup, plang_id:plang_gloss, item, lang, count) %>%
-  arrange(desc(count))
+  arrange(desc(count)) %>%
+  # Add indeces to cognate_gp and plang_subgroup
+  group_by(cognate_gp) %>% mutate(cognate_gp_index = row_number()) %>% ungroup %>%
+  group_by(plang_subgroup) %>% mutate(plang_subgroup_index = row_number()) %>% ungroup
 
 # FIlter only top20 percent
 acd_data_prep_plus25 <- acd_data_prep %>%
