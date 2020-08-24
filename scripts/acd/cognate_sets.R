@@ -3,6 +3,7 @@ library(rvest)
 library(ggplot2)
 library(magrittr)
 library(jsonlite)
+library(forcats)
 
 URL_ACD <- "https://www.trussel2.com/ACD/"
 URL_ACD_FP <- paste0(URL_ACD, "acd-s_a1.htm")
@@ -77,10 +78,14 @@ acd_data_fetch <- function(acd_letters_url){
 }
 
 # consolidate all the fragmented data
-acd_data_fragment_AtoG <- acd_data_fetch(acd_letters_AtoG)
-acd_data_fragment_HtoM <- acd_data_fetch(acd_letters_HtoM)
-acd_data_fragment_NtoR <- acd_data_fetch(acd_letters_NtoR)
-acd_data_fragment_StoZ <- acd_data_fetch(acd_letters_StoZ)
+fetch_data_fragments <- function(){
+  acd_data_fragment_AtoG <- acd_data_fetch(acd_letters_AtoG)
+  acd_data_fragment_HtoM <- acd_data_fetch(acd_letters_HtoM)
+  acd_data_fragment_NtoR <- acd_data_fetch(acd_letters_NtoR)
+  acd_data_fragment_StoZ <- acd_data_fetch(acd_letters_StoZ)
+}
+
+fetch_data_fragments()
 
 acd_data_consolidated <- bind_rows(acd_data_fragment_AtoG, acd_data_fragment_HtoM, acd_data_fragment_NtoR, acd_data_fragment_StoZ) %>%
   mutate(subgroup = ifelse(is.na(formuni) & is.na(gloss), lg, NA)) %>% fill(subgroup) %>%
@@ -100,6 +105,8 @@ write.csv(acd_data_fragment_StoZ, "data/output/csv/acd_data_cognatesets_StoZ.csv
 # Prep data to be used for web
 language_words_count_top20pc  # follow similar structure
 
+subgroup_fac <- c("Formosan", "WMP", "CMP", "SHWNG", "OC")
+
 acd_data_prep <- acd_data_clean %>% rename(
   cognate_gp = key, cognate_gloss = setline,
   plang_id = pidno, plang_subgroup = subgroup,
@@ -112,14 +119,17 @@ acd_data_prep <- acd_data_clean %>% rename(
             lang = paste0(lang, collapse=", "),
             count = n()) %>%
   select(cognate_gp, cognate_gloss, plang_subgroup, plang_id:plang_gloss, item, lang, count) %>%
-  arrange(desc(count)) %>%
-  # Add indeces to cognate_gp and plang_subgroup
-  group_by(cognate_gp) %>% mutate(cognate_gp_index = row_number()) %>% ungroup %>%
-  group_by(plang_subgroup) %>% mutate(plang_subgroup_index = row_number()) %>% ungroup
+  arrange(cognate_gp) %>% ungroup %>%
+  # Add indeces
+  mutate(plang_subgroup = fct_relevel(plang_subgroup, subgroup_fac),
+         plang_subgroup_id = as.integer(plang_subgroup)) %>%
+  mutate(plang_lineform = fct_inorder(plang_lineform, ordered = NA),
+         plang_lineform_id = as.integer(plang_lineform))
 
-# FIlter only top20 percent
+# Filter only top20 percent
 acd_data_prep_plus25 <- acd_data_prep %>%
-  group_by(cognate_gp) %>% filter(n() >= 25 & count >= 2) %>% arrange(cognate_gp)
+  group_by(cognate_gp) %>% filter(n() >= 25 & count >= 2) %>% 
+  ungroup %>% arrange(desc(count), item)
   # top_frac(0.15, count)
 
 write_json(acd_data_prep, "data/output/json/acd/cognate_sets.json")
