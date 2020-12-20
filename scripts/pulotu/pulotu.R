@@ -316,6 +316,8 @@ fetch_allcultures <- function(){
 
 data_pulotu_culturesinfo <- fetch_allcultures()
 
+write_json(data_pulotu_culturesinfo, "./data/output/json/pulotu.json")
+
 # Gather only for 1 category
 cats_url <- "https://pulotu.shh.mpg.de/culture/" 
 cats_raw <- read_html(cats_url) %>% html_node("#content")

@@ -1,6 +1,7 @@
 library(tidyverse)
 library(rvest)
 library(magrittr)
+library(stringi)
 
 # Fetch the coordinates of a given page for the Austronesian Language
 
@@ -29,4 +30,10 @@ coord_spoken_fetch <- function(link){
     html_text
   
   return(tibble(coord, spoken))
+}
+
+# Convert to readable unicode characters in R
+escape_unicode <- function(char){
+  result <- cat(stri_unescape_unicode(gsub("<U\\+(....)>", "\\\\u\\1", char)))
+  return (result)
 }
