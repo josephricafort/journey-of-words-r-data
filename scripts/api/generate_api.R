@@ -82,7 +82,6 @@ wordsSelectionData <- wordsInfoData %>%
   select(wordCatEn, wordEn, wordProtoAn) %>%
   group_by_all() %>% summarize() %>% ungroup
 
-
 # Parse for api use for every word
 wordList <- wordsInfoData$wordEn %>% unique %>% tocamel %>% tolower
 
