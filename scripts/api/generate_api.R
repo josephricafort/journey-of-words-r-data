@@ -5,6 +5,7 @@ install.packages("rapportools")
 library(tidyverse)
 library(jsonlite)
 library(rapportools)
+library(stringi)
 
 
 github_path <- "https://raw.githubusercontent.com/josephricafort/journey-of-words-r-data/master/"
@@ -13,6 +14,11 @@ local_output_path <- "./data/output/json"
 local_api_path <- "./api/"
 
 chapters <- c("world", "nature", "conversion", "extraction", "fate")
+
+unescapeUnicode <- function(str) {
+  result <- gsub(">","", gsub("<U\\+","\\\\u", str)) %>% stri_unescape_unicode
+  return (result)
+}
 
 #--- Exploration data ---
 # This data will be used for exploration at the end of the interactive
@@ -71,12 +77,13 @@ wordsInfoData <- acdCognateSetsCategoriesData %>%
          langs = lang,
          langId = plang_id) %>%
   separate_rows(langs, sep=",") %>%
-  rename(langName = langs) %>%
+  dplyr::rename(langName = langs) %>%
   mutate(langName = str_trim(langName),
          wordEn = gsub("  |   ", " ", wordEn),
          wordEnLong = wordEn,
          wordEn = gsub(",.*|;.*|:.*|\\(.*", "", wordEn)) %>%
-  left_join(languagesData)
+  left_join(languagesData) %>%
+  mutate_all(unescapeUnicode)
 
 wordsSelectionData <- wordsInfoData %>%
   select(wordCatEn, wordEn, wordProtoAn) %>%
