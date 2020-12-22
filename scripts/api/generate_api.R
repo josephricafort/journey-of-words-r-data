@@ -87,7 +87,7 @@ wordList <- wordsInfoData$wordEn %>% unique %>% tocamel %>% tolower
 
 for(i in 1:length(wordList)){
   pathName <- paste0(local_api_path, "wordsinfodata/", wordList[i], ".json")
-  wordsInfoData %>% filter(wordEn == wordList[i]) %>% toJSON(pretty=T) %>%
+  wordsInfoData %>% filter(wordEn == wordList[i]) %>% toJSON %>%
     write_json(pathName)
 }
 

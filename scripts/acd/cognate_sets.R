@@ -10,10 +10,10 @@ URL_ACD <- "https://www.trussel2.com/ACD/"
 URL_ACD_FP <- paste0(URL_ACD, "acd-s_a1.htm")
 
 # Reread the saved data rather than rerunning the script
-acd_data_fragment_AtoG <- read.csv("data/output/csv/acd_data_cognatesets_AtoG.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
-acd_data_fragment_HtoM <- read.csv("data/output/csv/acd_data_cognatesets_HtoM.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
-acd_data_fragment_NtoR <- read.csv("data/output/csv/acd_data_cognatesets_NtoR.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
-acd_data_fragment_StoZ <- read.csv("data/output/csv/acd_data_cognatesets_StoZ.csv", stringsAsFactors = F) %>% select(-X) %>% as_tibble
+acd_data_fragment_AtoG <- read.csv("data/output/csv/acd_data_cognatesets_AtoG.csv", stringsAsFactors = F, encoding="UTF-8") %>% select(-X) %>% as_tibble
+acd_data_fragment_HtoM <- read.csv("data/output/csv/acd_data_cognatesets_HtoM.csv", stringsAsFactors = F, encoding="UTF-8") %>% select(-X) %>% as_tibble
+acd_data_fragment_NtoR <- read.csv("data/output/csv/acd_data_cognatesets_NtoR.csv", stringsAsFactors = F, encoding="UTF-8") %>% select(-X) %>% as_tibble
+acd_data_fragment_StoZ <- read.csv("data/output/csv/acd_data_cognatesets_StoZ.csv", stringsAsFactors = F, encoding="UTF-8") %>% select(-X) %>% as_tibble
 
 ## Uncomment if need to rerun script
 # data_acd_raw <- read_html(paste0(URL_ACD_FP))
