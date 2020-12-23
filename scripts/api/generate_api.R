@@ -90,18 +90,44 @@ wordsSelectionData <- wordsInfoData %>%
   group_by_all() %>% summarize() %>% ungroup
 
 # Parse for api use for every word
+wordListUnshortened <- wordsInfoData$wordEn %>% unique
 wordList <- wordsInfoData$wordEn %>% unique %>% tocamel %>% tolower
 
 for(i in 1:length(wordList)){
   pathName <- paste0(local_api_path, "wordsinfodata/", wordList[i], ".json")
-  wordsInfoData %>% filter(wordEn == wordList[i]) %>% toJSON %>%
+  wordsInfoData %>% filter(wordEn == wordListUnshortened[i]) %>% toJSON %>%
     write_json(pathName)
 }
 
 #--- Pulotu data ---
 # This data will be used for the Distribution Circles chart in the scrolly part
 pulotu_path <- paste0(local_output_path, "/pulotu.json")
-pulotuData <- fromJSON(pulotu_path) %>% as_tibble
+pulotu_cultures_path <- paste0(local_output_path, "/pulotu_cultures.json")
+pulotu_varslist_path <- paste0(local_output_path, "/pulotu_vars_list.json")
+pulotu_nonvarslist_path <- paste0(local_output_path, "/pulotu_nonvars_list.json")
+firstToLower <- function(str){
+  substr(str, 1, 1) <- tolower(substr(str, 1, 1))
+  return (str)
+}
+
+pulotuVarsList <- fromJSON(pulotu_varslist_path)
+pulotuNonvarsList <-  fromJSON(pulotu_nonvarslist_path)
+pulotuAllVarsList <- c(pulotuVarsList, pulotuNonvarsList) %>% sort() %>% tocamel
+pulotuAllVarsLowerList <- pulotuAllVarsList %>% tolower
+
+pulotuData <- fromJSON(pulotu_path) %>% as_tibble %>%
+  rename_at(vars(asia_dist_group, var_def, var_id), tocamel) %>%
+  mutate_at(vars(variable, varDef, varId), tocamel) %>%
+  mutate(varDef = firstToLower(varDef), isVar = ifelse(varDef %in% pulotuVarsList, TRUE, FALSE))
+  
+pulotuCulturesData <- fromJSON(pulotu_cultures_path) %>% as_tibble
+  
+# Parse for api use for every variable
+for(i in 1:length(pulotuAllVarsList)){
+  pathName <- paste0(local_api_path, "pulotudata/", pulotuAllVarsLowerList[i], ".json")
+  pulotuData %>% filter(variable == pulotuAllVarsList[i]) %>% toJSON %>%
+    write_json(pathName)
+}
 
 #--- Colonialism data ---
 colonialism_path <- paste0(local_output_path, "/colonialism.json")

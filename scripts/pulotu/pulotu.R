@@ -5,6 +5,7 @@ library(rvest)
 library(ggplot2)
 library(maps)
 library(scatterpie)
+library(magrittr)
 
 # url_pulotu <- "https://pulotu.shh.mpg.de"
 # 
@@ -61,12 +62,12 @@ factor_interest <- c(
 # Dataset download from https://pulotu.shh.mpg.de/dataset
 
 data_pulotu_raw <- read_tsv("./data/input/pulotu/Pulotu_Database_4_7_2015.txt") %>%
-  rename(id_lang = ABVD_Code)
+  dplyr::rename(id_lang = ABVD_Code)
 colnames <- colnames(data_pulotu_raw)
 data_pulotu_colnames <- colnames[!grepl("Source", colnames)]
 
 data_pulotu <- data_pulotu_raw %>% select(data_pulotu_colnames) %>%
-  rename(culture = Culture, culture_notes = Culture_Notes) %>%
+  dplyr::rename(culture = Culture, culture_notes = Culture_Notes) %>%
   mutate(`v6.Longitude` = ifelse(`v6.Longitude` < 0, `v6.Longitude` + 360, `v6.Longitude`)) %>% # Plot below 0 deg long fix
   mutate(id_lang = gsub("\\;.*", "", id_lang)) %>%
   mutate(asia_dist_group = as.factor(1*ceiling(`v4.Distance_to_African_or_Asian_mainland_(km)_`/1000))) %>%
@@ -266,7 +267,7 @@ fetch_culture <- function(cats_raw){
   culture_name <- cats_raw %>% html_nodes("div.page-header h1") %>% html_text
   
   for(e in 1:th_length){
-    header <- cats_raw %>% html_nodes(".table-heading") %>% extract(e)
+    header <- cats_raw %>% html_nodes(".table-heading") %>% .[[e]] #extract(e)
     era <- (header %>% html_text %>% str_split("\\(") %>% unlist)[1]
     time <- header %>% html_node("em") %>% html_text %>% str_replace_all("\\(|\\)", "")
     
@@ -316,7 +317,11 @@ fetch_allcultures <- function(){
 
 data_pulotu_culturesinfo <- fetch_allcultures()
 
-write_json(data_pulotu_culturesinfo, "./data/output/json/pulotu.json")
+write_json(data_pulotu, "./data/output/json/pulotu.json")
+write_json(data_pulotu_culturesinfo, "./data/output/json/pulotu_cultures.json")
+
+write_json(vars, "data/output/json/pulotu_vars_list.json")
+write_json(non_vars, "data/output/json/pulotu_nonvars_list.json")
 
 # Gather only for 1 category
 cats_url <- "https://pulotu.shh.mpg.de/culture/" 
