@@ -37,3 +37,29 @@ escape_unicode <- function(char){
   result <- cat(stri_unescape_unicode(gsub("<U\\+(....)>", "\\\\u\\1", char)))
   return (result)
 }
+
+# Calculate distance around the world
+calcDistance <- function (lat1, lon1, lat2, lon2) {
+  toRad <- function (Value) {
+    return (Value * pi) / 180
+  }
+  
+  R <- 6371; # km
+  dLat <- toRad(lat2 - lat1)
+  dLon <- toRad(lon2 - lon1)
+  latitude1 <- toRad(lat1)
+  latitude2 <- toRad(lat2)
+  
+  a <- sin(dLat / 2) * sin(dLat / 2) + sin(dLon / 2) * sin(dLon / 2) * cos(latitude1) * cos(latitude2)
+  c <- 2 * atan2(sqrt(a), sqrt(1 - a))
+  d <- R * c
+  return (d)
+}
+
+distFromHomeland <- function (lat, long){
+  HOMELAND_LAT <- 23.817981
+  HOMELAND_LONG <- 120.954427
+  
+  dist <- calcDistance(HOMELAND_LAT, HOMELAND_LONG, lat, long)
+  return (dist)
+}

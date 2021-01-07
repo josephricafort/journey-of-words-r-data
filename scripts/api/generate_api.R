@@ -7,6 +7,7 @@ library(jsonlite)
 library(rapportools)
 library(stringi)
 
+source("scripts/utils.R")
 
 github_path <- "https://raw.githubusercontent.com/josephricafort/journey-of-words-r-data/master/"
 github_api_path <- paste0(github_path, "data/api")
@@ -89,14 +90,50 @@ wordsSelectionData <- wordsInfoData %>%
   select(wordCatEn, wordEn, wordProtoAn) %>%
   group_by_all() %>% summarize() %>% ungroup
 
+locationsList <- wordsInfoData$langLocation %>% unique %>% sort
+
 # Parse for api use for every word
 wordListUnshortened <- wordsInfoData$wordEn %>% unique
 wordList <- wordsInfoData$wordEn %>% unique %>% tocamel %>% tolower
 
+# -wordsInfoData
 for(i in 1:length(wordList)){
   pathName <- paste0(local_api_path, "wordsinfodata/", wordList[i], ".json")
   wordsInfoData %>% filter(wordEn == wordListUnshortened[i]) %>% toJSON %>%
     write_json(pathName)
+}
+
+# -locationsData
+for(i in 1:length(wordList)){
+  pathName <- paste0(local_api_path, "locationsdata/", wordList[i], ".json")
+  locationsData <- wordsInfoData %>%
+    filter(wordEn == wordListUnshortened[i]) %>%
+    mutate_at(vars(lat, long), as.double) %>%
+    group_by(langLocation) %>%
+    summarize(latMean = mean(lat, na.rm=T),
+              longMean = mean(long, na.rm=T),
+              latMin = min(lat, na.rm=T),
+              longMin = min(lat, na.rm=T),
+              latMax = max(lat, na.rm=T),
+              longMax = max(long, na.rm=T),
+              distRangeMin = distFromHomeland(latMin, longMin),
+              distRangeMax = distFromHomeland(latMax, longMax))
+  locationsData %>% toJSON %>% write_json(pathName)
+}
+
+# -dataPerWordTally
+for(i in 1:length(wordList)){
+  pathName <- paste0(local_api_path, "dataperwordtally/", wordList[i], ".json")
+  dataPerWordTally <- wordsInfoData %>%
+    filter(wordEn == wordListUnshortened[i]) %>%
+    mutate_at(vars(lat, long), as.double) %>%
+    group_by(wordAn) %>%
+    summarize(langSubgroupsList = paste0(langSubgroup %>% unique, collapse=", "),
+              langNamesList = paste0(langName %>% unique, collapse=", "),
+              langNamesCount = n_distinct(langName),
+              latSubgroupMean = mean(lat, na.rm=T),
+              longSubgroupMean = mean(long, na.rm=T))
+  dataPerWordTally %>% toJSON %>% write_json(pathName)
 }
 
 #--- Pulotu data ---
