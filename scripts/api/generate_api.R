@@ -132,7 +132,9 @@ for(i in 1:length(wordList)){
               langNamesList = paste0(langName %>% unique, collapse=", "),
               langNamesCount = n_distinct(langName),
               latSubgroupMean = mean(lat, na.rm=T),
-              longSubgroupMean = mean(long, na.rm=T))
+              longSubgroupMean = mean(long, na.rm=T)) %>%
+    arrange(desc(langNamesCount)) %>%
+    top_n(75)
   dataPerWordTally %>% toJSON %>% write_json(pathName)
 }
 
