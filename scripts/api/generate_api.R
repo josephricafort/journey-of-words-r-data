@@ -132,13 +132,11 @@ for(i in 1:length(wordList)){
               langNamesList = paste0(langName %>% unique, collapse=", "),
               langNamesCount = n_distinct(langName),
               latSubgroupMean = mean(lat, na.rm=T),
-              longSubgroupMean = mean(long, na.rm=T)) %>%
-    arrange(desc(langNamesCount)) %>%
-    top_n(75)
+              longSubgroupMean = mean(long, na.rm=T))
   dataPerWordTally %>% toJSON %>% write_json(pathName)
 }
 
-#--- Pulotu data ---
+ #--- Pulotu data ---
 # This data will be used for the Distribution Circles chart in the scrolly part
 pulotu_path <- paste0(local_output_path, "/pulotu.json")
 pulotu_cultures_path <- paste0(local_output_path, "/pulotu_cultures.json")
