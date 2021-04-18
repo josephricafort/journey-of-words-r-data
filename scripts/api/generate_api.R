@@ -1,13 +1,19 @@
 # The goal of this script is to combine and generate the data
 # to be used for the Austronesian Data Story
 
-install.packages("rapportools")
+# Major steps involved
+# Fetch -> Cleanup -> Parse
+
+# install.packages("rapportools")
 library(tidyverse)
 library(jsonlite)
 library(rapportools)
 library(stringi)
 
 source("scripts/utils.R")
+
+# -----------------------------------------------------
+# 1) FETCH
 
 github_path <- "https://raw.githubusercontent.com/josephricafort/journey-of-words-r-data/master/"
 github_api_path <- paste0(github_path, "data/api")
@@ -53,14 +59,18 @@ acdLanguagesData <- fromJSON(acd_languages_path) %>% as_tibble
 
 unique_rows <- function (data){
   result <- data %>% group_by_all %>% summarize %>% ungroup
-  return (result)
+  return(result)
 }
+
+# -----------------------------------------------------
+# 2) CLEANUP
 
 languagesData <- acdLanguagesData %>%
   select(-langPrimarySource, -langPrimarySourceLink, -langNameAKA) %>%
   unique_rows %>%
-  left_join(abvdLangData %>% 
-              select(langISOCode = silcode, lat = latitude, long = longitude) %>%
+  left_join(abvdLangData %>%
+              select(langISOCode = silcode, lat = latitude,
+                long = longitude) %>%
               filter(langISOCode != "") %>%
               unique_rows)
 
@@ -86,18 +96,57 @@ wordsInfoData <- acdCognateSetsCategoriesData %>%
   left_join(languagesData) %>%
   mutate_all(unescapeUnicode)
 
-wordsSelectionData <- wordsInfoData %>%
+wordsSelectionData <- wordsInfoData  %>%
   select(wordCatEn, wordEn, wordProtoAn) %>%
   group_by_all() %>% summarize() %>% ungroup
 
 locationsList <- wordsInfoData$langLocation %>% unique %>% sort
 
-# Parse for api use for every word
+languagesData %>% filter(langName %in% (acdLoansData$lang %>% unique)) %>% select(langName) %>% unique
+
+langNamesLoanUnique <- acdLoansData$lang %>% unique %>% sort %>% as.character
+langNamesDataUnique <- languagesData %>% filter(!is.na(lat)) %>%
+  select(langName) %>% unique %>% pull %>% as.character
+
+# Fuzzy match lang names and double check the values
+langNamesFuzzy <- tibble(langNameLoan = character(), langNameData = character(), n = integer())
+for (i in 1:length(langNamesLoanUnique)){
+  result <- agrep(langNamesLoanUnique[i], langNamesDataUnique,
+    ignore.case = TRUE, value = TRUE,
+    max.distance = 0.05, useBytes = TRUE)
+  # print(result)
+  for (j in 1:length(result)){
+    langNamesFuzzy <- bind_rows(langNamesFuzzy, 
+      tibble(langNameLoan = langNamesLoanUnique[i], langNameData = result[j], n = j ))
+    # langNamesFuzzy$matches[i] <- result
+  }
+}
+
+# Loan data
+wordsLoanData <- acdLoansData %>%
+  # mutate(lang = recode(lang,
+  #   "'are'are" = "'Are'are",
+  #   "Ida'an begak" = "Ida'an Begak")) %>%
+  dplyr::rename(langName = lang, 
+    wordEn = keyloan,
+    wordAn = item,
+    langSubgroup = subgroup,
+    wordEnLong = gloss,
+    originForeign = origin_foreign
+    ) %>%
+  left_join(languagesData)
+
+# -----------------------------------------------------
+# 3) PARSE
+
 wordListUnshortened <- wordsInfoData$wordEn %>% unique
 wordList <- wordsInfoData$wordEn %>% unique %>% tocamel %>% tolower
 
+wordListLoanUnshortened <- wordsLoanData$wordEn %>% unique
+wordListLoan <- wordsLoanData$wordEn %>% unique %>% tocamel %>% tolower
+
 # -wordsInfoData
-for(i in 1:length(wordList)){
+for (i in 1:length(wordList)){
   pathName <- paste0(local_api_path, "wordsinfodata/", wordList[i], ".json")
   wordsInfoData %>% filter(wordEn == wordListUnshortened[i]) %>% toJSON %>%
     write_json(pathName)
@@ -136,6 +185,15 @@ for(i in 1:length(wordList)){
   dataPerWordTally %>% toJSON %>% write_json(pathName)
 }
 
+# -wordsLoanData
+for (i in 1:length(wordListLoan)){
+  pathName <- paste0(local_api_path, "wordsloandata/", wordListLoan[i], ".json")
+  wordsLoanData %>% filter(wordEn == wordListLoanUnshortened[i]) %>% toJSON %>%
+    write_json(pathName)
+}
+
+# --------------------------------------------------------
+
  #--- Pulotu data ---
 # This data will be used for the Distribution Circles chart in the scrolly part
 pulotu_path <- paste0(local_output_path, "/pulotu.json")
@@ -148,11 +206,17 @@ firstToLower <- function(str){
 }
 
 pulotuVarsList <- fromJSON(pulotu_varslist_path)
-pulotuNonvarsList <-  fromJSON(pulotu_nonvarslist_path)
+pulotuNonvarsList <- fromJSON(pulotu_nonvarslist_path)
 pulotuAllVarsList <- c(pulotuVarsList, pulotuNonvarsList) %>% sort() %>% tocamel
 pulotuAllVarsLowerList <- pulotuAllVarsList %>% tolower
 
 pulotuData <- fromJSON(pulotu_path) %>% as_tibble %>%
+  left_join(
+    fromJSON(pulotu_path) %>% as_tibble %>%
+      filter(variable == "lat" | variable == "long") %>%
+      select(culture, variable, value) %>%
+      spread(key=variable, value=value)
+  ) %>%
   rename_at(vars(asia_dist_group, var_def, var_id), tocamel) %>%
   mutate_at(vars(variable, varDef, varId), tocamel) %>%
   mutate(varDef = firstToLower(varDef), isVar = ifelse(varDef %in% pulotuVarsList, TRUE, FALSE))

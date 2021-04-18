@@ -66,9 +66,11 @@ subgroup_factor <- c("Formosan", "WMP", "CMP", "SHWNG", "OC")
 
 # Execute scraper
 data_acd_loans_raw <- fetch_loan_allpages()
-data_acd_loans_clean <- data_acd_loans_raw %>% rename(lang = X1, item = X2, gloss = X3) %>%
-  mutate(subgroup = ifelse(is.na(item), lang, NA)) %>% 
-  mutate(lang = ifelse(lang == "", NA, lang)) %>% fill(c(subgroup, lang), .direction="down") %>%
+data_acd_loans_clean <- data_acd_loans_raw %>%
+  rename(lang = X1, item = X2, gloss = X3) %>%
+  mutate(subgroup = ifelse(is.na(item), lang, NA)) %>%
+  mutate(lang = ifelse(lang == "", NA, lang)) %>%
+  fill(c(subgroup, lang), .direction = "down") %>%
   mutate(setnote = str_trim(setnote)) %>%
   filter(!is.na(item)) %>%
   # Rearrange columns
