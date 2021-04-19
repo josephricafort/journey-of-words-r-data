@@ -132,7 +132,8 @@ wordsLoanData <- acdLoansData %>%
     wordAn = item,
     langSubgroup = subgroup,
     wordEnLong = gloss,
-    originForeign = origin_foreign
+    originForeign = origin_foreign,
+    # `subgr oup`
     ) %>%
   left_join(languagesData)
 
