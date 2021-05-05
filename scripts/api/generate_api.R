@@ -245,6 +245,8 @@ pulotuDataDist <- pulotuData %>% filter(variable %in% pulotuVarsList) %>%
   summarize(count = n(culture)) %>% spread(value, count, fill = 0) %>%
   ungroup %>% arrange(variable, asiaDistGroup) %>%
   select(variable:`1`, `2`, `3`, `4`, `NaN`) %>%
+  dplyr::rename(lvl0 = `0`, lvl1 = `1`, lvl2 = `2`, 
+    lvl3 = `3`, lvl4 = `4`, unknown = `NaN`) %>%
   mutate(asiaDistGroup = asiaDistGroup %>% as.factor)
 
 # Parse for summarized data per distance from homeland
