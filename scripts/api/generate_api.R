@@ -92,7 +92,8 @@ wordsInfoData <- acdCognateSetsCategoriesData %>%
   mutate(langName = str_trim(langName),
          wordEn = gsub("  |   ", " ", wordEn),
          wordEnLong = wordEn,
-         wordEn = gsub(",.*|;.*|:.*|\\(.*", "", wordEn)) %>%
+         wordEn = gsub(",.*|;.*|:.*|\\(.*", "", wordEn),
+         langSubgroup = if_else(is.na(langSubgroup), "Ungrouped", langSubgroup)) %>%
   left_join(languagesData) %>%
   mutate_all(unescapeUnicode)
 
@@ -135,6 +136,7 @@ wordsLoanData <- acdLoansData %>%
     originForeign = origin_foreign,
     # `subgr oup`
     ) %>%
+  mutate(langSubgroup = if_else(is.na(langSubgroup), "Ungrouped", langSubgroup)) %>%
   left_join(languagesData)
 
 # -----------------------------------------------------
@@ -172,7 +174,7 @@ for(i in 1:length(wordList)){
 }
 
 # -dataPerWordTally
-for(i in 1:length(wordList)){
+for (i in 1:length(wordList)){
   pathName <- paste0(local_api_path, "dataperwordtally/", wordList[i], ".json")
   dataPerWordTally <- wordsInfoData %>%
     filter(wordEn == wordListUnshortened[i]) %>%
@@ -228,6 +230,28 @@ pulotuCulturesData <- fromJSON(pulotu_cultures_path) %>% as_tibble
 for(i in 1:length(pulotuAllVarsList)){
   pathName <- paste0(local_api_path, "pulotudata/", pulotuAllVarsLowerList[i], ".json")
   pulotuData %>% filter(variable == pulotuAllVarsList[i]) %>% toJSON %>%
+    write_json(pathName)
+}
+
+pulotuDataDist <- pulotuData %>% filter(variable %in% pulotuVarsList) %>%
+  group_by(culture, asiaDistGroup, variable) %>%
+  summarize(value = mean(value %>% as.numeric, na.rm=T)) %>%
+  group_by(variable, value, asiaDistGroup) %>%
+  mutate(asiaDistGroup = asiaDistGroup %>% as.numeric,
+    value = value %>% as.factor,
+    variable = variable %>% as.factor) %>%
+  ungroup %>% arrange(variable, asiaDistGroup, value, culture) %>%
+  group_by(variable, asiaDistGroup, value) %>%
+  summarize(count = n(culture)) %>% spread(value, count, fill = 0) %>%
+  ungroup %>% arrange(variable, asiaDistGroup) %>%
+  select(variable:`1`, `2`, `3`, `4`, `NaN`) %>%
+  mutate(asiaDistGroup = asiaDistGroup %>% as.factor)
+
+# Parse for summarized data per distance from homeland
+for(i in 1:length(pulotuAllVarsList)){
+  pathName <- paste0(local_api_path, "pulotudatadist/", pulotuAllVarsLowerList[i], ".json")
+  pulotuDataDist %>% filter(variable == pulotuAllVarsList[i]) %>% 
+    select(-variable) %>% toJSON %>%
     write_json(pathName)
 }
 
