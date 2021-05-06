@@ -233,7 +233,7 @@ for(i in 1:length(pulotuAllVarsList)){
     write_json(pathName)
 }
 
-pulotuDataDist <- pulotuData %>% filter(variable %in% pulotuVarsList) %>%
+pulotuDataDist <- pulotuData %>% filter(variable %in% tocamel(pulotuVarsList)) %>%
   group_by(culture, asiaDistGroup, variable) %>%
   summarize(value = mean(value %>% as.numeric, na.rm=T)) %>%
   group_by(variable, value, asiaDistGroup) %>%
@@ -245,14 +245,16 @@ pulotuDataDist <- pulotuData %>% filter(variable %in% pulotuVarsList) %>%
   summarize(count = n(culture)) %>% spread(value, count, fill = 0) %>%
   ungroup %>% arrange(variable, asiaDistGroup) %>%
   select(variable:`1`, `2`, `3`, `4`, `NaN`) %>%
-  dplyr::rename(lvl0 = `0`, lvl1 = `1`, lvl2 = `2`, 
+  dplyr::rename(lvl0 = `0`, lvl1 = `1`, lvl2 = `2`,
     lvl3 = `3`, lvl4 = `4`, unknown = `NaN`) %>%
   mutate(asiaDistGroup = asiaDistGroup %>% as.factor)
 
+pulotuDistVarsLowerList <- pulotuDataDist$variable %>% unique
+
 # Parse for summarized data per distance from homeland
-for(i in 1:length(pulotuAllVarsList)){
-  pathName <- paste0(local_api_path, "pulotudatadist/", pulotuAllVarsLowerList[i], ".json")
-  pulotuDataDist %>% filter(variable == pulotuAllVarsList[i]) %>% 
+for(i in 1:length(pulotuDistVarsLowerList)){
+  pathName <- paste0(local_api_path, "pulotudatadist/", pulotuDistVarsLowerList[i] %>% tolower, ".json")
+  pulotuDataDist %>% filter(variable == pulotuDistVarsLowerList[i]) %>% 
     select(-variable) %>% toJSON %>%
     write_json(pathName)
 }
